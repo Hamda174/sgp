@@ -18,7 +18,7 @@ app = Flask(__name__)
 def home():
     return "Hello, Render!"
 
-if __name__ == "__flaskriskrate__":
+if __name__ == "__app__":
     app.run()
 
 # Define the function to process data
