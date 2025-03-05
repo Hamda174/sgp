@@ -14,9 +14,6 @@ import openpyxl
 
 app = Flask(__name__)
 
-@app.route('/')
-def home():
-    return "Hello, Render!"
 
 if __name__ == "__app__":
     app.run()
