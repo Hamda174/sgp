@@ -14,6 +14,13 @@ import openpyxl
 
 app = Flask(__name__)
 
+@app.route('/')
+def home():
+    return "Hello, Render!"
+
+if __name__ == "__flaskriskrate__":
+    app.run()
+
 # Define the function to process data
 def process_data():
     file_url = "https://docs.google.com/spreadsheets/d/e/2PACX-1vRnH-_FyYUJ5NCF_HHQjT1JhCGl7MsMxRlsRWVib3wi7P78LHuDgkLk2RwjlcuXNQ/pub?output=csv"
