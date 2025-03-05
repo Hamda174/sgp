@@ -21,6 +21,9 @@ def home():
 if __name__ == "__app__":
     app.run(debug=True)
 
+import os
+app.run(host="0.0.0.0", port=int(os.environ.get("PORT", 5000)))
+
 # Define the function to process data
 def process_data():
     file_url = "https://docs.google.com/spreadsheets/d/e/2PACX-1vRnH-_FyYUJ5NCF_HHQjT1JhCGl7MsMxRlsRWVib3wi7P78LHuDgkLk2RwjlcuXNQ/pub?output=csv"
