@@ -14,6 +14,12 @@ import openpyxl
 
 app = Flask(__name__)
 
+@app.route("/")  # Ensure this route exists
+def home():
+    return "Welcome to my API!"
+
+if __name__ == "__app__":
+    app.run(debug=True)
 
 # Define the function to process data
 def process_data():
