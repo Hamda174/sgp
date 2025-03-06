@@ -22,6 +22,16 @@ def home():
 import os
 app.run(host="0.0.0.0", port=int(os.environ.get("PORT", 5000)))
 
+@app.route("/get_risk_rate", methods=["GET"])
+def get_risk_rate():
+    latitude = request.args.get("latitude", type=float)
+    longitude = request.args.get("longitude", type=float)
+
+    # Your risk rate calculation logic here
+    risk_rate = calculate_risk(latitude, longitude)
+
+    return jsonify({"risk_rate": risk_rate})
+
 # Define the function to process data
 def process_data():
     file_url = "https://docs.google.com/spreadsheets/d/e/2PACX-1vRnH-_FyYUJ5NCF_HHQjT1JhCGl7MsMxRlsRWVib3wi7P78LHuDgkLk2RwjlcuXNQ/pub?output=csv"
