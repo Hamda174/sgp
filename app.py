@@ -124,6 +124,7 @@ def calculate_risk(latitude, longitude):
 @app.route('/process', methods=['GET'])
 def get_data():
     result = process_data()
+    print(result)  # Debugging: Print processed risk data
     return jsonify(result)
 
 if __name__ == '__main__':
