@@ -2,6 +2,7 @@
 from flask import Flask, request, jsonify
 import pandas as pd
 from sklearn.preprocessing import LabelEncoder
+from geopy.geocoders import Nominatim
 import os
 
 app = Flask(__name__)
@@ -84,14 +85,40 @@ def get_risk_rate():
     if latitude is None or longitude is None:
         return jsonify({"error": "Latitude and Longitude are required"}), 400
 
-    # Mock function (Replace with real logic)
-    risk_rate = calculate_risk(latitude, longitude)
+    # Process latest risk data
+    risk_data = process_data()
 
-    return jsonify({"latitude": latitude, "longitude": longitude, "risk_rate": risk_rate})
+    region = get_region_from_latlng(latitude, longitude)
+
+    # Find the risk rate for the identified region
+    for entry in risk_data:
+        if entry["Region"] == region:
+            return jsonify({"latitude": latitude, "longitude": longitude, "risk_rate": entry["RiskRate"]})
+
+    return jsonify({"latitude": latitude, "longitude": longitude, "risk_rate": 0})  # Default
 
 # 🟢 Mock function to calculate risk (Replace with real algorithm)
+
+def get_region_from_latlng(latitude, longitude):
+    geolocator = Nominatim(user_agent="risk_rate_app")
+    try:
+        location = geolocator.reverse((latitude, longitude), exactly_one=True)
+        if location and location.raw.get("address"):
+            return location.raw["address"].get("region", "Unknown Region")
+    except Exception as e:
+        print(f"Error in geocoding: {e}")
+    return "Unknown Region"
+
 def calculate_risk(latitude, longitude):
-    return round((latitude + longitude) % 100, 2)  # Just a placeholder
+    region = get_region_from_latlng(latitude, longitude)
+    risk_data = process_data()  # Fetch processed risk data
+
+    for entry in risk_data:
+        if entry["Region"] == region:
+            return entry["RiskRate"]
+
+    return 0  # Default if no match found
+
 
 # 🟢 API Endpoint to Process Data
 @app.route('/process', methods=['GET'])
