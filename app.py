@@ -103,13 +103,119 @@ def get_risk_rate():
 
 def get_region_from_latlng(latitude, longitude):
     geolocator = Nominatim(user_agent="risk_rate_app")
+
+    region_aliases = {
+    "almaemura": "Almaemura",
+    "aljazirah": "Aljazirah",
+    "alhamra": "Alhamra",
+    "alqasidat": "Alqasidat",
+    "alrafaea": "Alrafaea",
+    "alkharran": "Al Kharran",
+    "aldhaitjanoobi": "AL DHAIT JANOOBI",
+    "dhehanzone": "DHEHAN ZONE",
+    "ghil": "Ghil",
+    "alnakeel": "Alnakeel",
+    "dhait": "Dhait",
+    "aldaqdaqa": "Aldaqdaqa",
+    "julphar": "Julphar",
+    "saihalghib": "Saih al-Ghib",
+    "almairid": "Al-Mairid",
+    "aljawis": "Aljawis",
+    "alrams": "Alrams",
+    "shaml": "Shaml",
+    "udhin": "Udhin",
+    "wadikub": "Wadi kub",
+    "rasalkhaimah": "Ras al-Khaimah",
+    "khuzam": "Khuzam",
+    "shaam": "Sha'am",
+    "khalifabinzayedcity": "Khalifa Bin Zayed City",
+    "cornish": "CORNISH",
+    "qwasim": "QWASIM",
+    "sedro": "sedro",
+    "sohila": "SOHILA",
+    "masafi": "Masafi",
+    "oraibi": "Oraibi",
+    "daih": "Daih",
+    "butain": "Butain",
+    "samer": "Samer",
+    "saqrmohammed": "Saqr Mohammed",
+    "aldifan": "Aldifan",
+    "alhuwailat": "Al-Huwailat",
+    "alfiliya": "Alfiliya",
+    "alghib": "Al-Ghib",
+    "syhalqasidat": "Syh alqasidat",
+    "dafta": "Dafta",
+    "hodyba": "HODYBA",
+    "hamraniya": "Hamraniya",
+    "shawka": "shawka",
+    "shmali": "SHMALI",
+    "almudafaq": "Almudafaq",
+    "jeer": "jeer",
+    "newraskhaimah": "NEW RAS KHAIMAH",
+    "glilah": "Glilah",
+    "menaiharea": "MENAIH AREA",
+    "alshaaghi": "Alshaaghi",
+    "fahlain": "FAHLAIN",
+    "dafannakheel": "Dafan Nakheel",
+    "khorkhuwair": "Khor Khuwair",
+    "alearibi": "alearibi",
+    "alhayl": "Alhayl",
+    "dehan": "DEHAN",
+    "sharqya": "SHARQYA",
+    "nadya": "NADYA",
+    "wadiqoor": "WADI QOOR",
+    "khat": "Khat",
+    "amearij": "Am earij",
+    "alharaf": "alharaf",
+    "asfni": "Asfni",
+    "alaeem": "al aeem",
+    "asimah": "Asimah",
+    "sihalbanh": "SIH ALBANH",
+    "alsalihia": "Alsalihia",
+    "aleurqub": "Aleurqub",
+    "almunayi": "Al-Munayi",
+    "zaid": "Zaid",
+    "gueddar": "Gueddar",
+    "sayhalbir": "Sayh albir",
+    "alsaedy": "Alsaedy",
+    "alsawan": "Alsawan",
+    "almowuha": "ALMOWUHA",
+    "mazraa": "Mazraa",
+    "almathlutha": "Almathlutha",
+    "kabdah": "Kabdah",
+    "aleashish": "Aleashish",
+    "mohammedbinzayedcity": "MOHAMMED BIN ZAYED CITY",
+    "shehah": "Shehah",
+    "ejeili": "Ejeili"
+}
+
+def normalize(text):
+    return text.lower().replace(" ", "").replace("-", "")
+
     try:
         location = geolocator.reverse((latitude, longitude), exactly_one=True)
         if location and location.raw.get("address"):
-            return location.raw["address"].get("region", "Unknown Region")
+            address = location.raw["address"]
+            possible_fields = ["region", "state", "county", "city", "town", "village", "suburb"]
+
+            for field in possible_fields:
+                raw_value = address.get(field)
+                if raw_value:
+                    normalized = normalize(raw_value)
+                    mapped_region = region_aliases.get(normalized)
+                    if mapped_region:
+                        print(f"Matched region alias: {raw_value} -> {mapped_region}")
+                        return mapped_region
+                    else:
+                        print(f"Found region field '{field}': {raw_value} (not in aliases)")
     except Exception as e:
         print(f"Error in geocoding: {e}")
+
     return "Unknown Region"
+
+with open("unmapped_regions.log", "a") as log_file:
+    log_file.write(f"{raw_value} (field: {field})\n")
+
 
 def calculate_risk(latitude, longitude):
     region = get_region_from_latlng(latitude, longitude)
