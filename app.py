@@ -82,17 +82,17 @@ def get_risk_rate():
     latitude = request.args.get("latitude", type=float)
     longitude = request.args.get("longitude", type=float)
 
-    print(f"Received request for lat: {latitude}, lng: {longitude}")  # ✅ Debugging
+    print(f"Received request for lat: {latitude}, lng: {longitude}")  
 
-    risk_data = process_data()
-    region = get_region_from_latlng(latitude, longitude)
+    risk_data = process_data()  # Get risk data
+    region = get_region_from_latlng(latitude, longitude)  # Get mapped region
 
-    print(f"Mapped to region: {region}")  # ✅ Log Region Mapping
+    print(f"Detected region from coordinates: {region}")  # Debugging
 
     for entry in risk_data:
-        print(f"Checking Region: {entry['Region']}, Stored Risk Rate: {entry['RiskRate']}")  # ✅ Log Comparison
+        print(f"Checking Region: {entry['Region']}, Stored Risk Rate: {entry['RiskRate']}")  
         if entry["Region"].strip().lower() == region.strip().lower():
-            print(f"Matched! Risk Rate: {entry['RiskRate']}")  # ✅ Log Match
+            print(f"Matched! Risk Rate: {entry['RiskRate']}") 
             return jsonify({"latitude": latitude, "longitude": longitude, "risk_rate": entry["RiskRate"]})
 
     print("No match found, returning risk_rate: 0")
