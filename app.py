@@ -73,10 +73,7 @@ def process_data():
                 risk_df['good cancel'] * 2 +
                 risk_df['bad cancel'] * 1 +
                 risk_df['new'] * 0)
-
-risk_df['RiskRate'] = 100 - ((total_weight / (total_weight.max() + 1)) * 100)
-
-
+    risk_df['RiskRate'] = 100 - ((total_weight / (total_weight.max() + 1)) * 100)
     df = df.merge(risk_df[['RiskRate']], on=['MainActivity', 'Region'], how='left')
     df_clean = df.dropna()
 
