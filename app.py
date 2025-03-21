@@ -192,29 +192,27 @@ def get_region_from_latlng(latitude, longitude):
 def normalize(text):
     return text.lower().replace(" ", "").replace("-", "")
 
-    try:
+     try:
         location = geolocator.reverse((latitude, longitude), exactly_one=True)
         if location and location.raw.get("address"):
             address = location.raw["address"]
             possible_fields = ["region", "state", "county", "city", "town", "village", "suburb"]
 
             for field in possible_fields:
-                raw_value = address.get(field)
-                if raw_value:
-                    normalized = normalize(raw_value)
-                    mapped_region = region_aliases.get(normalized)
-                    if mapped_region:
-                        print(f"Matched region alias: {raw_value} -> {mapped_region}")
-                        return mapped_region
-                    else:
-                        print(f"Found region field '{field}': {raw_value} (not in aliases)")
+                if field in address:  # ✅ Check if the field exists
+                    raw_value = address[field]
+
+                    # Log only if raw_value is assigned
+                    with open("unmapped_regions.log", "a") as log_file:
+                        log_file.write(f"{raw_value} (field: {field})\n")
+
+                    return raw_value  # ✅ Return the first valid field found
+
+        print("No valid region found in geocoded data")
     except Exception as e:
         print(f"Error in geocoding: {e}")
 
-    return "Unknown Region"
-
-with open("unmapped_regions.log", "a") as log_file:
-    log_file.write(f"{raw_value} (field: {field})\n")
+    return "Unknown Region"  # Default if no region is found
 
 
 def calculate_risk(latitude, longitude):
