@@ -103,6 +103,28 @@ def get_risk_rate():
 
 def get_region_from_latlng(latitude, longitude):
     geolocator = Nominatim(user_agent="risk_rate_app")
+    
+    try:
+        location = geolocator.reverse((latitude, longitude), exactly_one=True)
+        if location and location.raw.get("address"):
+            address = location.raw["address"]
+            possible_fields = ["region", "state", "county", "city", "town", "village", "suburb"]
+
+            for field in possible_fields:
+                if field in address:  # ✅ Check if the field exists
+                    raw_value = address[field]
+
+                    # Log only if raw_value is assigned
+                    with open("unmapped_regions.log", "a") as log_file:
+                        log_file.write(f"{raw_value} (field: {field})\n")
+
+                    return raw_value  # ✅ Return the first valid field found
+
+        print("No valid region found in geocoded data")
+    except Exception as e:
+        print(f"Error in geocoding: {e}")
+
+    return "Unknown Region"  # Default if no region is found
 
     region_aliases = {
     "almaemura": "Almaemura",
@@ -192,27 +214,7 @@ def get_region_from_latlng(latitude, longitude):
 def normalize(text):
     return text.lower().replace(" ", "").replace("-", "")
 
-     try:
-        location = geolocator.reverse((latitude, longitude), exactly_one=True)
-        if location and location.raw.get("address"):
-            address = location.raw["address"]
-            possible_fields = ["region", "state", "county", "city", "town", "village", "suburb"]
-
-            for field in possible_fields:
-                if field in address:  # ✅ Check if the field exists
-                    raw_value = address[field]
-
-                    # Log only if raw_value is assigned
-                    with open("unmapped_regions.log", "a") as log_file:
-                        log_file.write(f"{raw_value} (field: {field})\n")
-
-                    return raw_value  # ✅ Return the first valid field found
-
-        print("No valid region found in geocoded data")
-    except Exception as e:
-        print(f"Error in geocoding: {e}")
-
-    return "Unknown Region"  # Default if no region is found
+    
 
 
 def calculate_risk(latitude, longitude):
