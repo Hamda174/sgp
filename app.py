@@ -17,8 +17,14 @@ def process_data():
 
     try:
         df = pd.read_csv(file_url)
+        print("CSV Data Loaded Successfully!")
+        print(df.head())  # ✅ Print first few rows
     except Exception as e:
+        print(f"Error loading CSV: {e}")
         return {"error": f"Error loading CSV: {e}"}
+
+    return df
+
 
     # Keep relevant columns
     columns_to_extract = ['LicenseStatus', 'ActivityMainGroup', 'MainActivity', 'Street', 'Region', 'LastApplicationNo', 'Numberofrenewals']
