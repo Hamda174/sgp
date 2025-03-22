@@ -20,10 +20,12 @@ street_region_df = pd.read_csv("https://docs.google.com/spreadsheets/d/e/2PACX-1
 
 # Create dictionary: {normalized_street: region}
 street_to_region = {
-    str(street).lower().strip(): str(region).strip()
+    str(street).lower().strip().replace("-", "").replace(" ", ""): region.strip()
     for street, region in zip(street_region_df["Street"], street_region_df["Region"])
     if isinstance(street, str) and isinstance(region, str)
+    print("📌 Available streets:", list(street_to_region.keys())[:10])
 }
+
 
 
 
@@ -194,7 +196,7 @@ def get_region_from_latlng(latitude, longitude):
             street = address.get("road") or address.get("street")
 
             if street:
-                normalized_street = street.lower().strip()
+                normalized_street = street.lower().strip().replace("-", "").replace(" ", "")
                 mapped_region = street_to_region.get(normalized_street)
                 if mapped_region:
                     print(f"✅ Mapped street '{street}' to region '{mapped_region}'")
@@ -211,6 +213,12 @@ def get_region_from_latlng(latitude, longitude):
         print(f"Geocoding error: {e}")
 
     return "Unknown Region"
+
+    
+    print(f"🛣️ Street from geocoder: {street}")
+    print(f"Normalized: {normalized_street}")
+    print(f"Resolved region from mapping: {mapped_region}")
+
 
 
 @app.route("/get_risk_rate", methods=["GET"])
