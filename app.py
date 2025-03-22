@@ -156,13 +156,15 @@ def process_data():
         if label not in risk_df:
             risk_df[label] = 0
 
-    total_weight = (
-        risk_df['high success'] * 4 +
-        risk_df['low success'] * 3 +
-        risk_df['good cancel'] * 2 +
-        risk_df['bad cancel'] * 1
-    )
-    risk_df['RiskRate'] = 100 - ((total_weight / (total_weight.max() + 1)) * 100)
+    # Calculate risk score using the given formula
+    risk_df['RiskRate'] =   ( 1 - ((
+    risk_df['high success'] * 4 +
+    risk_df['low success'] * 3 +
+    risk_df['good cancel'] * 2 +
+    risk_df['bad cancel'] * 1 +
+    risk_df['new'] * 0
+    ) / (100 * 4)) ) * 100
+
 
     df = df.merge(risk_df[['RiskRate']], on=['MainActivity', 'Region'], how='left')
     df_clean = df.dropna()
