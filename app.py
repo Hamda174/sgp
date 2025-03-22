@@ -4,6 +4,7 @@ import pandas as pd
 from sklearn.preprocessing import LabelEncoder
 from geopy.geocoders import Nominatim
 import os
+import json
 import re
 
 
@@ -18,15 +19,16 @@ def home():
 def normalize(text):
     return str(text).lower().strip().replace("-", "").replace(" ", "")
     
+
+
+# Load the preprocessed street-to-region mapping
+with open("street_to_region_cleaned.json", "r") as f:
+    street_to_region = json.load(f)
+
+# Normalization function (must match the one used to create the JSON)
 def normalize(text):
-    if not isinstance(text, str):
-        return ""
-    # Remove all non-alphanumeric characters and lowercase
     return re.sub(r'[^a-zA-Z0-9]', '', text).lower()
 
-
-# Load from CSV or Excel (if local)
-street_region_df = pd.read_csv("https://docs.google.com/spreadsheets/d/e/2PACX-1vQ7V7I6YvF0virS2ZD-7r7HLFTEzz1IiEZWJK3na61qphK98-DmvE7NNUCfZO52tippTRFT_p4bc9B-/pub?output=csv")  # or use .read_excel with a local file
 
 street_to_region = {
     normalize(street): region.strip()
@@ -197,7 +199,9 @@ def process_data():
 
 # Region resolver
 def get_region_from_latlng(latitude, longitude):
+    from geopy.geocoders import Nominatim
     geolocator = Nominatim(user_agent="risk_rate_app")
+
     try:
         location = geolocator.reverse((latitude, longitude), exactly_one=True)
         if location and location.raw.get("address"):
@@ -207,20 +211,24 @@ def get_region_from_latlng(latitude, longitude):
             if street:
                 normalized_street = normalize(street)
                 mapped_region = street_to_region.get(normalized_street)
-                if mapped_region:
-                    print(f"✅ Mapped street '{street}' → '{mapped_region}'")
-                    return mapped_region
 
-            # fallback
+                if mapped_region:
+                    print(f"✅ Street '{street}' → Region '{mapped_region}'")
+                    return mapped_region
+                else:
+                    print(f"🚫 Unmapped street: '{street}' → '{normalized_street}'")
+
+            # Fallback to other fields if street not matched
             for field in ["suburb", "neighbourhood", "city", "region", "state"]:
                 raw_value = address.get(field)
                 if raw_value:
-                    return region_aliases.get(normalize(raw_value), raw_value)
+                    return raw_value
 
     except Exception as e:
         print(f"Geocoding error: {e}")
 
     return "Unknown Region"
+
 
 
     
