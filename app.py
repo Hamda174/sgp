@@ -100,7 +100,12 @@ region_aliases = {
     "mohammedbinzayedcity": "MOHAMMED BIN ZAYED CITY",
     "shehah": "Shehah",
     "ejeili": "Ejeili"
+    "رأسالخيمة": "Ras al-Khaimah",  # Arabic name normalized
 }
+
+def normalize(text):
+    return text.lower().replace(" ", "").replace("-", "").replace("ـ", "")  # Remove Arabic tatweel
+
 
 # Function to fetch and process dataset
 def process_data():
@@ -192,6 +197,12 @@ def get_region_from_latlng(latitude, longitude):
 def get_risk_rate():
     latitude = request.args.get("latitude", type=float)
     longitude = request.args.get("longitude", type=float)
+
+    print("→ Normalized incoming region:", normalize(region))
+    for entry in risk_data:
+        print("→ Comparing with:", normalize(entry['Region']))
+
+    if normalize(entry['Region']) == normalize(region):
 
     print(f"Request: lat={latitude}, lng={longitude}")
     region = get_region_from_latlng(latitude, longitude)
