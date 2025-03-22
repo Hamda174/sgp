@@ -15,7 +15,7 @@ def normalize(text):
     return text.lower().replace(" ", "").replace("-", "")
 
 
-street_region_df = pd.read_csv("https://docs.google.com/spreadsheets/d/1HeDCZtF-v9JIjso69_WawpP44XwykPy9bZTpg6mvmNc/edit?usp=sharing")
+street_region_df = pd.read_csv("https://docs.google.com/spreadsheets/d/e/2PACX-1vQ7V7I6YvF0virS2ZD-7r7HLFTEzz1IiEZWJK3na61qphK98-DmvE7NNUCfZO52tippTRFT_p4bc9B-/pub?output=csv")
 
 
 # Create dictionary: {normalized_street: region}
