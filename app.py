@@ -200,22 +200,33 @@ def get_risk_rate():
     latitude = request.args.get("latitude", type=float)
     longitude = request.args.get("longitude", type=float)
 
-    print("→ Normalized incoming region:", normalize(region))
-    for entry in risk_data:
-        print("→ Comparing with:", normalize(entry['Region']))
+    try:
+        print(f"Request: lat={latitude}, lng={longitude}")
+        region = get_region_from_latlng(latitude, longitude)
+        print(f"Resolved region: {region}")
 
-    print(f"Request: lat={latitude}, lng={longitude}")
-    region = get_region_from_latlng(latitude, longitude)
-    print(f"Resolved region: {region}")
+        risk_data = process_data()
 
-    risk_data = process_data()
-    for entry in risk_data:
-        if entry['Region'].strip().lower() == region.strip().lower():
-            print(f"Matched region: {entry['Region']} => RiskRate: {entry['RiskRate']}")
-            return jsonify({"latitude": latitude, "longitude": longitude, "risk_rate": entry['RiskRate']})
+        for entry in risk_data:
+            if normalize(entry['Region']) == normalize(region):
+                print(f"Matched region: {entry['Region']} => RiskRate: {entry['RiskRate']}")
+                return jsonify({
+                    "latitude": latitude,
+                    "longitude": longitude,
+                    "risk_rate": entry['RiskRate']
+                })
 
-    print("No matching region found.")
-    return jsonify({"latitude": latitude, "longitude": longitude, "risk_rate": 0})
+        print("No match found, returning risk_rate: 0")
+        return jsonify({
+            "latitude": latitude,
+            "longitude": longitude,
+            "risk_rate": 0
+        })
+
+    except Exception as e:
+        print(f"🔥 Error in /get_risk_rate: {e}")
+        return jsonify({"error": str(e)}), 500
+
 
 @app.route("/process", methods=['GET'])
 def get_data():
