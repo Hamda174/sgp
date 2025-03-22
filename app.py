@@ -14,9 +14,16 @@ def home():
 def normalize(text):
     return text.lower().replace(" ", "").replace("-", "")
 
+def process_data():
+    file_url = "https://docs.google.com/spreadsheets/d/1HeDCZtF-v9JIjso69_WawpP44XwykPy9bZTpg6mvmNc/edit?usp=sharing"
 
+    try:
+        street_region_df = pd.read_csv(file_url)
+        print("CSV Data Loaded Successfully!")
+    except Exception as e:
+        print(f"Error loading CSV: {e}")
+        return []
 
-street_region_df = pd.read_excel("https://docs.google.com/spreadsheets/d/1HeDCZtF-v9JIjso69_WawpP44XwykPy9bZTpg6mvmNc/edit?usp=sharing")
 
 # Create dictionary: {normalized_street: region}
 street_to_region = {
