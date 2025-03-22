@@ -14,11 +14,8 @@ app = Flask(__name__)
 def home():
     return "Welcome to the Risk Rate API!"
 
-
-
 def normalize(text):
     return str(text).lower().strip().replace("-", "").replace(" ", "")
-    
 
 
 # Load the preprocessed street-to-region mapping
@@ -28,17 +25,6 @@ with open("street_to_region_cleaned.json", "r") as f:
 # Normalization function (must match the one used to create the JSON)
 def normalize(text):
     return re.sub(r'[^a-zA-Z0-9]', '', text).lower()
-
-
-street_to_region = {
-    normalize(street): region.strip()
-    for street, region in zip(df["Street"], df["Region"])
-    if isinstance(street, str) and isinstance(region, str)
-}
-
-# During lookup:
-normalized = normalize(street_from_geocoder)
-region = street_to_region.get(normalized)
 
 
 # Alias mapping
