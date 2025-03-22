@@ -20,9 +20,11 @@ street_region_df = pd.read_csv("https://docs.google.com/spreadsheets/d/e/2PACX-1
 
 # Create dictionary: {normalized_street: region}
 street_to_region = {
-    street.lower().strip(): region.strip()
+    str(street).lower().strip(): str(region).strip()
     for street, region in zip(street_region_df["Street"], street_region_df["Region"])
+    if isinstance(street, str) and isinstance(region, str)
 }
+
 
 
 # Alias mapping
