@@ -99,8 +99,8 @@ region_aliases = {
     "aleashish": "Aleashish",
     "mohammedbinzayedcity": "MOHAMMED BIN ZAYED CITY",
     "shehah": "Shehah",
-    "ejeili": "Ejeili"
-    "رأسالخيمة": "Ras al-Khaimah",  # ✅ Valid Python syntax
+    "ejeili": "Ejeili",
+    "رأسالخيمة": "Ras al-Khaimah"
 }
 
 def normalize(text):
