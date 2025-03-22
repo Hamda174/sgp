@@ -11,16 +11,16 @@ app = Flask(__name__)
 def home():
     return "Welcome to the Risk Rate API!"
 
+
+
 def normalize(text):
-    return text.lower().replace(" ", "").replace("-", "")
+    return str(text).lower().strip().replace("-", "").replace(" ", "")
 
+# Load from CSV or Excel (if local)
+street_region_df = pd.read_csv("https://docs.google.com/spreadsheets/d/e/2PACX-1vQ7V7I6YvF0virS2ZD-7r7HLFTEzz1IiEZWJK3na61qphK98-DmvE7NNUCfZO52tippTRFT_p4bc9B-/pub?output=csv")  # or use .read_excel with a local file
 
-street_region_df = pd.read_csv("https://docs.google.com/spreadsheets/d/e/2PACX-1vQ7V7I6YvF0virS2ZD-7r7HLFTEzz1IiEZWJK3na61qphK98-DmvE7NNUCfZO52tippTRFT_p4bc9B-/pub?output=csv")
-
-
-# Create dictionary: {normalized_street: region}
 street_to_region = {
-    str(street).lower().strip().replace("-", "").replace(" ", ""): region.strip()
+    normalize(street): region.strip()
     for street, region in zip(street_region_df["Street"], street_region_df["Region"])
     if isinstance(street, str) and isinstance(region, str)
 }
@@ -187,7 +187,6 @@ def process_data():
 # Region resolver
 def get_region_from_latlng(latitude, longitude):
     geolocator = Nominatim(user_agent="risk_rate_app")
-
     try:
         location = geolocator.reverse((latitude, longitude), exactly_one=True)
         if location and location.raw.get("address"):
@@ -195,15 +194,14 @@ def get_region_from_latlng(latitude, longitude):
             street = address.get("road") or address.get("street")
 
             if street:
-                normalized_street = street.lower().strip().replace("-", "").replace(" ", "")
+                normalized_street = normalize(street)
                 mapped_region = street_to_region.get(normalized_street)
                 if mapped_region:
-                    print(f"✅ Mapped street '{street}' to region '{mapped_region}'")
+                    print(f"✅ Mapped street '{street}' → '{mapped_region}'")
                     return mapped_region
 
-            # fallback to region/city if street not mapped
-            possible_fields = ["suburb", "neighbourhood", "city", "region", "state"]
-            for field in possible_fields:
+            # fallback
+            for field in ["suburb", "neighbourhood", "city", "region", "state"]:
                 raw_value = address.get(field)
                 if raw_value:
                     return region_aliases.get(normalize(raw_value), raw_value)
@@ -212,6 +210,7 @@ def get_region_from_latlng(latitude, longitude):
         print(f"Geocoding error: {e}")
 
     return "Unknown Region"
+
 
     
     print(f"🛣️ Street from geocoder: {street}")
