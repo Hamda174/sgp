@@ -202,8 +202,6 @@ def get_risk_rate():
     for entry in risk_data:
         print("→ Comparing with:", normalize(entry['Region']))
 
-    if normalize(entry['Region']) == normalize(region):
-
     print(f"Request: lat={latitude}, lng={longitude}")
     region = get_region_from_latlng(latitude, longitude)
     print(f"Resolved region: {region}")
