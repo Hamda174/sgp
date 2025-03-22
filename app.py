@@ -4,6 +4,8 @@ import pandas as pd
 from sklearn.preprocessing import LabelEncoder
 from geopy.geocoders import Nominatim
 import os
+import re
+
 
 app = Flask(__name__)
 
@@ -15,17 +17,26 @@ def home():
 
 def normalize(text):
     return str(text).lower().strip().replace("-", "").replace(" ", "")
+    
+def normalize(text):
+    if not isinstance(text, str):
+        return ""
+    # Remove all non-alphanumeric characters and lowercase
+    return re.sub(r'[^a-zA-Z0-9]', '', text).lower()
+
 
 # Load from CSV or Excel (if local)
 street_region_df = pd.read_csv("https://docs.google.com/spreadsheets/d/e/2PACX-1vQ7V7I6YvF0virS2ZD-7r7HLFTEzz1IiEZWJK3na61qphK98-DmvE7NNUCfZO52tippTRFT_p4bc9B-/pub?output=csv")  # or use .read_excel with a local file
 
 street_to_region = {
     normalize(street): region.strip()
-    for street, region in zip(street_region_df["Street"], street_region_df["Region"])
+    for street, region in zip(df["Street"], df["Region"])
     if isinstance(street, str) and isinstance(region, str)
 }
 
-
+# During lookup:
+normalized = normalize(street_from_geocoder)
+region = street_to_region.get(normalized)
 
 
 # Alias mapping
