@@ -14,6 +14,17 @@ def home():
 def normalize(text):
     return text.lower().replace(" ", "").replace("-", "")
 
+
+
+street_region_df = pd.read_excel("https://docs.google.com/spreadsheets/d/1HeDCZtF-v9JIjso69_WawpP44XwykPy9bZTpg6mvmNc/edit?usp=sharing")
+
+# Create dictionary: {normalized_street: region}
+street_to_region = {
+    street.lower().strip(): region.strip()
+    for street, region in zip(street_region_df["Street"], street_region_df["Region"])
+}
+
+
 # Alias mapping
 region_aliases = {
     "alkharan": "Al Kharan",
@@ -178,22 +189,27 @@ def get_region_from_latlng(latitude, longitude):
         location = geolocator.reverse((latitude, longitude), exactly_one=True)
         if location and location.raw.get("address"):
             address = location.raw["address"]
-            possible_fields = ["region", "state", "county", "city", "town", "village", "suburb"]
+            street = address.get("road") or address.get("street")
+
+            if street:
+                normalized_street = street.lower().strip()
+                mapped_region = street_to_region.get(normalized_street)
+                if mapped_region:
+                    print(f"✅ Mapped street '{street}' to region '{mapped_region}'")
+                    return mapped_region
+
+            # fallback to region/city if street not mapped
+            possible_fields = ["suburb", "neighbourhood", "city", "region", "state"]
             for field in possible_fields:
                 raw_value = address.get(field)
                 if raw_value:
-                    norm_value = normalize(raw_value)
-                    mapped = region_aliases.get(norm_value)
-                    if mapped:
-                        print(f"Region matched: {raw_value} -> {mapped}")
-                        return mapped
-                    else:
-                        print(f"Unmapped region: {raw_value}")
-                        return raw_value  # fallback
+                    return region_aliases.get(normalize(raw_value), raw_value)
+
     except Exception as e:
         print(f"Geocoding error: {e}")
 
     return "Unknown Region"
+
 
 @app.route("/get_risk_rate", methods=["GET"])
 def get_risk_rate():
