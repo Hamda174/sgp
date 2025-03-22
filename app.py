@@ -23,7 +23,7 @@ street_to_region = {
     str(street).lower().strip().replace("-", "").replace(" ", ""): region.strip()
     for street, region in zip(street_region_df["Street"], street_region_df["Region"])
     if isinstance(street, str) and isinstance(region, str)
-    print("📌 Available streets:", list(street_to_region.keys())[:10])
+    print(" Available streets:", list(street_to_region.keys())[:10])
 }
 
 
