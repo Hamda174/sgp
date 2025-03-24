@@ -113,7 +113,13 @@ region_aliases = {
     "mohammedbinzayedcity": "MOHAMMED BIN ZAYED CITY",
     "shehah": "Shehah",
     "ejeili": "Ejeili",
-    "رأسالخيمة": "Ras al-Khaimah"
+    "رأسالخيمة": "Ras al-Khaimah",
+    "الصبيدات": "Al Subaidat",
+    "سيح الحنية": "Saih Al Heniya",
+    if norm_value not in region_aliases:
+    with open("unmapped_regions.log", "a") as log_file:
+        log_file.write(f"{raw_value}\n")
+
 }
 
 def normalize(text):
@@ -227,11 +233,10 @@ def get_region_from_latlng(latitude, longitude):
 
     return "Unknown Region"
 
-
-    
-    print(f"🛣️ Street from geocoder: {street}")
-    print(f"Normalized: {normalized_street}")
-    print(f"Resolved region from mapping: {mapped_region}")
+    norm_value = normalize(raw_value)
+    mapped = region_aliases.get(norm_value, raw_value)  # fallback = raw Arabic string
+    print(f"Resolved region: {mapped}")
+    return mapped
 
 
 
