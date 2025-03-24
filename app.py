@@ -186,35 +186,46 @@ def process_data():
 # Region resolver
 def get_region_from_latlng(latitude, longitude):
     from geopy.geocoders import Nominatim
+    import difflib  # for fuzzy matching
+
     geolocator = Nominatim(user_agent="risk_rate_app")
 
     try:
         location = geolocator.reverse((latitude, longitude), exactly_one=True)
         if location and location.raw.get("address"):
             address = location.raw["address"]
-            street = address.get("road") or address.get("street")
+            street = address.get("road") or address.get("street") or ""
+            suburb = address.get("suburb", "")
+            city = address.get("city", "")
+            fallback_fields = [suburb, city]
 
-            if street:
-                normalized_street = normalize(street)
-                mapped_region = street_to_region.get(normalized_street)
+            # Normalize street
+            normalized_street = normalize(street)
+            region = street_to_region.get(normalized_street)
 
-                if mapped_region:
-                    print(f"✅ Street '{street}' → Region '{mapped_region}'")
-                    return mapped_region
-                else:
-                    print(f"🚫 Unmapped street: '{street}' → '{normalized_street}'")
+            if region:
+                print(f"✅ Exact street match: {street} → {region}")
+                return region
 
-            # Fallback to other fields if street not matched
-            for field in ["suburb", "neighbourhood", "city", "region", "state"]:
-                raw_value = address.get(field)
-                if raw_value:
-                    return raw_value
+            # 🔍 Try fuzzy matching
+            close_matches = difflib.get_close_matches(normalized_street, street_to_region.keys(), n=1, cutoff=0.8)
+            if close_matches:
+                region = street_to_region[close_matches[0]]
+                print(f"🔍 Fuzzy matched '{street}' → '{close_matches[0]}' → Region: {region}")
+                return region
+
+            # 🛑 Fallback to suburb/city directly if available
+            for field in fallback_fields:
+                if field:
+                    print(f"⚠️ Fallback to region field: {field}")
+                    return field
+
+            print("⚠️ No match found, returning Unknown Region")
 
     except Exception as e:
         print(f"Geocoding error: {e}")
 
     return "Unknown Region"
-
 
 
     
