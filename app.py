@@ -115,12 +115,12 @@ region_aliases = {
     "ejeili": "Ejeili",
     "رأسالخيمة": "Ras al-Khaimah",
     "الصبيدات": "Al Subaidat",
-    "سيح الحنية": "Saih Al Heniya",
-    if norm_value not in region_aliases:
+    "سيح الحنية": "Saih Al Heniya"
+}
+
+  if norm_value not in region_aliases:
     with open("unmapped_regions.log", "a") as log_file:
         log_file.write(f"{raw_value}\n")
-
-}
 
 def normalize(text):
     return text.lower().replace(" ", "").replace("-", "").replace("ـ", "")  # Remove Arabic tatweel
