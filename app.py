@@ -118,9 +118,6 @@ region_aliases = {
     "سيح الحنية": "Saih Al Heniya"
 }
 
-  if norm_value not in region_aliases:
-    with open("unmapped_regions.log", "a") as log_file:
-        log_file.write(f"{raw_value}\n")
 
 def normalize(text):
     return text.lower().replace(" ", "").replace("-", "").replace("ـ", "")  # Remove Arabic tatweel
@@ -219,6 +216,10 @@ def get_region_from_latlng(latitude, longitude):
                 region = street_to_region[close_matches[0]]
                 print(f"🔍 Fuzzy matched '{street}' → '{close_matches[0]}' → Region: {region}")
                 return region
+
+            if norm_value not in region_aliases:
+                with open("unmapped_regions.log", "a") as log_file:
+                    log_file.write(f"{raw_value}\n")
 
             # 🛑 Fallback to suburb/city directly if available
             for field in fallback_fields:
