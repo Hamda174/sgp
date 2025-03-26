@@ -15,7 +15,7 @@ import seaborn as sns
 
 # Load once at the top
 try:
-    with open("street_to_region_alias.json") as f:
+    with open("street_to_region_alias_expanded.json") as f:
         street_region_map = json.load(f)
 except Exception as e:
     print(f"Error loading alias file: {e}")
