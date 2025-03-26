@@ -136,6 +136,12 @@ print(df_clean[['MainActivity', 'Region', 'RiskRate']])
 df = pd.DataFrame(df_clean)
 
 
+# Load once at the top
+with open("street_to_region_alias.json") as f:
+    street_region_map = json.load(f)
+
+def normalize(text):
+    return str(text).lower().strip().replace("-", "").replace(" ", "")
 
 @app.route('/get_risk_rate', methods=['POST'])
 def get_risk_rate():
@@ -143,12 +149,13 @@ def get_risk_rate():
     main_activity = normalize(data.get("MainActivity"))
     region = normalize(data.get("Region"))
 
-    with open("region_aliases.json", "r") as f:
-    aliases = json.load(f)
-    
-    region = normalize(data.get("Region"))
-    region = aliases.get(region, region)  # Replace with alias if it exists
+    # Use street to fix the region if unmapped
+    street = data.get("Street")
+    if street:
+        street_norm = normalize(street)
+        region = normalize(street_region_map.get(street_norm, region))
 
+    # Matching logic with normalized fields...
 
     match = df[
     df['Region_norm'].str.contains(region) &
@@ -169,11 +176,6 @@ def get_risk_rate():
         return jsonify({'RiskRate': round(risk_rate, 2)})
     else:
         return jsonify({'RiskRate': None, 'message': 'No match found'}), 404
-    
-    if match.empty:
-        match = df[df['Region_norm'].str.contains(region) & df['MainActivity_norm'].str.contains(main_activity)]
-
-
 
 
 @app.route("/process", methods=['GET'])
