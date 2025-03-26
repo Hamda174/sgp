@@ -176,13 +176,15 @@ def get_risk_rate():
         df['Region_norm'].str.contains(region) &
         df['MainActivity_norm'].str.contains(main_activity)
     ]
+    
+    print(f"Mapped street '{street}' to region '{corrected_region}'")
 
     if not match.empty:
         risk_rate = match['RiskRate'].iloc[0]
         return jsonify({'RiskRate': round(risk_rate, 2)})
     else:
         return jsonify({'RiskRate': None, 'message': 'No match found'}), 404
-
+        
 
 
 @app.route("/process", methods=['GET'])
