@@ -152,20 +152,20 @@ def get_risk_rate():
     data = request.get_json()
     main_activity = normalize(data.get("MainActivity"))
     region = normalize(data.get("Region"))
-    
-    # Normalize the lookup fields in the DataFrame
+    street = data.get("Street")
+
+    # Try to correct the region if the street is known
+    if street:
+        street_norm = normalize(street)
+        corrected_region = street_region_map.get(street_norm)
+        if corrected_region:
+            region = normalize(corrected_region)
+            print(f"Replaced region with: {corrected_region}")
+
+    # Normalize DataFrame
     df['MainActivity_norm'] = df['MainActivity'].apply(normalize)
     df['Region_norm'] = df['Region'].apply(normalize)
 
-
-    # Use street to fix the region if unmapped
-    street = data.get("Street")
-    if street:
-        street_norm = normalize(street)
-        region = normalize(street_region_map.get(street_norm, region))
-
-    
-    # Now it's safe to search
     match = df[
         df['Region_norm'].str.contains(region) &
         df['MainActivity_norm'].str.contains(main_activity)
@@ -176,6 +176,7 @@ def get_risk_rate():
         return jsonify({'RiskRate': round(risk_rate, 2)})
     else:
         return jsonify({'RiskRate': None, 'message': 'No match found'}), 404
+
         
     print("REQUEST JSON:", data)
 
