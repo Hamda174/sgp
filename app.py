@@ -160,13 +160,6 @@ def get_risk_rate():
     else:
         return jsonify({'RiskRate': None, 'message': 'No match found'}), 404
         
-    val riskRate = body?.RiskRate
-    if (riskRate != null) {
-        riskRateText.text = "Risk Rate: %.2f".format(riskRate)
-    } else { 
-        riskRateText.text = "No risk rate available for this area/activity"
-    }
-
 
 
 
