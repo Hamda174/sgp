@@ -136,8 +136,13 @@ df = pd.DataFrame(df_clean)
 
 
 # Load once at the top
-with open("street_to_region_alias.json") as f:
-    street_region_map = json.load(f)
+try:
+    with open("street_to_region_alias.json") as f:
+        street_region_map = json.load(f)
+except Exception as e:
+    print(f"Error loading alias file: {e}")
+    street_region_map = {}
+
 
 def normalize(text):
     return str(text).lower().strip().replace("-", "").replace(" ", "")
