@@ -6,6 +6,10 @@ from geopy.geocoders import Nominatim
 import os
 import json
 import re
+import pandas as pd
+from sklearn.preprocessing import LabelEncoder
+import matplotlib.pyplot as plt
+import seaborn as sns
 
 
 app = Flask(__name__)
@@ -18,227 +22,147 @@ def normalize(text):
     return str(text).lower().strip().replace("-", "").replace(" ", "")
 
 
-# Load the preprocessed street-to-region mapping
-with open("street_to_region_cleaned.json", "r") as f:
-    street_to_region = json.load(f)
-
-# Normalization function (must match the one used to create the JSON)
-def normalize(text):
-    return re.sub(r'[^a-zA-Z0-9]', '', text).lower()
 
 
-# Alias mapping
-region_aliases = {
-    "alkharan": "Al Kharan",
-    # ... include all your region mappings here ...
-    "almaemura": "Almaemura",
-    "aljazirah": "Aljazirah",
-    "alhamra": "Alhamra",
-    "alqasidat": "Alqasidat",
-    "alrafaea": "Alrafaea",
-    "alkharran": "Al Kharran",
-    "aldhaitjanoobi": "AL DHAIT JANOOBI",
-    "dhehanzone": "DHEHAN ZONE",
-    "ghil": "Ghil",
-    "alnakeel": "Alnakeel",
-    "dhait": "Dhait",
-    "aldaqdaqa": "Aldaqdaqa",
-    "julphar": "Julphar",
-    "saihalghib": "Saih al-Ghib",
-    "almairid": "Al-Mairid",
-    "aljawis": "Aljawis",
-    "alrams": "Alrams",
-    "shaml": "Shaml",
-    "udhin": "Udhin",
-    "wadikub": "Wadi kub",
-    "rasalkhaimah": "Ras al-Khaimah",
-    "khuzam": "Khuzam",
-    "shaam": "Sha'am",
-    "khalifabinzayedcity": "Khalifa Bin Zayed City",
-    "cornish": "CORNISH",
-    "qwasim": "QWASIM",
-    "sedro": "sedro",
-    "sohila": "SOHILA",
-    "masafi": "Masafi",
-    "oraibi": "Oraibi",
-    "daih": "Daih",
-    "butain": "Butain",
-    "samer": "Samer",
-    "saqrmohammed": "Saqr Mohammed",
-    "aldifan": "Aldifan",
-    "alhuwailat": "Al-Huwailat",
-    "alfiliya": "Alfiliya",
-    "alghib": "Al-Ghib",
-    "syhalqasidat": "Syh alqasidat",
-    "dafta": "Dafta",
-    "hodyba": "HODYBA",
-    "hamraniya": "Hamraniya",
-    "shawka": "shawka",
-    "shmali": "SHMALI",
-    "almudafaq": "Almudafaq",
-    "jeer": "jeer",
-    "newraskhaimah": "NEW RAS KHAIMAH",
-    "glilah": "Glilah",
-    "menaiharea": "MENAIH AREA",
-    "alshaaghi": "Alshaaghi",
-    "fahlain": "FAHLAIN",
-    "dafannakheel": "Dafan Nakheel",
-    "khorkhuwair": "Khor Khuwair",
-    "alearibi": "alearibi",
-    "alhayl": "Alhayl",
-    "dehan": "DEHAN",
-    "sharqya": "SHARQYA",
-    "nadya": "NADYA",
-    "wadiqoor": "WADI QOOR",
-    "khat": "Khat",
-    "amearij": "Am earij",
-    "alharaf": "alharaf",
-    "asfni": "Asfni",
-    "alaeem": "al aeem",
-    "asimah": "Asimah",
-    "sihalbanh": "SIH ALBANH",
-    "alsalihia": "Alsalihia",
-    "aleurqub": "Aleurqub",
-    "almunayi": "Al-Munayi",
-    "zaid": "Zaid",
-    "gueddar": "Gueddar",
-    "sayhalbir": "Sayh albir",
-    "alsaedy": "Alsaedy",
-    "alsawan": "Alsawan",
-    "almowuha": "ALMOWUHA",
-    "mazraa": "Mazraa",
-    "almathlutha": "Almathlutha",
-    "kabdah": "Kabdah",
-    "aleashish": "Aleashish",
-    "mohammedbinzayedcity": "MOHAMMED BIN ZAYED CITY",
-    "shehah": "Shehah",
-    "ejeili": "Ejeili",
-    "رأسالخيمة": "Ras al-Khaimah",
-    "الصبيدات": "Al Subaidat",
-    "سيح الحنية": "Saih Al Heniya"
+
+file_url = "https://docs.google.com/spreadsheets/d/e/2PACX-1vRnH-_FyYUJ5NCF_HHQjT1JhCGl7MsMxRlsRWVib3wi7P78LHuDgkLk2RwjlcuXNQ/pub?output=csv"
+
+try:
+    # Attempt to read the file
+    df = pd.read_csv(file_url)
+    print("CSV file loaded successfully.")
+except Exception as e:
+    print(f"Error loading CSV: {e}")
+    exit()
+
+# Select only the required columns
+columns_to_extract = ['LicenseStatus', 'ActivityMainGroup', 'MainActivity', 'Street', 'Region', 'LastApplicationNo', 'Numberofrenewals']
+df = df[columns_to_extract]
+
+# Define the labeling logic
+def label_row(row):
+    if row['Numberofrenewals'] >= 3 and row['LicenseStatus'] in ['Active', 'Expired']:
+        return 'high success'
+    elif row['Numberofrenewals'] < 3 and row['LicenseStatus'] in ['Active', 'Expired']:
+        return 'low success'
+    elif row['Numberofrenewals'] >= 3 and row['LicenseStatus'] in ['Canceled', 'Totally Blocked', 'Managerially Canceled', 'Mortgaged', 'Partially Blocked', 'Suspended']:
+        return 'good cancel'
+    elif row['Numberofrenewals'] < 3 and row['LicenseStatus'] in ['Canceled', 'Totally Blocked', 'Managerially Canceled', 'Mortgaged', 'Partially Blocked', 'Suspended']:
+        return 'bad cancel'
+    elif row['LicenseStatus'] == 'Inactive':
+        return 'new'
+    else:
+        return 'other'  # Optional: To handle cases that don't match any condition
+
+# Apply the labeling function
+df['label'] = df.apply(label_row, axis=1)
+
+# Display the updated DataFrame
+print(df[['LicenseStatus', 'Numberofrenewals', 'label']])  # Showing only relevant columns for clarity
+
+
+
+
+
+
+
+clustering_columns = ['MainActivity', 'Region']
+df_cluster = df[clustering_columns].copy()
+
+# Step 2: Convert categorical variables to numerical using Label Encoding
+label_encoders = {}
+for col in clustering_columns:
+    le = LabelEncoder()
+    df_cluster[col] = le.fit_transform(df_cluster[col])  # Convert text to numbers
+    label_encoders[col] = le  # Store encoders for later decoding if needed
+
+
+# Step 3: Assign a unique cluster number for each unique MainActivity
+df_cluster['Cluster'] = df_cluster.groupby('MainActivity').ngroup()
+
+# Step 4: Merge clustering results back to the original dataset
+df['Cluster'] = df_cluster['Cluster']
+
+# Step 5: Visualize the Clusters
+plt.figure(figsize=(8, 6))
+sns.scatterplot(x=df_cluster['MainActivity'], y=df_cluster['Region'], hue=df_cluster['Cluster'], palette='viridis', s=100)
+plt.title('Unique Clustering of MainActivity')
+plt.xlabel('MainActivity (Encoded)')
+plt.ylabel('Region (Encoded)')
+plt.show()
+
+# Step 6: Display results
+print(df[['MainActivity', 'Region', 'Cluster']])
+
+
+
+
+
+
+import pandas as pd
+
+# Define label values
+label_values = {
+    'high success': 4,
+    'low success': 3,
+    'good cancel': 2,
+    'bad cancel': 1,
+    'new': 0
 }
 
+# Group by MainActivity and Region, count the occurrences of each label
+risk_df = df.groupby(['MainActivity', 'Region', 'label']).size().unstack(fill_value=0)
 
-def normalize(text):
-    return text.lower().replace(" ", "").replace("-", "").replace("ـ", "")  # Remove Arabic tatweel
 
+# Ensure all label categories exist
+for label in label_values.keys():
+    if label not in risk_df.columns:
+        risk_df[label] = 0
 
-# Function to fetch and process dataset
-def process_data():
-    file_url = "https://docs.google.com/spreadsheets/d/e/2PACX-1vRnH-_FyYUJ5NCF_HHQjT1JhCGl7MsMxRlsRWVib3wi7P78LHuDgkLk2RwjlcuXNQ/pub?output=csv"
-
-    try:
-        df = pd.read_csv(file_url)
-        print("CSV Data Loaded Successfully!")
-    except Exception as e:
-        print(f"Error loading CSV: {e}")
-        return []
-
-    columns_to_extract = ['LicenseStatus', 'ActivityMainGroup', 'MainActivity', 'Street', 'Region', 'LastApplicationNo', 'Numberofrenewals']
-    df = df[columns_to_extract]
-
-    def label_row(row):
-        if row['Numberofrenewals'] >= 3 and row['LicenseStatus'] in ['Active', 'Expired']:
-            return 'high success'
-        elif row['Numberofrenewals'] < 3 and row['LicenseStatus'] in ['Active', 'Expired']:
-            return 'low success'
-        elif row['Numberofrenewals'] >= 3 and row['LicenseStatus'] in ['Canceled', 'Totally Blocked', 'Managerially Canceled', 'Mortgaged', 'Partially Blocked', 'Suspended']:
-            return 'good cancel'
-        elif row['Numberofrenewals'] < 3 and row['LicenseStatus'] in ['Canceled', 'Totally Blocked', 'Managerially Canceled', 'Mortgaged', 'Partially Blocked', 'Suspended']:
-            return 'bad cancel'
-        elif row['LicenseStatus'] == 'Inactive':
-            return 'new'
-        else:
-            return 'other'
-
-    df['label'] = df.apply(label_row, axis=1)
-
-    # Encode and cluster
-    clustering_columns = ['MainActivity', 'Region']
-    df_cluster = df[clustering_columns].copy()
-
-    for col in clustering_columns:
-        le = LabelEncoder()
-        df_cluster[col] = le.fit_transform(df_cluster[col])
-
-    df_cluster['Cluster'] = df_cluster.groupby('MainActivity').ngroup()
-    df['Cluster'] = df_cluster['Cluster']
-
-    # Risk scoring
-    label_values = {'high success': 4, 'low success': 3, 'good cancel': 2, 'bad cancel': 1, 'new': 0}
-    risk_df = df.groupby(['MainActivity', 'Region', 'label']).size().unstack(fill_value=0)
-
-    for label in label_values:
-        if label not in risk_df:
-            risk_df[label] = 0
-
-    # Calculate risk score using the given formula
-    risk_df['RiskRate'] =   ( 1 - ((
+# Calculate risk score using the given formula
+risk_df['RiskRate'] =   ( 1 - ((
     risk_df['high success'] * 4 +
     risk_df['low success'] * 3 +
     risk_df['good cancel'] * 2 +
     risk_df['bad cancel'] * 1 +
     risk_df['new'] * 0
-    ) / (100 * 4)) ) * 100
+) / (100 * 4)) ) * 100
 
 
-    df = df.merge(risk_df[['RiskRate']], on=['MainActivity', 'Region'], how='left')
-    df_clean = df.dropna()
-    return df_clean[['MainActivity', 'Region', 'RiskRate']].to_dict(orient='records')
+# Merge back into original DataFrame
+df = df.merge(risk_df[['RiskRate']], on=['MainActivity', 'Region'], how='left')
 
-# Region resolver
-def get_region_from_latlng(latitude, longitude):
-    from geopy.geocoders import Nominatim
-    import difflib  # for fuzzy matching
+# Display results
+print(df[['MainActivity', 'Region', 'RiskRate']])
 
-    geolocator = Nominatim(user_agent="risk_rate_app")
 
-    try:
-        location = geolocator.reverse((latitude, longitude), exactly_one=True)
-        if location and location.raw.get("address"):
-            address = location.raw["address"]
-            street = address.get("road") or address.get("street") or ""
-            suburb = address.get("suburb", "")
-            city = address.get("city", "")
-            fallback_fields = [suburb, city]
+df_clean = df.dropna()
+print(df_clean[['MainActivity', 'Region', 'RiskRate']])
 
-            # Normalize street
-            normalized_street = normalize(street)
-            region = street_to_region.get(normalized_street)
 
-            if region:
-                print(f"✅ Exact street match: {street} → {region}")
-                return region
 
-            # 🔍 Try fuzzy matching
-            close_matches = difflib.get_close_matches(normalized_street, street_to_region.keys(), n=1, cutoff=0.8)
-            if close_matches:
-                region = street_to_region[close_matches[0]]
-                print(f"🔍 Fuzzy matched '{street}' → '{close_matches[0]}' → Region: {region}")
-                return region
+# Convert to DataFrame
+df = pd.DataFrame(df_clean)
+# Save to Excel file
+df.to_excel("output2.xlsx", index=False, engine="openpyxl")
 
-            if norm_value not in region_aliases:
-                with open("unmapped_regions.log", "a") as log_file:
-                    log_file.write(f"{raw_value}\n")
 
-            # 🛑 Fallback to suburb/city directly if available
-            for field in fallback_fields:
-                if field:
-                    print(f"⚠️ Fallback to region field: {field}")
-                    return field
+print("Excel file saved successfully!")
 
-            print("⚠️ No match found, returning Unknown Region")
 
-    except Exception as e:
-        print(f"Geocoding error: {e}")
 
-    return "Unknown Region"
+from openpyxl import load_workbook
 
-    norm_value = normalize(raw_value)
-    mapped = region_aliases.get(norm_value, raw_value)  # fallback = raw Arabic string
-    print(f"Resolved region: {mapped}")
-    return mapped
+# Load the workbook and select the sheet
+file_path = "output2.xlsx"
+wb = load_workbook(file_path)
+ws = wb.active  # Select the first sheet
 
+# Iterate over cells and replace negative values
+for row in ws.iter_rows():
+    for cell in row:
+        if isinstance(cell.value, (int, float)) and cell.value < 0:
+            cell.value = 0
 
 
 @app.route("/get_risk_rate", methods=["GET"])
