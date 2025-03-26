@@ -83,23 +83,13 @@ df_cluster['Cluster'] = df_cluster.groupby('MainActivity').ngroup()
 # Step 4: Merge clustering results back to the original dataset
 df['Cluster'] = df_cluster['Cluster']
 
-# Step 5: Visualize the Clusters
-plt.figure(figsize=(8, 6))
-sns.scatterplot(x=df_cluster['MainActivity'], y=df_cluster['Region'], hue=df_cluster['Cluster'], palette='viridis', s=100)
-plt.title('Unique Clustering of MainActivity')
-plt.xlabel('MainActivity (Encoded)')
-plt.ylabel('Region (Encoded)')
-plt.show()
+
+
 
 # Step 6: Display results
 print(df[['MainActivity', 'Region', 'Cluster']])
 
 
-
-
-
-
-import pandas as pd
 
 # Define label values
 label_values = {
@@ -143,59 +133,28 @@ print(df_clean[['MainActivity', 'Region', 'RiskRate']])
 
 # Convert to DataFrame
 df = pd.DataFrame(df_clean)
-# Save to Excel file
-df.to_excel("output2.xlsx", index=False, engine="openpyxl")
-
-
-print("Excel file saved successfully!")
 
 
 
-from openpyxl import load_workbook
-
-# Load the workbook and select the sheet
-file_path = "output2.xlsx"
-wb = load_workbook(file_path)
-ws = wb.active  # Select the first sheet
-
-# Iterate over cells and replace negative values
-for row in ws.iter_rows():
-    for cell in row:
-        if isinstance(cell.value, (int, float)) and cell.value < 0:
-            cell.value = 0
-
-
-@app.route("/get_risk_rate", methods=["GET"])
+@app.route('/get_risk_rate', methods=['POST'])
 def get_risk_rate():
-    latitude = request.args.get("latitude", type=float)
-    longitude = request.args.get("longitude", type=float)
+    data = request.get_json()
+    main_activity = normalize(data.get("MainActivity"))
+    region = normalize(data.get("Region"))
 
-    try:
-        print(f"Request: lat={latitude}, lng={longitude}")
-        region = get_region_from_latlng(latitude, longitude)
-        print(f"Resolved region: {region}")
+    # Normalize the columns for matching
+    df['MainActivity_norm'] = df['MainActivity'].apply(normalize)
+    df['Region_norm'] = df['Region'].apply(normalize)
 
-        risk_data = process_data()
+    match = df[(df['MainActivity_norm'] == main_activity) & (df['Region_norm'] == region)]
 
-        for entry in risk_data:
-            if normalize(entry['Region']) == normalize(region):
-                print(f"Matched region: {entry['Region']} => RiskRate: {entry['RiskRate']}")
-                return jsonify({
-                    "latitude": latitude,
-                    "longitude": longitude,
-                    "risk_rate": entry['RiskRate']
-                })
+    if not match.empty:
+        risk_rate = match['RiskRate'].iloc[0]
+        return jsonify({'RiskRate': round(risk_rate, 2)})
+    else:
+        return jsonify({'RiskRate': None, 'message': 'No match found'}), 404
 
-        print("No match found, returning risk_rate: 0")
-        return jsonify({
-            "latitude": latitude,
-            "longitude": longitude,
-            "risk_rate": 0
-        })
 
-    except Exception as e:
-        print(f"🔥 Error in /get_risk_rate: {e}")
-        return jsonify({"error": str(e)}), 500
 
 
 @app.route("/process", methods=['GET'])
