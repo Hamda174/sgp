@@ -6,3 +6,4 @@ scikit-learn
 gunicorn
 geopy
 matplotlib
+seaborn
