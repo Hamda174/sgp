@@ -10,7 +10,6 @@ import pandas as pd
 from sklearn.preprocessing import LabelEncoder
 import matplotlib.pyplot as plt
 import seaborn as sns
-from fuzzywuzzy import fuzz
 
 
 app = Flask(__name__)
