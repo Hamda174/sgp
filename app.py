@@ -13,13 +13,11 @@ import seaborn as sns
 
 
 
-# Load once at the top
-try:
-    with open("street_to_region_alias_expanded.json") as f:
-        street_region_map = json.load(f)
-except Exception as e:
-    print(f"Error loading alias file: {e}")
-    street_region_map = {}
+with open("street_to_region_alias_final.json") as f:
+    street_region_map = json.load(f)
+
+with open("region_aliases.json") as f:
+    region_aliases = json.load(f)
 
 
 
@@ -156,20 +154,20 @@ def normalize(text):
 def get_risk_rate():
     data = request.get_json()
     main_activity = normalize(data.get("MainActivity"))
+
     region = normalize(data.get("Region"))
+    region = region_aliases.get(region, region)
+    
     street = data.get("Street")
-
-    print(f"Incoming: activity={main_activity}, region={region}, street={street}")
-
-    # Try to correct region using alias
     if street:
         street_norm = normalize(street)
         corrected_region = street_region_map.get(street_norm)
         if corrected_region:
-            region = normalize(corrected_region)
+            region = normalize(corrected_region) 
             print(f"Mapped street '{street}' to region '{corrected_region}'")
-        else:
-            print(f"No match found for street: {street_norm}")
+
+
+    print(f"Incoming: activity={main_activity}, region={region}, street={street}")
 
 
     df['MainActivity_norm'] = df['MainActivity'].apply(normalize)
