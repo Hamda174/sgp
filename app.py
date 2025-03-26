@@ -10,6 +10,7 @@ import pandas as pd
 from sklearn.preprocessing import LabelEncoder
 import matplotlib.pyplot as plt
 import seaborn as sns
+from fuzzywuzzy import fuzz
 
 
 app = Flask(__name__)
@@ -142,6 +143,20 @@ def get_risk_rate():
     main_activity = normalize(data.get("MainActivity"))
     region = normalize(data.get("Region"))
 
+    with open("region_aliases.json", "r") as f:
+    aliases = json.load(f)
+    
+    region = normalize(data.get("Region"))
+    region = aliases.get(region, region)  # Replace with alias if it exists
+
+
+    match = df[
+    df['Region_norm'].str.contains(region) &
+    df['MainActivity_norm'].str.contains(main_activity)
+]
+
+
+    
     print(f"Received: MainActivity={main_activity}, Region={region}")
 
     df['MainActivity_norm'] = df['MainActivity'].apply(normalize)
