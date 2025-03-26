@@ -165,6 +165,16 @@ def get_risk_rate():
         if corrected_region:
             region = normalize(corrected_region) 
             print(f"Mapped street '{street}' to region '{corrected_region}'")
+            
+    # If alias match fails, do a fuzzy search
+    if not corrected_region:
+        import difflib
+        closest_match = difflib.get_close_matches(street_norm, street_region_map.keys(), n=1, cutoff=0.8)
+        if closest_match:
+            corrected_region = street_region_map[closest_match[0]]
+            region = normalize(corrected_region)
+            print(f"Fuzzy matched '{street}' to region '{corrected_region}'")
+
 
 
     print(f"Incoming: activity={main_activity}, region={region}, street={street}")
