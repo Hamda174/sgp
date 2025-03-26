@@ -163,11 +163,14 @@ def get_risk_rate():
 
     # Try to correct region using alias
     if street:
-        street_norm = normalize(street)
-        if street_norm in street_region_map:
-            corrected_region = street_region_map[street_norm]
-            region = normalize(corrected_region)
-            print(f"Mapped street '{street}' to region '{corrected_region}'")
+    street_norm = normalize(street)
+    corrected_region = street_region_map.get(street_norm)
+    if corrected_region:
+        region = normalize(corrected_region)
+        print(f"Mapped street '{street}' to region '{corrected_region}'")
+    else:
+        print(f"No match found for street: {street_norm}")
+
 
     df['MainActivity_norm'] = df['MainActivity'].apply(normalize)
     df['Region_norm'] = df['Region'].apply(normalize)
