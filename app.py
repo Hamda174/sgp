@@ -12,6 +12,17 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 
+
+# Load once at the top
+try:
+    with open("street_to_region_alias.json") as f:
+        street_region_map = json.load(f)
+except Exception as e:
+    print(f"Error loading alias file: {e}")
+    street_region_map = {}
+
+
+
 app = Flask(__name__)
 
 @app.route("/")
@@ -135,17 +146,11 @@ print(df_clean[['MainActivity', 'Region', 'RiskRate']])
 df = pd.DataFrame(df_clean)
 
 
-# Load once at the top
-try:
-    with open("street_to_region_alias.json") as f:
-        street_region_map = json.load(f)
-except Exception as e:
-    print(f"Error loading alias file: {e}")
-    street_region_map = {}
 
 
 def normalize(text):
     return str(text).lower().strip().replace("-", "").replace(" ", "")
+
 
 @app.route('/get_risk_rate', methods=['POST'])
 def get_risk_rate():
@@ -154,15 +159,16 @@ def get_risk_rate():
     region = normalize(data.get("Region"))
     street = data.get("Street")
 
-    # Try to correct the region if the street is known
+    print(f"Incoming: activity={main_activity}, region={region}, street={street}")
+
+    # Try to correct region using alias
     if street:
         street_norm = normalize(street)
-        corrected_region = street_region_map.get(street_norm)
-        if corrected_region:
+        if street_norm in street_region_map:
+            corrected_region = street_region_map[street_norm]
             region = normalize(corrected_region)
-            print(f"Replaced region with: {corrected_region}")
+            print(f"Mapped street '{street}' to region '{corrected_region}'")
 
-    # Normalize DataFrame
     df['MainActivity_norm'] = df['MainActivity'].apply(normalize)
     df['Region_norm'] = df['Region'].apply(normalize)
 
@@ -177,8 +183,6 @@ def get_risk_rate():
     else:
         return jsonify({'RiskRate': None, 'message': 'No match found'}), 404
 
-        
-    print("REQUEST JSON:", data)
 
 
 @app.route("/process", methods=['GET'])
