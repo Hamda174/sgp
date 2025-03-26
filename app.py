@@ -159,6 +159,7 @@ def get_risk_rate():
         street_norm = normalize(street)
         region = normalize(street_region_map.get(street_norm, region))
 
+    
     # Matching logic with normalized fields...
 
     match = df[
@@ -180,6 +181,8 @@ def get_risk_rate():
         return jsonify({'RiskRate': round(risk_rate, 2)})
     else:
         return jsonify({'RiskRate': None, 'message': 'No match found'}), 404
+        
+    print("REQUEST JSON:", data)
 
 
 @app.route("/process", methods=['GET'])
