@@ -142,24 +142,22 @@ def get_risk_rate():
     main_activity = normalize(data.get("MainActivity"))
     region = normalize(data.get("Region"))
 
-    # Normalize the columns for matching
+    print(f"Received: MainActivity={main_activity}, Region={region}")
+
     df['MainActivity_norm'] = df['MainActivity'].apply(normalize)
     df['Region_norm'] = df['Region'].apply(normalize)
 
-    print("Available normalized pairs:")
-    print(df[['MainActivity', 'Region']].drop_duplicates().applymap(normalize).values.tolist())
-
     match = df[(df['MainActivity_norm'] == main_activity) & (df['Region_norm'] == region)]
-    # fallback if no exact match
-    matches = df[df['MainActivity_norm'].str.contains(main_activity) & df['Region_norm'].str.contains(region)]
-
 
     if not match.empty:
         risk_rate = match['RiskRate'].iloc[0]
         return jsonify({'RiskRate': round(risk_rate, 2)})
     else:
         return jsonify({'RiskRate': None, 'message': 'No match found'}), 404
-        
+    
+    if match.empty:
+        match = df[df['Region_norm'].str.contains(region) & df['MainActivity_norm'].str.contains(main_activity)]
+
 
 
 
