@@ -146,13 +146,26 @@ def get_risk_rate():
     df['MainActivity_norm'] = df['MainActivity'].apply(normalize)
     df['Region_norm'] = df['Region'].apply(normalize)
 
+    print("Available normalized pairs:")
+    print(df[['MainActivity', 'Region']].drop_duplicates().applymap(normalize).values.tolist())
+
     match = df[(df['MainActivity_norm'] == main_activity) & (df['Region_norm'] == region)]
+    # fallback if no exact match
+    matches = df[df['MainActivity_norm'].str.contains(main_activity) & df['Region_norm'].str.contains(region)]
+
 
     if not match.empty:
         risk_rate = match['RiskRate'].iloc[0]
         return jsonify({'RiskRate': round(risk_rate, 2)})
     else:
         return jsonify({'RiskRate': None, 'message': 'No match found'}), 404
+        
+    val riskRate = body?.RiskRate
+    if (riskRate != null) {
+        riskRateText.text = "Risk Rate: %.2f".format(riskRate)
+    } else { 
+        riskRateText.text = "No risk rate available for this area/activity"
+    }
 
 
 
