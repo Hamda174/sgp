@@ -171,51 +171,28 @@ def normalize(text):
     return str(text).lower().strip().replace("-", "").replace(" ", "")
 
 
-@app.route('/get_risk_rate', methods=['POST'])
+@app.route("/get_risk_rate", methods=["POST"])
 def get_risk_rate():
     data = request.get_json()
-    main_activity = normalize(data.get("MainActivity"))
+    activity = data.get("MainActivity")
+    region = data.get("Region")
 
-    region = normalize(data.get("Region"))
-    region = region_aliases.get(region, region)
-    
-    street = data.get("Street")
-    if street:
-        street_norm = normalize(street)
-        corrected_region = street_region_map.get(street_norm)
-        if corrected_region:
-            region = normalize(corrected_region) 
-            print(f"Mapped street '{street}' to region '{corrected_region}'")
-            
-    # If alias match fails, do a fuzzy search
-    if not corrected_region:
-        import difflib
-        closest_match = difflib.get_close_matches(street_norm, street_region_map.keys(), n=1, cutoff=0.8)
-        if closest_match:
-            corrected_region = street_region_map[closest_match[0]]
-            region = normalize(corrected_region)
-            print(f"Fuzzy matched '{street}' to region '{corrected_region}'")
+    try:
+        df = pd.read_excel("RiskScript.xlsx")
 
+        row = df[
+            (df["MainActivity"].str.lower() == activity.lower()) &
+            (df["Region"].str.lower() == region.lower())
+        ]
 
+        if row.empty:
+            return jsonify({"RiskRate": None, "message": "No match found"}), 404
 
-    print(f"Incoming: activity={main_activity}, region={region}, street={street}")
+        risk_rate = row["RiskRate"].values[0]
+        return jsonify({"RiskRate": risk_rate}), 200
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
 
-
-    df['MainActivity_norm'] = df['MainActivity'].apply(normalize)
-    df['Region_norm'] = df['Region'].apply(normalize)
-
-    match = df[
-        df['Region_norm'].str.contains(region) &
-        df['MainActivity_norm'].str.contains(main_activity)
-    ]
-    
-    print(f"Mapped street '{street}' to region '{corrected_region}'")
-
-    if not match.empty:
-        risk_rate = match['RiskRate'].iloc[0]
-        return jsonify({'RiskRate': round(risk_rate, 2)})
-    else:
-        return jsonify({'RiskRate': None, 'message': 'No match found'}), 404
         
 
 
