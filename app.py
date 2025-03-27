@@ -14,10 +14,10 @@ from geopy.geocoders import Nominatim
 from geopy.extra.rate_limiter import RateLimiter
 
 
-# with open("street_to_region_alias_with_variations.json") as f:
-    #street_region_map = json.load(f)
-#with open("region_aliases.json") as f:
-    #region_aliases = json.load(f)
+with open("street_to_region_alias_with_variations.json") as f:
+    street_region_map = json.load(f)
+with open("region_aliases.json") as f:
+    region_aliases = json.load(f)
 
 
 
