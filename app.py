@@ -20,7 +20,6 @@ with open("region_aliases.json") as f:
     region_aliases = json.load(f)
 
 
-
 app = Flask(__name__)
 
 @app.route("/")
@@ -32,34 +31,34 @@ def normalize(text):
 
 
 
+# Load your dataset
+file_url = "https://docs.google.com/spreadsheets/d/e/2PACX-1vRnH-_FyYUJ5NCF_HHQjT1JhCGl7MsMxRlsRWVib3wi7P78LHuDgkLk2RwjlcuXNQ/pub?output=csv"
+df = pd.read_csv(file_url)
+
+# Filter for cafes
+cafes = df[df['MainActivity'].str.lower() == 'cafe'].copy()
+cafes['FullAddress'] = cafes['Street'].fillna('') + ', ' + cafes['Region'].fillna('')
+
+# Setup geocoder
+geolocator = Nominatim(user_agent="cafe_mapper")
+geocode = RateLimiter(geolocator.geocode, min_delay_seconds=1)
+
+# Geocode
+cafes['Location'] = cafes['FullAddress'].apply(geocode)
+cafes['Latitude'] = cafes['Location'].apply(lambda loc: loc.latitude if loc else None)
+cafes['Longitude'] = cafes['Location'].apply(lambda loc: loc.longitude if loc else None)
+
+# Save it
+cafes_clean = cafes.dropna(subset=["Latitude", "Longitude"])
+cafes_clean[['MainActivity', 'Street', 'Region', 'Latitude', 'Longitude']].to_csv("cafe_dataset_geocoded.csv", index=False)
+
+
 @app.route("/get_all_cafes", methods=["GET"])
 def get_all_cafes():
     try:
-        # Load dataset from Google Sheets or local file
-        file_url = "https://docs.google.com/spreadsheets/d/e/2PACX-1vRnH-_FyYUJ5NCF_HHQjT1JhCGl7MsMxRlsRWVib3wi7P78LHuDgkLk2RwjlcuXNQ/pub?output=csv"
-        df = pd.read_csv(file_url)
-        
-        # Filter cafes
-        cafes = df[df['MainActivity'].str.lower() == 'cafe'].copy()
-        cafes['FullAddress'] = cafes['Street'].fillna('') + ', ' + cafes['Region'].fillna('')
-
-        # Geocode using Nominatim (1s delay between calls)
-        from geopy.geocoders import Nominatim
-        from geopy.extra.rate_limiter import RateLimiter
-        geolocator = Nominatim(user_agent="cafe_locator")
-        geocode = RateLimiter(geolocator.geocode, min_delay_seconds=1)
-
-        cafes['Location'] = cafes['FullAddress'].apply(lambda x: geocode(x))
-        cafes['Latitude'] = cafes['Location'].apply(lambda loc: loc.latitude if loc else None)
-        cafes['Longitude'] = cafes['Location'].apply(lambda loc: loc.longitude if loc else None)
-
-        # Keep only valid results
-        cafes_clean = cafes.dropna(subset=["Latitude", "Longitude"])
-
-        # Build response
-        result = cafes_clean[['MainActivity', 'Street', 'Region', 'Latitude', 'Longitude']].to_dict(orient="records")
+        df = pd.read_csv("cafe_dataset_geocoded.csv")
+        result = df.to_dict(orient="records")
         return jsonify(result), 200
-
     except Exception as e:
         return jsonify({"error": str(e)}), 500
 
