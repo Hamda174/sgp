@@ -10,14 +10,14 @@ import pandas as pd
 from sklearn.preprocessing import LabelEncoder
 import matplotlib.pyplot as plt
 import seaborn as sns
+from geopy.geocoders import Nominatim
+from geopy.extra.rate_limiter import RateLimiter
 
 
-
-with open("street_to_region_alias_with_variations.json") as f:
-    street_region_map = json.load(f)
-
-with open("region_aliases.json") as f:
-    region_aliases = json.load(f)
+# with open("street_to_region_alias_with_variations.json") as f:
+    #street_region_map = json.load(f)
+#with open("region_aliases.json") as f:
+    #region_aliases = json.load(f)
 
 
 
@@ -32,6 +32,29 @@ def normalize(text):
 
 
 
+# Load your dataset
+file_url = "https://docs.google.com/spreadsheets/d/e/2PACX-1vRnH-_FyYUJ5NCF_HHQjT1JhCGl7MsMxRlsRWVib3wi7P78LHuDgkLk2RwjlcuXNQ/pub?output=csv"
+df = pd.read_csv(file_url)
+
+# Filter for cafes
+cafes = df[df['MainActivity'].str.lower() == 'cafe'].copy()
+cafes['FullAddress'] = cafes['Street'].fillna('') + ', ' + cafes['Region'].fillna('')
+
+# Set up geocoder with rate limiter
+geolocator = Nominatim(user_agent="cafe_mapper")
+geocode = RateLimiter(geolocator.geocode, min_delay_seconds=1)
+
+# Geocode each full address
+cafes['Location'] = cafes['FullAddress'].apply(lambda x: geocode(x))
+cafes['Latitude'] = cafes['Location'].apply(lambda loc: loc.latitude if loc else None)
+cafes['Longitude'] = cafes['Location'].apply(lambda loc: loc.longitude if loc else None)
+
+# Save to new CSV
+cafes[['MainActivity', 'Street', 'Region', 'Latitude', 'Longitude']].to_csv("cafe_dataset_geocoded.csv", index=False)
+
+print("✅ Saved to cafe_dataset_geocoded.csv")
+
+
 
 
 file_url = "https://docs.google.com/spreadsheets/d/e/2PACX-1vRnH-_FyYUJ5NCF_HHQjT1JhCGl7MsMxRlsRWVib3wi7P78LHuDgkLk2RwjlcuXNQ/pub?output=csv"
@@ -43,6 +66,7 @@ try:
 except Exception as e:
     print(f"Error loading CSV: {e}")
     exit()
+
 
 # Select only the required columns
 columns_to_extract = ['LicenseStatus', 'ActivityMainGroup', 'MainActivity', 'Street', 'Region', 'LastApplicationNo', 'Numberofrenewals']
@@ -69,12 +93,6 @@ df['label'] = df.apply(label_row, axis=1)
 # Display the updated DataFrame
 print(df[['LicenseStatus', 'Numberofrenewals', 'label']])  # Showing only relevant columns for clarity
 
-
-
-
-
-
-
 clustering_columns = ['MainActivity', 'Region']
 df_cluster = df[clustering_columns].copy()
 
@@ -91,9 +109,6 @@ df_cluster['Cluster'] = df_cluster.groupby('MainActivity').ngroup()
 
 # Step 4: Merge clustering results back to the original dataset
 df['Cluster'] = df_cluster['Cluster']
-
-
-
 
 # Step 6: Display results
 print(df[['MainActivity', 'Region', 'Cluster']])
@@ -134,17 +149,11 @@ df = df.merge(risk_df[['RiskRate']], on=['MainActivity', 'Region'], how='left')
 # Display results
 print(df[['MainActivity', 'Region', 'RiskRate']])
 
-
 df_clean = df.dropna()
 print(df_clean[['MainActivity', 'Region', 'RiskRate']])
 
-
-
 # Convert to DataFrame
 df = pd.DataFrame(df_clean)
-
-
-
 
 def normalize(text):
     return str(text).lower().strip().replace("-", "").replace(" ", "")
