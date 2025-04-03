@@ -38,18 +38,19 @@ geolocator = Nominatim(user_agent="cafeteria-risk")
 
 @app.route('/get_risk_rate', methods=['POST'])
 def get_risk_rate():
-    data = request.get_json()
-    lat = data.get('latitude')
-    lng = data.get('longitude')
-
-    if not lat or not lng:
-        return jsonify({'error': 'Missing coordinates'}), 400
-
-    # Reverse geocode to get human-readable location
     try:
+        data = request.get_json(force=True)
+        lat = data.get('latitude')
+        lng = data.get('longitude')
+
+        if lat is None or lng is None:
+            return jsonify({'error': 'Missing latitude or longitude'}), 400
+
+        # Reverse geocoding
         location = geolocator.reverse((lat, lng), language='en')
         if not location:
             return jsonify({'risk_rate': 0})
+
         address = location.raw.get('address', {})
         region = (
             address.get('suburb') or
@@ -60,7 +61,9 @@ def get_risk_rate():
             ''
         ).strip().lower()
 
-        # Match with `location` field in JSON (case insensitive)
+        print(f"User tapped at: lat={lat}, lng={lng} -> region={region}")
+
+        # Match against cleaned cafeteria data
         for c in cafeterias:
             if c['location'].strip().lower() == region:
                 return jsonify({
@@ -69,9 +72,14 @@ def get_risk_rate():
                     'risk_rate': c['risk_rate']
                 })
 
-        return jsonify({'risk_rate': 0})  # No match found
+        return jsonify({'risk_rate': 0})
     except Exception as e:
+        print(f"🔥 ERROR: {str(e)}")
         return jsonify({'error': str(e)}), 500
+
+
+
+
 
 if __name__ == '__main__':
     app.run(debug=True)
