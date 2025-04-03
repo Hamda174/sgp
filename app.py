@@ -12,6 +12,9 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 from geopy.geocoders import Nominatim
 from geopy.extra.rate_limiter import RateLimiter
+import difflib
+
+
 
 
 
@@ -72,17 +75,34 @@ def get_risk_rate():
         region = region_value.strip().lower()
         print(f"🔍 Matching with region: {region}")
 
-        # Match with your cafeterias data
-        for c in cafeterias:
-            cafeteria_location = c.get('location')
-            if cafeteria_location and isinstance(cafeteria_location, str):
-                if cafeteria_location.strip().lower() == region:
-                    print(f"✅ Matched: {c['name']} in {region}")
+
+        def find_best_match_region(region):
+            all_locations = [c['location'].strip().lower() for c in cafeterias if c.get('location')]
+            matches = difflib.get_close_matches(region, all_locations, n=1, cutoff=0.6)
+            return matches[0] if matches else None
+
+
+        match = find_best_match_region(region)
+        if match:
+            for c in cafeterias:
+                if c['location'].strip().lower() == match:
                     return jsonify({
                         'name': c['name'],
                         'location': c['location'],
                         'risk_rate': c['risk_rate']
                     })
+
+        # Match with your cafeterias data
+        #for c in cafeterias:
+            #cafeteria_location = c.get('location')
+            #if cafeteria_location and isinstance(cafeteria_location, str):
+                #if cafeteria_location.strip().lower() == region:
+                    #print(f"✅ Matched: {c['name']} in {region}")
+                    #return jsonify({
+                        #'name': c['name'],
+                        #'location': c['location'],
+                        #'risk_rate': c['risk_rate']
+                    #})
 
 
         print("❌ No match found for region")
