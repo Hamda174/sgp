@@ -1,0 +1,4678 @@
+[
+    {
+        "name":"Cafeteria",
+        "street":"Sheikh Rashid Bin Saeed Street",
+        "region":"Al Kharran",
+        "risk_rate":82.75,
+        "location":"Al Kharan"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Sheikh Mohammed bin Zayed Street",
+        "region":"Alrafaea",
+        "risk_rate":80.5,
+        "location":"Al Riffa"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Ahmed Bin Majid Street Street ",
+        "region":"Al-Mairid ",
+        "risk_rate":79.25,
+        "location":"Al Maireed"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Bin Dhaher Street ",
+        "region":"Alnakeel",
+        "risk_rate":60.5,
+        "location":"Al Nakheel"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Butain Al Samer Street",
+        "region":"Butain Al Samer",
+        "risk_rate":97.75,
+        "location":"Butain Al Samer"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Shabiya Zayed Street",
+        "region":"Alrams",
+        "risk_rate":72.5,
+        "location":"Al Rams"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"INSIDE STREET",
+        "region":"Al Dhait ",
+        "risk_rate":44.25,
+        "location":"Al Dhait "
+    },
+    {
+        "name":"Cafeteria",
+        "street":"INSIDE STREET",
+        "region":"Al Dhait ",
+        "risk_rate":44.25,
+        "location":"Al Dhait "
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Al Ittihad Street ",
+        "region":"Alrafaea",
+        "risk_rate":80.5,
+        "location":"Al Riffa"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Sheikh Saqr Bin Muhammad Al Qasimi Street ",
+        "region":"Al Kharran",
+        "risk_rate":82.75,
+        "location":"Al Kharan"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Julphar Street",
+        "region":"Julphar",
+        "risk_rate":68.5,
+        "location":"Julfar"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Sheikh Saqr Bin Muhammad Al Qasimi Street ",
+        "region":"Alfiliya",
+        "risk_rate":98.5,
+        "location":"Al Felyyah"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"INSIDE STREET",
+        "region":"Al Dhait ",
+        "risk_rate":44.25,
+        "location":"Al Dhait "
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Sheikh Muhammad Bin Salem Street ",
+        "region":"AL DHAIT AL SHMALI",
+        "risk_rate":98.25,
+        "location":"Al Dhait "
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Al Ittihad Street ",
+        "region":"Aljazirah alhamra",
+        "risk_rate":73.75,
+        "location":"Al Jazeera Al Hamra"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Sheikh Muhammad Bin Salem Street ",
+        "region":"Aljazirah alhamra",
+        "risk_rate":73.75,
+        "location":"Al Jazeera Al Hamra"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"INSIDE STREET",
+        "region":"AL FAHLAIN",
+        "risk_rate":95.5,
+        "location":"Al Fahlain"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"DWAR AL KHURAN STREET",
+        "region":"Al Kharran",
+        "risk_rate":82.75,
+        "location":"Al Kharan"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Al-Montaser Street",
+        "region":"Julphar",
+        "risk_rate":68.5,
+        "location":"Julfar"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Sheikh Saqr Bin Muhammad Al Qasimi Street ",
+        "region":"Syh alearibi",
+        "risk_rate":95.5,
+        "location":"Seih Al Araibi"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Ahmed Bin Majid Street Street ",
+        "region":"Al-Mairid ",
+        "risk_rate":79.25,
+        "location":"Al Maireed"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Al Uraibi Street ",
+        "region":"Oraibi",
+        "risk_rate":92.0,
+        "location":"Al Araibi"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Ahmed Bin Majid Street Street ",
+        "region":"Al-Mairid ",
+        "risk_rate":79.25,
+        "location":"Al Maireed"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"INSIDE STREET",
+        "region":"Al Dhait ",
+        "risk_rate":44.25,
+        "location":"Al Dhait "
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Al Dhait Street",
+        "region":"Khalifa Bin Zayed City",
+        "risk_rate":92.75,
+        "location":"Sheikh Khalifa City"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Sheikh Muhammad Bin Salem Street ",
+        "region":"Ras al-Khaimah",
+        "risk_rate":51.0,
+        "location":"Ras Al-Khaimah"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Al-Montaser Street",
+        "region":"Almaemura",
+        "risk_rate":87.25,
+        "location":"Al Mamourah"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Butain Al Samer Street",
+        "region":"Butain Al Samer",
+        "risk_rate":97.75,
+        "location":"Butain Al Samer"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Sheikh Muhammad Bin Salem Street ",
+        "region":"Aljazirah alhamra",
+        "risk_rate":73.75,
+        "location":"Al Jazeera Al Hamra"
+    },
+    {
+        "name":"Cafeteria",
+        "street":null,
+        "region":null,
+        "risk_rate":null,
+        "location":null
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Sheikh Saqr Bin Muhammad Al Qasimi Street ",
+        "region":"Alfiliya",
+        "risk_rate":98.5,
+        "location":"Al Felyyah"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Al Dhait Street",
+        "region":"Khalifa Bin Zayed City",
+        "risk_rate":92.75,
+        "location":"Sheikh Khalifa City"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Bin Dhaher Street ",
+        "region":"Alnakeel",
+        "risk_rate":60.5,
+        "location":"Al Nakheel"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Corniche Al Mairid Street",
+        "region":"Al-Mairid ",
+        "risk_rate":79.25,
+        "location":"Al Maireed"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Airport Street ",
+        "region":"Aldaqdaqa",
+        "risk_rate":89.5,
+        "location":"Al Digdaga"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Sheikh Saqr Bin Muhammad Al Qasimi Street ",
+        "region":"Alrams",
+        "risk_rate":72.5,
+        "location":"Al Rams"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Al Ittihad Street ",
+        "region":"Alrafaea",
+        "risk_rate":80.5,
+        "location":"Al Riffa"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Khuzam Street ",
+        "region":"Khuzam",
+        "risk_rate":93.75,
+        "location":"Khuzam"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"DWAR AL KHURAN STREET",
+        "region":"Al Kharran",
+        "risk_rate":82.75,
+        "location":"Al Kharan"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Almataf Street ",
+        "region":"Julphar",
+        "risk_rate":68.5,
+        "location":"Julfar"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Zayed Center Roundabout Street",
+        "region":"Al Dhait ",
+        "risk_rate":44.25,
+        "location":"Al Dhait "
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Al Dhait Street",
+        "region":"Khalifa Bin Zayed City",
+        "risk_rate":92.75,
+        "location":"Sheikh Khalifa City"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Airport Street ",
+        "region":"Aldaqdaqa",
+        "risk_rate":89.5,
+        "location":"Al Digdaga"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"INSIDE STREET",
+        "region":"Al Dhait ",
+        "risk_rate":44.25,
+        "location":"Al Dhait "
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Al Ittihad Street ",
+        "region":"Aljazirah alhamra",
+        "risk_rate":73.75,
+        "location":"Al Jazeera Al Hamra"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Al Dhait Street",
+        "region":"Khalifa Bin Zayed City",
+        "risk_rate":92.75,
+        "location":"Sheikh Khalifa City"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Butain Al Samer Street",
+        "region":"Butain Al Samer",
+        "risk_rate":97.75,
+        "location":"Butain Al Samer"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Al Qawasim Corniche Street ",
+        "region":"CORNISH AL QWASIM",
+        "risk_rate":94.25,
+        "location":"Al Qawasim Corniche - Ras Al Khaimah Cornish"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"INSIDE STREET",
+        "region":"Khor Khuwair",
+        "risk_rate":98.25,
+        "location":"Khor Khwair"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Al Ittihad Street ",
+        "region":"Alrafaea",
+        "risk_rate":80.5,
+        "location":"Al Riffa"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Al Ittihad Street ",
+        "region":"Alrafaea",
+        "risk_rate":80.5,
+        "location":"Al Riffa"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"INSIDE STREET",
+        "region":"Al Dhait ",
+        "risk_rate":44.25,
+        "location":"Al Dhait "
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Almataf Street ",
+        "region":"Julphar",
+        "risk_rate":68.5,
+        "location":"Julfar"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Airport Street ",
+        "region":"Aldaqdaqa",
+        "risk_rate":89.5,
+        "location":"Al Digdaga"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Al Ittihad Street ",
+        "region":"Alrafaea",
+        "risk_rate":80.5,
+        "location":"Al Riffa"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Julphar Street",
+        "region":"Julphar",
+        "risk_rate":68.5,
+        "location":"Julfar"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Altarafa Street ",
+        "region":"Alqasidat  ",
+        "risk_rate":79.0,
+        "location":"Al Qussaidat"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Khuzam Street ",
+        "region":"Khuzam",
+        "risk_rate":93.75,
+        "location":"Khuzam"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Al Qawasim Corniche Street ",
+        "region":"Aldifan",
+        "risk_rate":83.0,
+        "location":"Defan Ras Al Khaimah"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Sidroh Street ",
+        "region":"sedro",
+        "risk_rate":96.75,
+        "location":"Sidrow"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"INSIDE STREET",
+        "region":"Al Dhait ",
+        "risk_rate":44.25,
+        "location":"Al Dhait "
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Ahmed Bin Majid Street Street ",
+        "region":"Al-Mairid ",
+        "risk_rate":79.25,
+        "location":"Al Maireed"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Sidroh Street ",
+        "region":"Ras al-Khaimah",
+        "risk_rate":51.0,
+        "location":"Ras Al-Khaimah"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Kadra Street",
+        "region":"Gueddar",
+        "risk_rate":99.25,
+        "location":"Kadrah"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"INSIDE STREET",
+        "region":"Al Dhait ",
+        "risk_rate":44.25,
+        "location":"Al Dhait "
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Sheikh Saqr Bin Muhammad Al Qasimi Street ",
+        "region":"Alrams",
+        "risk_rate":72.5,
+        "location":"Al Rams"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Al Ittihad Street ",
+        "region":"Saqr Bin Mohammed City",
+        "risk_rate":88.5,
+        "location":"Sheikh Saqr City"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"INSIDE STREET",
+        "region":"Al Dhait ",
+        "risk_rate":44.25,
+        "location":"Al Dhait "
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Al Hudaiba Street ",
+        "region":"AL HODYBA",
+        "risk_rate":99.25,
+        "location":"Al Hudeeba"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"INSIDE STREET",
+        "region":"Al Dhait ",
+        "risk_rate":44.25,
+        "location":"Al Dhait "
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Almataf Street ",
+        "region":"Julphar",
+        "risk_rate":68.5,
+        "location":"Julfar"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Al Dhait Street",
+        "region":"Khalifa Bin Zayed City",
+        "risk_rate":92.75,
+        "location":"Sheikh Khalifa City"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Al Ittihad Street ",
+        "region":"Alrafaea",
+        "risk_rate":80.5,
+        "location":"Al Riffa"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Julphar Street",
+        "region":"Julphar",
+        "risk_rate":68.5,
+        "location":"Julfar"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Shaml Street",
+        "region":"Shaml",
+        "risk_rate":91.5,
+        "location":"Shamal"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Sheikh Rashid Bin Saeed Street",
+        "region":"Al Kharran",
+        "risk_rate":82.75,
+        "location":"Al Kharan"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"INSIDE STREET",
+        "region":"Al Dhait ",
+        "risk_rate":44.25,
+        "location":"Al Dhait "
+    },
+    {
+        "name":"Cafeteria",
+        "street":"INSIDE STREET",
+        "region":"Al Dhait ",
+        "risk_rate":44.25,
+        "location":"Al Dhait "
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Aljawazat Street ",
+        "region":"Almaemura",
+        "risk_rate":87.25,
+        "location":"Al Mamourah"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Julphar Street",
+        "region":"Julphar",
+        "risk_rate":68.5,
+        "location":"Julfar"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Al-Montaser Street",
+        "region":"Aljawis",
+        "risk_rate":92.75,
+        "location":"Al Juwais"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Airport Street ",
+        "region":"ALMOWUHA AREA",
+        "risk_rate":99.25,
+        "location":"Al Mamourah"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Al Sharisha Street",
+        "region":"Julphar",
+        "risk_rate":68.5,
+        "location":"Julfar"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Sheikh Saqr Bin Muhammad Al Qasimi Street ",
+        "region":"Alhayl",
+        "risk_rate":99.25,
+        "location":"Al Hail"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Al Ittihad Street ",
+        "region":"Alrafaea",
+        "risk_rate":80.5,
+        "location":"Al Riffa"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Al Ittihad Street ",
+        "region":"Alrafaea",
+        "risk_rate":80.5,
+        "location":"Al Riffa"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Al Ittihad Street ",
+        "region":"Alrafaea",
+        "risk_rate":80.5,
+        "location":"Al Riffa"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"INSIDE STREET",
+        "region":"Aljawis",
+        "risk_rate":92.75,
+        "location":"Al Juwais"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"INSIDE STREET",
+        "region":"Al Dhait ",
+        "risk_rate":44.25,
+        "location":"Al Dhait "
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Airport Street ",
+        "region":"SOHILA",
+        "risk_rate":98.75,
+        "location":"Suhailah"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Al-Montaser Street",
+        "region":"Alnakeel",
+        "risk_rate":60.5,
+        "location":"Al Nakheel"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Sheikh Muhammad Bin Salem Street ",
+        "region":"AL NADYA",
+        "risk_rate":98.0,
+        "location":"Al Nadiya"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"behaind kuzam street",
+        "region":"Alqasidat  ",
+        "risk_rate":79.0,
+        "location":"Al Qussaidat"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Al Rams Club Street",
+        "region":"Alrams",
+        "risk_rate":72.5,
+        "location":"Al Rams"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Al-Montaser Street",
+        "region":"Almaemura",
+        "risk_rate":87.25,
+        "location":"Al Mamourah"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Al Rams Street - Old Market",
+        "region":"Alrams",
+        "risk_rate":72.5,
+        "location":"Al Rams"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Eid Prayer Street",
+        "region":"Alrams",
+        "risk_rate":72.5,
+        "location":"Al Rams"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"INSIDE STREET",
+        "region":"Oraibi",
+        "risk_rate":92.0,
+        "location":"Al Araibi"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Al Ittihad Street ",
+        "region":"Al Dhait ",
+        "risk_rate":44.25,
+        "location":"Al Dhait "
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Al Ittihad Street ",
+        "region":"Al Dhait ",
+        "risk_rate":44.25,
+        "location":"Al Dhait "
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Almataf Street ",
+        "region":"Julphar",
+        "risk_rate":68.5,
+        "location":"Julfar"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Al Hudaiba Street ",
+        "region":"AL HODYBA",
+        "risk_rate":99.25,
+        "location":"Al Hudeeba"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Al Dhait Street",
+        "region":"Khalifa Bin Zayed City",
+        "risk_rate":92.75,
+        "location":"Sheikh Khalifa City"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"INSIDE STREET",
+        "region":"Aljazirah alhamra",
+        "risk_rate":73.75,
+        "location":"Al Jazeera Al Hamra"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Masafi Street",
+        "region":"Masafi",
+        "risk_rate":95.0,
+        "location":"Masafi"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Al Ittihad Street ",
+        "region":"Alrafaea",
+        "risk_rate":80.5,
+        "location":"Al Riffa"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"AL Marina street",
+        "region":"Aljazirah alhamra",
+        "risk_rate":73.75,
+        "location":"Al Jazeera Al Hamra"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Al Ittihad Street ",
+        "region":"Alrafaea",
+        "risk_rate":80.5,
+        "location":"Al Riffa"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Athn Street ",
+        "region":"Udhin",
+        "risk_rate":93.0,
+        "location":"Adhen"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Al Ittihad Street ",
+        "region":"Alrafaea",
+        "risk_rate":80.5,
+        "location":"Al Riffa"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"INSIDE STREET",
+        "region":"Al Dhait ",
+        "risk_rate":44.25,
+        "location":"Al Dhait "
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Sheikh Saqr Bin Muhammad Al Qasimi Street ",
+        "region":"Syh alearibi",
+        "risk_rate":95.5,
+        "location":"Seih Al Araibi"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Al Sharisha Street",
+        "region":"Julphar",
+        "risk_rate":68.5,
+        "location":"Julfar"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Al-Montaser Street",
+        "region":"Alnakeel",
+        "risk_rate":60.5,
+        "location":"Al Nakheel"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"INSIDE STREET",
+        "region":"Al Dhait ",
+        "risk_rate":44.25,
+        "location":"Al Dhait "
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Al Ittihad Street ",
+        "region":"Alrafaea",
+        "risk_rate":80.5,
+        "location":"Al Riffa"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Ghil Street ",
+        "region":"Ghil",
+        "risk_rate":93.0,
+        "location":"Ghayl"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Al Dhait Street",
+        "region":"Khalifa Bin Zayed City",
+        "risk_rate":92.75,
+        "location":"Sheikh Khalifa City"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Al Sharisha Street",
+        "region":"Julphar",
+        "risk_rate":68.5,
+        "location":"Julfar"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Al Ghob Street",
+        "region":"Al-Ghib",
+        "risk_rate":94.0,
+        "location":"Al Ghub"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"INSIDE STREET",
+        "region":"Al Dhait ",
+        "risk_rate":44.25,
+        "location":"Al Dhait "
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Sheikh Mohammed bin Zayed Street",
+        "region":"Alrafaea",
+        "risk_rate":80.5,
+        "location":"Al Riffa"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"INSIDE STREET",
+        "region":"Al Dhait ",
+        "risk_rate":44.25,
+        "location":"Al Dhait "
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Al Ittihad Street ",
+        "region":"Al Dhait ",
+        "risk_rate":44.25,
+        "location":"Al Dhait "
+    },
+    {
+        "name":"Cafeteria",
+        "street":"INSIDE STREET",
+        "region":"AL FAHLAIN",
+        "risk_rate":95.5,
+        "location":"Al Fahlain"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Sidroh Street ",
+        "region":"Ras al-Khaimah",
+        "risk_rate":51.0,
+        "location":"Ras Al-Khaimah"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Al Qawasim Corniche Street ",
+        "region":"Ras al-Khaimah",
+        "risk_rate":51.0,
+        "location":"Ras Al-Khaimah"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Sheikh Mohammed bin Zayed Street",
+        "region":"Alrafaea",
+        "risk_rate":80.5,
+        "location":"Al Riffa"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Ahmed Bin Majid Street Street ",
+        "region":"Al-Mairid ",
+        "risk_rate":79.25,
+        "location":"Al Maireed"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Athn Street ",
+        "region":"Udhin",
+        "risk_rate":93.0,
+        "location":"Adhen"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Al Ittihad Street ",
+        "region":"Aljazirah alhamra",
+        "risk_rate":73.75,
+        "location":"Al Jazeera Al Hamra"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"DHEHAN STREET",
+        "region":"DHEHAN ZONE",
+        "risk_rate":94.25,
+        "location":"Dahan"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Zayed Center Roundabout Street",
+        "region":"Al Dhait ",
+        "risk_rate":44.25,
+        "location":"Al Dhait "
+    },
+    {
+        "name":"Cafeteria",
+        "street":"INSIDE STREET",
+        "region":"Al Dhait ",
+        "risk_rate":44.25,
+        "location":"Al Dhait "
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Al Qawasim Corniche Street ",
+        "region":"CORNISH AL QWASIM",
+        "risk_rate":94.25,
+        "location":"Al Qawasim Corniche - Ras Al Khaimah Cornish"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Sheikh Mohammed bin Zayed Street",
+        "region":"Alrafaea",
+        "risk_rate":80.5,
+        "location":"Al Riffa"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Al Ittihad Street ",
+        "region":"Alrafaea",
+        "risk_rate":80.5,
+        "location":"Al Riffa"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Ahmed Bin Majid Street Street ",
+        "region":"Al-Mairid ",
+        "risk_rate":79.25,
+        "location":"Al Maireed"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Al Sharisha Street",
+        "region":"Julphar",
+        "risk_rate":68.5,
+        "location":"Julfar"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Al Ittihad Street ",
+        "region":"Alrafaea",
+        "risk_rate":80.5,
+        "location":"Al Riffa"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Khuzam Street ",
+        "region":"Khuzam",
+        "risk_rate":93.75,
+        "location":"Khuzam"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Sheikh Rashid Bin Saeed Street",
+        "region":"Saqr Bin Mohammed City",
+        "risk_rate":88.5,
+        "location":"Sheikh Saqr City"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Aljawazat Street ",
+        "region":"Almaemura",
+        "risk_rate":87.25,
+        "location":"Al Mamourah"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Sheikh Rashid Bin Saeed Street",
+        "region":"Saqr Bin Mohammed City",
+        "risk_rate":88.5,
+        "location":"Sheikh Saqr City"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Al Ittihad Street ",
+        "region":"Al Dhait ",
+        "risk_rate":44.25,
+        "location":"Al Dhait "
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Sheikh Muhammad Bin Salem Street ",
+        "region":"Aljazirah alhamra",
+        "risk_rate":73.75,
+        "location":"Al Jazeera Al Hamra"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"AL ABRA SOUQ",
+        "region":"Ras al-Khaimah",
+        "risk_rate":51.0,
+        "location":"Ras Al-Khaimah"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Hosun Street",
+        "region":"Alnakeel",
+        "risk_rate":60.5,
+        "location":"Al Nakheel"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Aljawis Street ",
+        "region":"Alqasidat  ",
+        "risk_rate":79.0,
+        "location":"Al Qussaidat"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Athn Street ",
+        "region":"Udhin",
+        "risk_rate":93.0,
+        "location":"Adhen"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Sheikh Saqr Bin Muhammad Al Qasimi Street ",
+        "region":"Alfiliya",
+        "risk_rate":98.5,
+        "location":"Al Felyyah"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Al Uraibi Street ",
+        "region":"Oraibi",
+        "risk_rate":92.0,
+        "location":"Al Araibi"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Airport Street ",
+        "region":"Al Kharran",
+        "risk_rate":82.75,
+        "location":"Al Kharan"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Al Ittihad Street ",
+        "region":"Al Dhait ",
+        "risk_rate":44.25,
+        "location":"Al Dhait "
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Al-Montaser Street",
+        "region":"Alnakeel",
+        "risk_rate":60.5,
+        "location":"Al Nakheel"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"INSIDE STREET",
+        "region":"Al Dhait ",
+        "risk_rate":44.25,
+        "location":"Al Dhait "
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Sidroh Street ",
+        "region":"Ras al-Khaimah",
+        "risk_rate":51.0,
+        "location":"Ras Al-Khaimah"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Al Rams Club Street",
+        "region":"Alrams",
+        "risk_rate":72.5,
+        "location":"Al Rams"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Sidroh Street ",
+        "region":"Ras al-Khaimah",
+        "risk_rate":51.0,
+        "location":"Ras Al-Khaimah"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Al Ittihad Street ",
+        "region":"Saqr Bin Mohammed City",
+        "risk_rate":88.5,
+        "location":"Sheikh Saqr City"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"INSIDE STREET",
+        "region":"Al Dhait ",
+        "risk_rate":44.25,
+        "location":"Al Dhait "
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Al-Montaser Street",
+        "region":"Alnakeel",
+        "risk_rate":60.5,
+        "location":"Al Nakheel"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Dafta Street",
+        "region":"Dafta",
+        "risk_rate":97.5,
+        "location":"Diftah"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"INSIDE STREET",
+        "region":"AL DHAIT AL JANOOBI",
+        "risk_rate":99.75,
+        "location":"Al Dhait "
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Sheikh Muhammad Bin Salem Street ",
+        "region":"Aljazirah alhamra",
+        "risk_rate":73.75,
+        "location":"Al Jazeera Al Hamra"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Al Ittihad Street ",
+        "region":"Alrafaea",
+        "risk_rate":80.5,
+        "location":"Al Riffa"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Sheikh Rashid Bin Saeed Street",
+        "region":"Al Dhait ",
+        "risk_rate":44.25,
+        "location":"Al Dhait "
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Expo Street",
+        "region":"Alnakeel",
+        "risk_rate":60.5,
+        "location":"Al Nakheel"
+    },
+    {
+        "name":"Cafeteria",
+        "street":null,
+        "region":null,
+        "risk_rate":null,
+        "location":null
+    },
+    {
+        "name":"Cafeteria",
+        "street":"AL QURM",
+        "region":"Alqasidat  ",
+        "risk_rate":79.0,
+        "location":"Al Qussaidat"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Aljawis Street ",
+        "region":"Aljawis",
+        "risk_rate":92.75,
+        "location":"Al Juwais"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Al Ittihad Street ",
+        "region":"Al Dhait ",
+        "risk_rate":44.25,
+        "location":"Al Dhait "
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Sheikh Rashid Bin Saeed Street",
+        "region":"Al Dhait ",
+        "risk_rate":44.25,
+        "location":"Al Dhait "
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Al Rams Corniche Street",
+        "region":"Alrams",
+        "risk_rate":72.5,
+        "location":"Al Rams"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Al Sharisha Street",
+        "region":"Julphar",
+        "risk_rate":68.5,
+        "location":"Julfar"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Airport Street ",
+        "region":"Aldaqdaqa",
+        "risk_rate":89.5,
+        "location":"Al Digdaga"
+    },
+    {
+        "name":"Cafeteria",
+        "street":null,
+        "region":null,
+        "risk_rate":null,
+        "location":null
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Airport Street ",
+        "region":"Al Kharran",
+        "risk_rate":82.75,
+        "location":"Al Kharan"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Ahmed Bin Majid Street Street ",
+        "region":"Al-Mairid ",
+        "risk_rate":79.25,
+        "location":"Al Maireed"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Sheikh Saqr Bin Muhammad Al Qasimi Street ",
+        "region":"Sha&#39;am",
+        "risk_rate":90.25,
+        "location":"Sheikh Saqr City"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Almaemura Street ",
+        "region":"Alnakeel",
+        "risk_rate":60.5,
+        "location":"Al Nakheel"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"DHEHAN STREET",
+        "region":"DHEHAN ZONE",
+        "risk_rate":94.25,
+        "location":"Dahan"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Sheikh Muhammad Bin Salem Street ",
+        "region":"Ras al-Khaimah",
+        "risk_rate":51.0,
+        "location":"Ras Al-Khaimah"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Al-Montaser Street",
+        "region":"Alnakeel",
+        "risk_rate":60.5,
+        "location":"Al Nakheel"
+    },
+    {
+        "name":"Cafeteria",
+        "street":null,
+        "region":null,
+        "risk_rate":null,
+        "location":null
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Sidroh Street ",
+        "region":"Ras al-Khaimah",
+        "risk_rate":51.0,
+        "location":"Ras Al-Khaimah"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Al Ittihad Street ",
+        "region":"Aljazirah alhamra",
+        "risk_rate":73.75,
+        "location":"Al Jazeera Al Hamra"
+    },
+    {
+        "name":"Cafeteria",
+        "street":null,
+        "region":null,
+        "risk_rate":null,
+        "location":null
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Expo Street",
+        "region":"Alnakeel",
+        "risk_rate":60.5,
+        "location":"Al Nakheel"
+    },
+    {
+        "name":"Cafeteria",
+        "street":null,
+        "region":null,
+        "risk_rate":null,
+        "location":null
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Sheikh Saqr Bin Muhammad Al Qasimi Street ",
+        "region":"Alnakeel",
+        "risk_rate":60.5,
+        "location":"Al Nakheel"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"BEHIND THE CINEMA",
+        "region":"Alnakeel",
+        "risk_rate":60.5,
+        "location":"Al Nakheel"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Sheikh Rashid Bin Saeed Street",
+        "region":"Al Kharran",
+        "risk_rate":82.75,
+        "location":"Al Kharan"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Sheikh Muhammad Bin Salem Street ",
+        "region":"Ras al-Khaimah",
+        "risk_rate":51.0,
+        "location":"Ras Al-Khaimah"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Sidroh Street ",
+        "region":"sedro",
+        "risk_rate":96.75,
+        "location":"Sidrow"
+    },
+    {
+        "name":"Cafeteria",
+        "street":null,
+        "region":null,
+        "risk_rate":null,
+        "location":null
+    },
+    {
+        "name":"Cafeteria",
+        "street":"DHEHAN STREET",
+        "region":"DHEHAN ZONE",
+        "risk_rate":94.25,
+        "location":"Dahan"
+    },
+    {
+        "name":"Cafeteria",
+        "street":null,
+        "region":null,
+        "risk_rate":null,
+        "location":null
+    },
+    {
+        "name":"Cafeteria",
+        "street":null,
+        "region":null,
+        "risk_rate":null,
+        "location":null
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Sheikh Muhammad Bin Salem Street ",
+        "region":"Ras al-Khaimah",
+        "risk_rate":51.0,
+        "location":"Ras Al-Khaimah"
+    },
+    {
+        "name":"Cafeteria",
+        "street":null,
+        "region":null,
+        "risk_rate":null,
+        "location":null
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Al Ittihad Street ",
+        "region":"Alrafaea",
+        "risk_rate":80.5,
+        "location":"Al Riffa"
+    },
+    {
+        "name":"Cafeteria",
+        "street":null,
+        "region":null,
+        "risk_rate":null,
+        "location":null
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Sidroh Street ",
+        "region":"sedro",
+        "risk_rate":96.75,
+        "location":"Sidrow"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Al Qawasim Corniche Street ",
+        "region":"CORNISH AL QWASIM",
+        "risk_rate":94.25,
+        "location":"Al Qawasim Corniche - Ras Al Khaimah Cornish"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Al Ittihad Street ",
+        "region":"Alrafaea",
+        "risk_rate":80.5,
+        "location":"Al Riffa"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Athen Street - Internal",
+        "region":null,
+        "risk_rate":null,
+        "location":null
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Hosun Street",
+        "region":"Ras al-Khaimah",
+        "risk_rate":51.0,
+        "location":"Ras Al-Khaimah"
+    },
+    {
+        "name":"Cafeteria",
+        "street":null,
+        "region":null,
+        "risk_rate":null,
+        "location":null
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Sheikh Mohammed bin Zayed Street",
+        "region":"Ghil",
+        "risk_rate":93.0,
+        "location":"Ghayl"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Al Rams Corniche Street",
+        "region":"Alrams",
+        "risk_rate":72.5,
+        "location":"Al Rams"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Expo Street",
+        "region":"Alnakeel",
+        "risk_rate":60.5,
+        "location":"Al Nakheel"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Al-Montaser Street",
+        "region":"Dafan Al Nakheel",
+        "risk_rate":99.25,
+        "location":"Dafan Al Nakheel"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Sheikh Mohammed bin Zayed Street",
+        "region":"Alrafaea",
+        "risk_rate":80.5,
+        "location":"Al Riffa"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Masafi Street",
+        "region":"Masafi",
+        "risk_rate":95.0,
+        "location":"Masafi"
+    },
+    {
+        "name":"Cafeteria",
+        "street":null,
+        "region":null,
+        "risk_rate":null,
+        "location":null
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Al Qawasim Corniche Street ",
+        "region":"CORNISH AL QWASIM",
+        "risk_rate":94.25,
+        "location":"Al Qawasim Corniche - Ras Al Khaimah Cornish"
+    },
+    {
+        "name":"Cafeteria",
+        "street":null,
+        "region":null,
+        "risk_rate":null,
+        "location":null
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Sheikh Rashid Bin Saeed Street",
+        "region":"Al Kharran",
+        "risk_rate":82.75,
+        "location":"Al Kharan"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Al Sharisha Street",
+        "region":"Julphar",
+        "risk_rate":68.5,
+        "location":"Julfar"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Al Ittihad Street ",
+        "region":"Al Dhait ",
+        "risk_rate":44.25,
+        "location":"Al Dhait "
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Al Qawasim Corniche Street ",
+        "region":"CORNISH AL QWASIM",
+        "risk_rate":94.25,
+        "location":"Al Qawasim Corniche - Ras Al Khaimah Cornish"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Sheikh Saqr Bin Muhammad Al Qasimi Street ",
+        "region":"Al-Ghib",
+        "risk_rate":94.0,
+        "location":"Al Ghub"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Sidroh Street ",
+        "region":"sedro",
+        "risk_rate":96.75,
+        "location":"Sidrow"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Al Ittihad Street ",
+        "region":"Al Dhait ",
+        "risk_rate":44.25,
+        "location":"Al Dhait "
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Masafi Street",
+        "region":"Masafi",
+        "risk_rate":95.0,
+        "location":"Masafi"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"DHEHAN STREET",
+        "region":"DHEHAN ZONE",
+        "risk_rate":94.25,
+        "location":"Dahan"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Julphar Street",
+        "region":"Julphar",
+        "risk_rate":68.5,
+        "location":"Julfar"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"INSIDE STREET",
+        "region":"AL FAHLAIN",
+        "risk_rate":95.5,
+        "location":"Al Fahlain"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Khat Street",
+        "region":"Khat",
+        "risk_rate":98.75,
+        "location":"Khatt"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Sheikh Saqr Bin Muhammad Al Qasimi Street ",
+        "region":"Alqasidat  ",
+        "risk_rate":79.0,
+        "location":"Al Qussaidat"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Al Ittihad Street ",
+        "region":"AL NADYA",
+        "risk_rate":98.0,
+        "location":"Al Nadiya"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"INSIDE STREET",
+        "region":"Al Dhait ",
+        "risk_rate":44.25,
+        "location":"Al Dhait "
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Dafta Street",
+        "region":"Dafta",
+        "risk_rate":97.5,
+        "location":"Diftah"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Al Murjan Street",
+        "region":"Aljazirah alhamra",
+        "risk_rate":73.75,
+        "location":"Al Jazeera Al Hamra"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Athen Street - Internal",
+        "region":"Udhin",
+        "risk_rate":93.0,
+        "location":"Adhen"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"INSIDE STREET",
+        "region":"Al Dhait ",
+        "risk_rate":44.25,
+        "location":"Al Dhait "
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Al Ittihad Street ",
+        "region":"Al Dhait ",
+        "risk_rate":44.25,
+        "location":"Al Dhait "
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Masafi Street",
+        "region":"Masafi",
+        "risk_rate":95.0,
+        "location":"Masafi"
+    },
+    {
+        "name":"Cafeteria",
+        "street":null,
+        "region":null,
+        "risk_rate":null,
+        "location":null
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Al Ittihad Street ",
+        "region":"Al Dhait ",
+        "risk_rate":44.25,
+        "location":"Al Dhait "
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Sheikh Saqr Bin Muhammad Al Qasimi Street ",
+        "region":"Sha&#39;am",
+        "risk_rate":90.25,
+        "location":"Sheikh Saqr City"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Al-Montaser Street",
+        "region":"Alnakeel",
+        "risk_rate":60.5,
+        "location":"Al Nakheel"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Sheikh Muhammad Bin Salem Street ",
+        "region":"Ras al-Khaimah",
+        "risk_rate":51.0,
+        "location":"Ras Al-Khaimah"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Al Ittihad Street ",
+        "region":"Alrafaea",
+        "risk_rate":80.5,
+        "location":"Al Riffa"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Sheikh Muhammad Bin Saqr Al Qasimi Street",
+        "region":"Saih al-Ghib",
+        "risk_rate":97.5,
+        "location":"Seih Al Ghub"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"INSIDE STREET",
+        "region":"Al Dhait ",
+        "risk_rate":44.25,
+        "location":"Al Dhait "
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Athn Street ",
+        "region":"Udhin",
+        "risk_rate":93.0,
+        "location":"Adhen"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Al Dhait Street",
+        "region":"Khalifa Bin Zayed City",
+        "risk_rate":92.75,
+        "location":"Sheikh Khalifa City"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Al Ittihad Street ",
+        "region":"Alrafaea",
+        "risk_rate":80.5,
+        "location":"Al Riffa"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Al Ittihad Street ",
+        "region":"Al Dhait ",
+        "risk_rate":44.25,
+        "location":"Al Dhait "
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Athn Street ",
+        "region":"Udhin",
+        "risk_rate":93.0,
+        "location":"Adhen"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Sheikh Saqr Bin Muhammad Al Qasimi Street ",
+        "region":"Alqasidat  ",
+        "risk_rate":79.0,
+        "location":"Al Qussaidat"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Sheikh Muhammad Bin Salem Street ",
+        "region":"Aldifan",
+        "risk_rate":83.0,
+        "location":"Defan Ras Al Khaimah"
+    },
+    {
+        "name":"Cafeteria",
+        "street":null,
+        "region":null,
+        "risk_rate":null,
+        "location":null
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Sheikh Saqr Bin Muhammad Al Qasimi Street ",
+        "region":"Aljawis",
+        "risk_rate":92.75,
+        "location":"Al Juwais"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Sheikh Abdullah Bin Mohammed Al Qasimi Street",
+        "region":"Syh alearibi",
+        "risk_rate":95.5,
+        "location":"Seih Al Araibi"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Sidroh Street ",
+        "region":"Ras al-Khaimah",
+        "risk_rate":51.0,
+        "location":"Ras Al-Khaimah"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Sheikh Muhammad Bin Salem Street ",
+        "region":"Ras al-Khaimah",
+        "risk_rate":51.0,
+        "location":"Ras Al-Khaimah"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Bin Dhaher Street ",
+        "region":"Alnakeel",
+        "risk_rate":60.5,
+        "location":"Al Nakheel"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"DHEHAN STREET",
+        "region":"DHEHAN ZONE",
+        "risk_rate":94.25,
+        "location":"Dahan"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Almataf Street ",
+        "region":"Julphar",
+        "risk_rate":68.5,
+        "location":"Julfar"
+    },
+    {
+        "name":"Cafeteria",
+        "street":null,
+        "region":null,
+        "risk_rate":null,
+        "location":null
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Sheikh Muhammad Bin Salem Street ",
+        "region":"AL NADYA",
+        "risk_rate":98.0,
+        "location":"Al Nadiya"
+    },
+    {
+        "name":"Cafeteria",
+        "street":null,
+        "region":null,
+        "risk_rate":null,
+        "location":null
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Sheikh Rashid Bin Saeed Street",
+        "region":"Al Dhait ",
+        "risk_rate":44.25,
+        "location":"Al Dhait "
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Sheikh Rashid Bin Saeed Street",
+        "region":"Al Dhait ",
+        "risk_rate":44.25,
+        "location":"Al Dhait "
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Sheikh Saqr Bin Muhammad Al Qasimi Street ",
+        "region":"Glilah",
+        "risk_rate":97.0,
+        "location":"Ghalilah"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Sheikh Muhammad Bin Salem Street ",
+        "region":"Ras al-Khaimah",
+        "risk_rate":51.0,
+        "location":"Ras Al-Khaimah"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Al Qawasim Corniche Street ",
+        "region":"Aldifan",
+        "risk_rate":83.0,
+        "location":"Defan Ras Al Khaimah"
+    },
+    {
+        "name":"Cafeteria",
+        "street":null,
+        "region":"Alrafaea",
+        "risk_rate":80.5,
+        "location":"Al Riffa"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Saqr Bin Khalid Street",
+        "region":"Saih al-Ghib",
+        "risk_rate":97.5,
+        "location":"Seih Al Ghub"
+    },
+    {
+        "name":"Cafeteria",
+        "street":null,
+        "region":null,
+        "risk_rate":null,
+        "location":null
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Al Qawasim Corniche Street ",
+        "region":"Aldifan",
+        "risk_rate":83.0,
+        "location":"Defan Ras Al Khaimah"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Al Ittihad Street ",
+        "region":"Al Dhait ",
+        "risk_rate":44.25,
+        "location":"Al Dhait "
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Al Qawasim Corniche Street ",
+        "region":"Ras al-Khaimah",
+        "risk_rate":51.0,
+        "location":"Ras Al-Khaimah"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Al Ittihad Street ",
+        "region":"Al Dhait ",
+        "risk_rate":44.25,
+        "location":"Al Dhait "
+    },
+    {
+        "name":"Cafeteria",
+        "street":"INSIDE STREET",
+        "region":"AL FAHLAIN",
+        "risk_rate":95.5,
+        "location":"Al Fahlain"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Sheikh Mohammed bin Zayed Street",
+        "region":"Ghil",
+        "risk_rate":93.0,
+        "location":"Ghayl"
+    },
+    {
+        "name":"Cafeteria",
+        "street":null,
+        "region":"Ras al-Khaimah",
+        "risk_rate":51.0,
+        "location":"Ras Al-Khaimah"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Al Ittihad Street ",
+        "region":"Alrafaea",
+        "risk_rate":80.5,
+        "location":"Al Riffa"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Al Ittihad Street ",
+        "region":"Aljazirah alhamra",
+        "risk_rate":73.75,
+        "location":"Al Jazeera Al Hamra"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Sheikh Saqr Bin Muhammad Al Qasimi Street ",
+        "region":"Alnakeel",
+        "risk_rate":60.5,
+        "location":"Al Nakheel"
+    },
+    {
+        "name":"Cafeteria",
+        "street":null,
+        "region":"Alqasidat  ",
+        "risk_rate":79.0,
+        "location":"Al Qussaidat"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Al Ittihad Street ",
+        "region":"Alrafaea",
+        "risk_rate":80.5,
+        "location":"Al Riffa"
+    },
+    {
+        "name":"Cafeteria",
+        "street":null,
+        "region":"Khuzam",
+        "risk_rate":93.75,
+        "location":"Khuzam"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Athn Street ",
+        "region":"Udhin",
+        "risk_rate":93.0,
+        "location":"Adhen"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Al Qawasim Corniche Street ",
+        "region":"Aldifan",
+        "risk_rate":83.0,
+        "location":"Defan Ras Al Khaimah"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Sidroh Street ",
+        "region":"Ras al-Khaimah",
+        "risk_rate":51.0,
+        "location":"Ras Al-Khaimah"
+    },
+    {
+        "name":"Cafeteria",
+        "street":null,
+        "region":"Saqr Bin Mohammed City",
+        "risk_rate":88.5,
+        "location":"Sheikh Saqr City"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Hosun Street",
+        "region":"Ras al-Khaimah",
+        "risk_rate":51.0,
+        "location":"Ras Al-Khaimah"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"INSIDE STREET",
+        "region":"Al-Mairid ",
+        "risk_rate":79.25,
+        "location":"Al Maireed"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Al Ittihad Street ",
+        "region":"Al Dhait ",
+        "risk_rate":44.25,
+        "location":"Al Dhait "
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Almataf Street ",
+        "region":"Julphar",
+        "risk_rate":68.5,
+        "location":"Julfar"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Zayed Center Roundabout Street",
+        "region":"Al Dhait ",
+        "risk_rate":44.25,
+        "location":"Al Dhait "
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Sheikh Muhammad Bin Salem Street ",
+        "region":"Ras al-Khaimah",
+        "risk_rate":51.0,
+        "location":"Ras Al-Khaimah"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Sheikh Rashid Bin Saeed Street",
+        "region":"Saqr Bin Mohammed City",
+        "risk_rate":88.5,
+        "location":"Sheikh Saqr City"
+    },
+    {
+        "name":"Cafeteria",
+        "street":null,
+        "region":"Ras al-Khaimah",
+        "risk_rate":51.0,
+        "location":"Ras Al-Khaimah"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Zayed Center Roundabout Street",
+        "region":"Al Dhait ",
+        "risk_rate":44.25,
+        "location":"Al Dhait "
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Sheikh Kayd Bin Muhamad Street ",
+        "region":"Oraibi",
+        "risk_rate":92.0,
+        "location":"Al Araibi"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Vegetables and Fruits Market Street",
+        "region":"Alnakeel",
+        "risk_rate":60.5,
+        "location":"Al Nakheel"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Sheikh Rashid Bin Saeed Street",
+        "region":"Saqr Bin Mohammed City",
+        "risk_rate":88.5,
+        "location":"Sheikh Saqr City"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Sheikh Rashid Bin Saeed Street",
+        "region":"Al Kharran",
+        "risk_rate":82.75,
+        "location":"Al Kharan"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Sheikh Rashid Bin Saeed Street",
+        "region":"Saqr Bin Mohammed City",
+        "risk_rate":88.5,
+        "location":"Sheikh Saqr City"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Sheikh Saqr Bin Muhammad Al Qasimi Street ",
+        "region":"Sha&#39;am",
+        "risk_rate":90.25,
+        "location":"Sheikh Saqr City"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"DHEHAN STREET",
+        "region":"DHEHAN ZONE",
+        "risk_rate":94.25,
+        "location":"Dahan"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Sheikh Rashid Bin Saeed Mosque Street",
+        "region":"Alrams",
+        "risk_rate":72.5,
+        "location":"Al Rams"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Ahmed Bin Majid Street Street ",
+        "region":"Al-Mairid ",
+        "risk_rate":79.25,
+        "location":"Al Maireed"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Airport Street ",
+        "region":"Aldaqdaqa",
+        "risk_rate":89.5,
+        "location":"Al Digdaga"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Eid Prayer Street",
+        "region":"Alrams",
+        "risk_rate":72.5,
+        "location":"Al Rams"
+    },
+    {
+        "name":"Cafeteria",
+        "street":null,
+        "region":"Al Dhait ",
+        "risk_rate":44.25,
+        "location":"Al Dhait "
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Al-Montaser Street",
+        "region":"Almaemura",
+        "risk_rate":87.25,
+        "location":"Al Mamourah"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Wadi Asfni street - Internal",
+        "region":"Wadi Asfni",
+        "risk_rate":99.0,
+        "location":"Wadi Asfani"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Al Ittihad Street ",
+        "region":"Aljazirah alhamra",
+        "risk_rate":73.75,
+        "location":"Al Jazeera Al Hamra"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Al Ittihad Street ",
+        "region":"Al Dhait ",
+        "risk_rate":44.25,
+        "location":"Al Dhait "
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Sheikh Saqr Bin Muhammad Al Qasimi Street ",
+        "region":"Julphar",
+        "risk_rate":68.5,
+        "location":"Julfar"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Al Ittihad Street ",
+        "region":"Al Dhait ",
+        "risk_rate":44.25,
+        "location":"Al Dhait "
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Sidroh Street ",
+        "region":"Ras al-Khaimah",
+        "risk_rate":51.0,
+        "location":"Ras Al-Khaimah"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Sheikh Mohammed bin Zayed Street",
+        "region":"Mazraa",
+        "risk_rate":99.0,
+        "location":"Mazra"
+    },
+    {
+        "name":"Cafeteria",
+        "street":null,
+        "region":null,
+        "risk_rate":null,
+        "location":null
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Sidroh Street ",
+        "region":"Ras al-Khaimah",
+        "risk_rate":51.0,
+        "location":"Ras Al-Khaimah"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Bin Dhaher Street ",
+        "region":"Alnakeel",
+        "risk_rate":60.5,
+        "location":"Al Nakheel"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Al Qawasim Corniche Street ",
+        "region":"Ras al-Khaimah",
+        "risk_rate":51.0,
+        "location":"Ras Al-Khaimah"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Sheikh Rashid Bin Saeed Street",
+        "region":"Al Dhait ",
+        "risk_rate":44.25,
+        "location":"Al Dhait "
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Sheikh Saqr Bin Muhammad Al Qasimi Street ",
+        "region":"Alqasidat  ",
+        "risk_rate":79.0,
+        "location":"Al Qussaidat"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Sheikh Saqr Bin Muhammad Al Qasimi Street ",
+        "region":"Aljawis",
+        "risk_rate":92.75,
+        "location":"Al Juwais"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Sheikh Muhammad Bin Salem Street ",
+        "region":"Aldifan",
+        "risk_rate":83.0,
+        "location":"Defan Ras Al Khaimah"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Shaml Street",
+        "region":"Julphar",
+        "risk_rate":68.5,
+        "location":"Julfar"
+    },
+    {
+        "name":"Cafeteria",
+        "street":null,
+        "region":"Alrafaea",
+        "risk_rate":80.5,
+        "location":"Al Riffa"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Al Qawasim Corniche Street ",
+        "region":"Aldifan",
+        "risk_rate":83.0,
+        "location":"Defan Ras Al Khaimah"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Al-Montaser Street",
+        "region":"Alnakeel",
+        "risk_rate":60.5,
+        "location":"Al Nakheel"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Sheikh Muhammad Bin Salem Street ",
+        "region":"Aldifan",
+        "risk_rate":83.0,
+        "location":"Defan Ras Al Khaimah"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Expo Street",
+        "region":"Alnakeel",
+        "risk_rate":60.5,
+        "location":"Al Nakheel"
+    },
+    {
+        "name":"Cafeteria",
+        "street":null,
+        "region":"Ras al-Khaimah",
+        "risk_rate":51.0,
+        "location":"Ras Al-Khaimah"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Al Ittihad Street ",
+        "region":"Al Dhait ",
+        "risk_rate":44.25,
+        "location":"Al Dhait "
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Sheikh Rashid Bin Saeed Street",
+        "region":"Al Kharran",
+        "risk_rate":82.75,
+        "location":"Al Kharan"
+    },
+    {
+        "name":"Cafeteria",
+        "street":null,
+        "region":null,
+        "risk_rate":null,
+        "location":null
+    },
+    {
+        "name":"Cafeteria",
+        "street":"BEHIND DWAR AL KHURAN",
+        "region":"Al Kharran",
+        "risk_rate":82.75,
+        "location":"Al Kharan"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Aljawis Street ",
+        "region":"Aljawis",
+        "risk_rate":92.75,
+        "location":"Al Juwais"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Al Ittihad Street ",
+        "region":"Al Dhait ",
+        "risk_rate":44.25,
+        "location":"Al Dhait "
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Sheikh Rashid Bin Saeed Street",
+        "region":"Saqr Bin Mohammed City",
+        "risk_rate":88.5,
+        "location":"Sheikh Saqr City"
+    },
+    {
+        "name":"Cafeteria",
+        "street":null,
+        "region":"Al Dhait ",
+        "risk_rate":44.25,
+        "location":"Al Dhait "
+    },
+    {
+        "name":"Cafeteria",
+        "street":null,
+        "region":null,
+        "risk_rate":null,
+        "location":null
+    },
+    {
+        "name":"Cafeteria",
+        "street":null,
+        "region":"Saqr Bin Mohammed City",
+        "risk_rate":88.5,
+        "location":"Sheikh Saqr City"
+    },
+    {
+        "name":"Cafeteria",
+        "street":null,
+        "region":null,
+        "risk_rate":null,
+        "location":null
+    },
+    {
+        "name":"Cafeteria",
+        "street":null,
+        "region":"Aljazirah alhamra",
+        "risk_rate":73.75,
+        "location":"Al Jazeera Al Hamra"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Al Qawasim Corniche Street ",
+        "region":"Ras al-Khaimah",
+        "risk_rate":51.0,
+        "location":"Ras Al-Khaimah"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Sheikh Rashid Bin Saeed Street",
+        "region":"Saqr Bin Mohammed City",
+        "risk_rate":88.5,
+        "location":"Sheikh Saqr City"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Sheikh Rashid Bin Saeed Street",
+        "region":"Al Dhait ",
+        "risk_rate":44.25,
+        "location":"Al Dhait "
+    },
+    {
+        "name":"Cafeteria",
+        "street":null,
+        "region":"Ras al-Khaimah",
+        "risk_rate":51.0,
+        "location":"Ras Al-Khaimah"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Al Qawasim Corniche Street ",
+        "region":"Aldifan",
+        "risk_rate":83.0,
+        "location":"Defan Ras Al Khaimah"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Al Ittihad Street ",
+        "region":"Aljazirah alhamra",
+        "risk_rate":73.75,
+        "location":"Al Jazeera Al Hamra"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Sheikh Saqr Bin Muhammad Al Qasimi Street ",
+        "region":"Alqasidat  ",
+        "risk_rate":79.0,
+        "location":"Al Qussaidat"
+    },
+    {
+        "name":"Cafeteria",
+        "street":null,
+        "region":"Ras al-Khaimah",
+        "risk_rate":51.0,
+        "location":"Ras Al-Khaimah"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"GENERAL STREET",
+        "region":"Ghil",
+        "risk_rate":93.0,
+        "location":"Ghayl"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Airport Street ",
+        "region":"Aldaqdaqa",
+        "risk_rate":89.5,
+        "location":"Al Digdaga"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Al Qawasim Corniche Street ",
+        "region":"Aldifan",
+        "risk_rate":83.0,
+        "location":"Defan Ras Al Khaimah"
+    },
+    {
+        "name":"Cafeteria",
+        "street":null,
+        "region":null,
+        "risk_rate":null,
+        "location":null
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Julphar Street",
+        "region":"Julphar",
+        "risk_rate":68.5,
+        "location":"Julfar"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Eid Prayer Street",
+        "region":"Alrams",
+        "risk_rate":72.5,
+        "location":"Al Rams"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Al Qawasim Corniche Street ",
+        "region":"Aldifan",
+        "risk_rate":83.0,
+        "location":"Defan Ras Al Khaimah"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"INSIDE STREET",
+        "region":"Al-Mairid ",
+        "risk_rate":79.25,
+        "location":"Al Maireed"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Al-Montaser Street",
+        "region":"Aljawis",
+        "risk_rate":92.75,
+        "location":"Al Juwais"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Ahmed Bin Majid Street Street ",
+        "region":"Al-Mairid ",
+        "risk_rate":79.25,
+        "location":"Al Maireed"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Eid Prayer Street",
+        "region":"Alrams",
+        "risk_rate":72.5,
+        "location":"Al Rams"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Jais Street",
+        "region":"Wadi Shehah",
+        "risk_rate":99.0,
+        "location":"Wadi Shehah"
+    },
+    {
+        "name":"Cafeteria",
+        "street":null,
+        "region":"Al Dhait ",
+        "risk_rate":44.25,
+        "location":"Al Dhait "
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Khuzam Street",
+        "region":"Alqasidat  ",
+        "risk_rate":79.0,
+        "location":"Al Qussaidat"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Sheikh Saqr Bin Muhammad Al Qasimi Street ",
+        "region":"Sha&#39;am",
+        "risk_rate":90.25,
+        "location":"Sheikh Saqr City"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Sheikh Muhammad Bin Salem Street ",
+        "region":"Ras al-Khaimah",
+        "risk_rate":51.0,
+        "location":"Ras Al-Khaimah"
+    },
+    {
+        "name":"Cafeteria",
+        "street":null,
+        "region":"Alqasidat  ",
+        "risk_rate":79.0,
+        "location":"Al Qussaidat"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Masafi Street",
+        "region":"Masafi",
+        "risk_rate":95.0,
+        "location":"Masafi"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Al Qawasim Corniche Street ",
+        "region":null,
+        "risk_rate":null,
+        "location":null
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Ahmed Bin Majid Street Street ",
+        "region":"Al-Mairid ",
+        "risk_rate":79.25,
+        "location":"Al Maireed"
+    },
+    {
+        "name":"Cafeteria",
+        "street":null,
+        "region":null,
+        "risk_rate":null,
+        "location":null
+    },
+    {
+        "name":"Cafeteria",
+        "street":null,
+        "region":"Alnakeel",
+        "risk_rate":60.5,
+        "location":"Al Nakheel"
+    },
+    {
+        "name":"Cafeteria",
+        "street":null,
+        "region":null,
+        "risk_rate":null,
+        "location":null
+    },
+    {
+        "name":"Cafeteria",
+        "street":null,
+        "region":"Al Dhait ",
+        "risk_rate":44.25,
+        "location":"Al Dhait "
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Al Ittihad Street ",
+        "region":"Aleurqub",
+        "risk_rate":98.75,
+        "location":"Al Arqoub"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Souq Alnakhil Street",
+        "region":"Alnakeel",
+        "risk_rate":60.5,
+        "location":"Al Nakheel"
+    },
+    {
+        "name":"Cafeteria",
+        "street":null,
+        "region":"Saqr Bin Mohammed City",
+        "risk_rate":88.5,
+        "location":"Sheikh Saqr City"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Sheikh Kayd Bin Muhamad Street ",
+        "region":"Oraibi",
+        "risk_rate":92.0,
+        "location":"Al Araibi"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Bin Dhaher Street ",
+        "region":"Alnakeel",
+        "risk_rate":60.5,
+        "location":"Al Nakheel"
+    },
+    {
+        "name":"Cafeteria",
+        "street":null,
+        "region":null,
+        "risk_rate":null,
+        "location":null
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Asimah Street",
+        "region":"Asimah",
+        "risk_rate":99.0,
+        "location":"Aasmah"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Sheikh Muhammad Bin Salem Street ",
+        "region":"Ras al-Khaimah",
+        "risk_rate":51.0,
+        "location":"Ras Al-Khaimah"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Sheikh Muhammad Bin Salem Street ",
+        "region":"Ras al-Khaimah",
+        "risk_rate":51.0,
+        "location":"Ras Al-Khaimah"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Union Square Street",
+        "region":"Alrams",
+        "risk_rate":72.5,
+        "location":"Al Rams"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"INSIDE STREET",
+        "region":"Al Dhait ",
+        "risk_rate":44.25,
+        "location":"Al Dhait "
+    },
+    {
+        "name":"Cafeteria",
+        "street":null,
+        "region":null,
+        "risk_rate":null,
+        "location":null
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Sheikh Rashid Bin Saeed Street",
+        "region":"Saqr Bin Mohammed City",
+        "risk_rate":88.5,
+        "location":"Sheikh Saqr City"
+    },
+    {
+        "name":"Cafeteria",
+        "street":null,
+        "region":"Aljazirah alhamra",
+        "risk_rate":73.75,
+        "location":"Al Jazeera Al Hamra"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Masafi Street",
+        "region":"Masafi",
+        "risk_rate":95.0,
+        "location":"Masafi"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Sheikh Saqr Bin Muhammad Al Qasimi Street ",
+        "region":"Alqasidat  ",
+        "risk_rate":79.0,
+        "location":"Al Qussaidat"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Al Ittihad Street ",
+        "region":"Al Dhait ",
+        "risk_rate":44.25,
+        "location":"Al Dhait "
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Khuzam Street",
+        "region":"Alqasidat  ",
+        "risk_rate":79.0,
+        "location":"Al Qussaidat"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Hosun Street",
+        "region":"Ras al-Khaimah",
+        "risk_rate":51.0,
+        "location":"Ras Al-Khaimah"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Al Ittihad Street ",
+        "region":"Aljazirah alhamra",
+        "risk_rate":73.75,
+        "location":"Al Jazeera Al Hamra"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Sheikh Rashid Bin Saeed Street",
+        "region":"Saqr Bin Mohammed City",
+        "risk_rate":88.5,
+        "location":"Sheikh Saqr City"
+    },
+    {
+        "name":"Cafeteria",
+        "street":null,
+        "region":"Al Dhait ",
+        "risk_rate":44.25,
+        "location":"Al Dhait "
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Ahmed Bin Majid Street Street ",
+        "region":"Al-Mairid ",
+        "risk_rate":79.25,
+        "location":"Al Maireed"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Al Qawasim Corniche Street ",
+        "region":"Aldifan",
+        "risk_rate":83.0,
+        "location":"Defan Ras Al Khaimah"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Al Ittihad Street ",
+        "region":"Aljazirah alhamra",
+        "risk_rate":73.75,
+        "location":"Al Jazeera Al Hamra"
+    },
+    {
+        "name":"Cafeteria",
+        "street":null,
+        "region":null,
+        "risk_rate":null,
+        "location":null
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Shaam Hospital Street",
+        "region":"Sha&#39;am",
+        "risk_rate":90.25,
+        "location":"Shaam"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Aljawis Street ",
+        "region":"Alqasidat  ",
+        "risk_rate":79.0,
+        "location":"Al Qussaidat"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Sheikh Saqr Bin Muhammad Al Qasimi Street ",
+        "region":"Alqasidat  ",
+        "risk_rate":79.0,
+        "location":"Al Qussaidat"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Sheikh Rashid Bin Saeed Street",
+        "region":"Al Kharran",
+        "risk_rate":82.75,
+        "location":"Al Kharan"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Airport Street ",
+        "region":"Aldaqdaqa",
+        "risk_rate":89.5,
+        "location":"Al Digdaga"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Ghil Street - Internal",
+        "region":"Ghil",
+        "risk_rate":93.0,
+        "location":"Ghayl"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Al Qawasim Corniche Street ",
+        "region":"Ras al-Khaimah",
+        "risk_rate":51.0,
+        "location":"Ras Al-Khaimah"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Sheikh Muhammad Bin Salem Street ",
+        "region":"Aldifan",
+        "risk_rate":83.0,
+        "location":"Defan Ras Al Khaimah"
+    },
+    {
+        "name":"Cafeteria",
+        "street":null,
+        "region":"Ras al-Khaimah",
+        "risk_rate":51.0,
+        "location":"Ras Al-Khaimah"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Khuzam Street",
+        "region":"Khuzam",
+        "risk_rate":93.75,
+        "location":"Khuzam"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"shawka Street",
+        "region":"shawka",
+        "risk_rate":98.75,
+        "location":"Showkah"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Corniche Al Mairid Street",
+        "region":"Al-Mairid ",
+        "risk_rate":79.25,
+        "location":"Al Maireed"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Almataf Street ",
+        "region":"Julphar",
+        "risk_rate":68.5,
+        "location":"Julfar"
+    },
+    {
+        "name":"Cafeteria",
+        "street":null,
+        "region":"Aljazirah alhamra",
+        "risk_rate":73.75,
+        "location":"Al Jazeera Al Hamra"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Shaml Street",
+        "region":"Shaml",
+        "risk_rate":91.5,
+        "location":"Shamal"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Al Qawasim Corniche Street ",
+        "region":"CORNISH AL QWASIM",
+        "risk_rate":94.25,
+        "location":"Al Qawasim Corniche - Ras Al Khaimah Cornish"
+    },
+    {
+        "name":"Cafeteria",
+        "street":null,
+        "region":"Aljazirah alhamra",
+        "risk_rate":73.75,
+        "location":"Al Jazeera Al Hamra"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Al Ittihad Street ",
+        "region":"Al Dhait ",
+        "risk_rate":44.25,
+        "location":"Al Dhait "
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Sheikh Kayd Bin Muhamad Street ",
+        "region":"Oraibi",
+        "risk_rate":92.0,
+        "location":"Al Araibi"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Almataf Street ",
+        "region":"Julphar",
+        "risk_rate":68.5,
+        "location":"Julfar"
+    },
+    {
+        "name":"Cafeteria",
+        "street":null,
+        "region":"DHEHAN ZONE",
+        "risk_rate":94.25,
+        "location":"Dahan"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Al Uraibi Street ",
+        "region":"Alnakeel",
+        "risk_rate":60.5,
+        "location":"Al Nakheel"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"shawka Street",
+        "region":"shawka",
+        "risk_rate":98.75,
+        "location":"Showkah"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Sidroh Street ",
+        "region":"Ras al-Khaimah",
+        "risk_rate":51.0,
+        "location":"Ras Al-Khaimah"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Sheikh Rashid Bin Saeed Street",
+        "region":"Saqr Bin Mohammed City",
+        "risk_rate":88.5,
+        "location":"Sheikh Saqr City"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Ahmed Bin Majid Street Street ",
+        "region":"Al-Mairid ",
+        "risk_rate":79.25,
+        "location":"Al Maireed"
+    },
+    {
+        "name":"Cafeteria",
+        "street":null,
+        "region":"Al Dhait ",
+        "risk_rate":44.25,
+        "location":"Al Dhait "
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Al Sharisha Street",
+        "region":"Julphar",
+        "risk_rate":68.5,
+        "location":"Julfar"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Sheikh Saqr Bin Muhammad Al Qasimi Street ",
+        "region":"Alnakeel",
+        "risk_rate":60.5,
+        "location":"Al Nakheel"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Sheikh Saqr Bin Muhammad Al Qasimi Street ",
+        "region":"Alnakeel",
+        "risk_rate":60.5,
+        "location":"Al Nakheel"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Sheikh Muhammad Bin Salem Street ",
+        "region":"Ras al-Khaimah",
+        "risk_rate":51.0,
+        "location":"Ras Al-Khaimah"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Shabiya Rashid Street",
+        "region":"Alrams",
+        "risk_rate":72.5,
+        "location":"Al Rams"
+    },
+    {
+        "name":"Cafeteria",
+        "street":null,
+        "region":"Ras al-Khaimah",
+        "risk_rate":51.0,
+        "location":"Ras Al-Khaimah"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Sheikh Rashid Bin Saeed Street",
+        "region":"Al Kharran",
+        "risk_rate":82.75,
+        "location":"Al Kharan"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Al Dhait Street",
+        "region":"Khalifa Bin Zayed City",
+        "risk_rate":92.75,
+        "location":"Sheikh Khalifa City"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"GENERAL STREET",
+        "region":"Almaemura",
+        "risk_rate":87.25,
+        "location":"Al Mamourah"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Almataf Street ",
+        "region":"Julphar",
+        "risk_rate":68.5,
+        "location":"Julfar"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Union Square Street",
+        "region":"Alrams",
+        "risk_rate":72.5,
+        "location":"Al Rams"
+    },
+    {
+        "name":"Cafeteria",
+        "street":null,
+        "region":null,
+        "risk_rate":null,
+        "location":null
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Bin Dhaher Street ",
+        "region":"Alnakeel",
+        "risk_rate":60.5,
+        "location":"Al Nakheel"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Al Qawasim Corniche Street ",
+        "region":"Aldifan",
+        "risk_rate":83.0,
+        "location":"Defan Ras Al Khaimah"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Almaemura Street ",
+        "region":"Almaemura",
+        "risk_rate":87.25,
+        "location":"Al Mamourah"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"AL QURM",
+        "region":"Alqasidat  ",
+        "risk_rate":79.0,
+        "location":"Al Qussaidat"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Almataf Street ",
+        "region":"Julphar",
+        "risk_rate":68.5,
+        "location":"Julfar"
+    },
+    {
+        "name":"Cafeteria",
+        "street":null,
+        "region":"Alqasidat  ",
+        "risk_rate":79.0,
+        "location":"Al Qussaidat"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Al Ittihad Street ",
+        "region":"Aljazirah alhamra",
+        "risk_rate":73.75,
+        "location":"Al Jazeera Al Hamra"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Al Ittihad Street ",
+        "region":"Al Dhait ",
+        "risk_rate":44.25,
+        "location":"Al Dhait "
+    },
+    {
+        "name":"Cafeteria",
+        "street":null,
+        "region":null,
+        "risk_rate":null,
+        "location":null
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Sheikh Rashid Bin Saeed Street",
+        "region":"Al Dhait ",
+        "risk_rate":44.25,
+        "location":"Al Dhait "
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Rakz Street",
+        "region":"Aljazirah alhamra",
+        "risk_rate":73.75,
+        "location":"Al Jazeera Al Hamra"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Sheikh Muhammad Bin Salem Street ",
+        "region":"Ras al-Khaimah",
+        "risk_rate":51.0,
+        "location":"Ras Al-Khaimah"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"LABOUR STREET",
+        "region":"Aldifan",
+        "risk_rate":83.0,
+        "location":"Defan Ras Al Khaimah"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Al Ittihad Street ",
+        "region":"Aljazirah alhamra",
+        "risk_rate":73.75,
+        "location":"Al Jazeera Al Hamra"
+    },
+    {
+        "name":"Cafeteria",
+        "street":null,
+        "region":"Ras al-Khaimah",
+        "risk_rate":51.0,
+        "location":"Ras Al-Khaimah"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Sheikh Saqr Bin Muhammad Al Qasimi Street ",
+        "region":"Alnakeel",
+        "risk_rate":60.5,
+        "location":"Al Nakheel"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Al Ghob Street",
+        "region":"Al-Ghib",
+        "risk_rate":94.0,
+        "location":"Al Ghub"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Airport Street ",
+        "region":"SOHILA",
+        "risk_rate":98.75,
+        "location":"Suhailah"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Al Ittihad Street ",
+        "region":"Al Dhait ",
+        "risk_rate":44.25,
+        "location":"Al Dhait "
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Eid Prayer Street",
+        "region":"Alrams",
+        "risk_rate":72.5,
+        "location":"Al Rams"
+    },
+    {
+        "name":"Cafeteria",
+        "street":null,
+        "region":null,
+        "risk_rate":null,
+        "location":null
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Al Ittihad Street ",
+        "region":"Al Dhait ",
+        "risk_rate":44.25,
+        "location":"Al Dhait "
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Sheikh Rashid Bin Saeed Street",
+        "region":"Al Dhait ",
+        "risk_rate":44.25,
+        "location":"Al Dhait "
+    },
+    {
+        "name":"Cafeteria",
+        "street":null,
+        "region":null,
+        "risk_rate":null,
+        "location":null
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Aljawis Street ",
+        "region":"Alqasidat  ",
+        "risk_rate":79.0,
+        "location":"Al Qussaidat"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Saqr Bin Khalid Street",
+        "region":"Saih al-Ghib",
+        "risk_rate":97.5,
+        "location":"Seih Al Ghub"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Al-Montaser Street",
+        "region":"Alnakeel",
+        "risk_rate":60.5,
+        "location":"Al Nakheel"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Souq Alnakhil Street",
+        "region":"Alnakeel",
+        "risk_rate":60.5,
+        "location":"Al Nakheel"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Sidroh Street ",
+        "region":"Ras al-Khaimah",
+        "risk_rate":51.0,
+        "location":"Ras Al-Khaimah"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Sheikh Saqr Bin Muhammad Al Qasimi Street ",
+        "region":"Shaml",
+        "risk_rate":91.5,
+        "location":"Shamal"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Sheikh Saqr Bin Muhammad Al Qasimi Street ",
+        "region":"Alnakeel",
+        "risk_rate":60.5,
+        "location":"Al Nakheel"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Sheikh Muhammad Bin Salem Street ",
+        "region":"Aldifan",
+        "risk_rate":83.0,
+        "location":"Defan Ras Al Khaimah"
+    },
+    {
+        "name":"Cafeteria",
+        "street":null,
+        "region":"AL DHAIT AL SHMALI",
+        "risk_rate":98.25,
+        "location":"Al Dhait "
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Sheikh Muhammad Bin Salem Street ",
+        "region":"Ras al-Khaimah",
+        "risk_rate":51.0,
+        "location":"Ras Al-Khaimah"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Al Ittihad Street ",
+        "region":"Aljazirah alhamra",
+        "risk_rate":73.75,
+        "location":"Al Jazeera Al Hamra"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Shaml Street",
+        "region":"Shaml",
+        "risk_rate":91.5,
+        "location":"Shamal"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Almataf Street ",
+        "region":"Julphar",
+        "risk_rate":68.5,
+        "location":"Julfar"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Airport Street ",
+        "region":"Aldaqdaqa",
+        "risk_rate":89.5,
+        "location":"Al Digdaga"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Al Ittihad Street ",
+        "region":"Aljazirah alhamra",
+        "risk_rate":73.75,
+        "location":"Al Jazeera Al Hamra"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Sultan Alkabir Street West ",
+        "region":"Syh alearibi",
+        "risk_rate":95.5,
+        "location":"Seih Al Araibi"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Shaml Street",
+        "region":"Shaml",
+        "risk_rate":91.5,
+        "location":"Shamal"
+    },
+    {
+        "name":"Cafeteria",
+        "street":null,
+        "region":null,
+        "risk_rate":null,
+        "location":null
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Eid Prayer Street",
+        "region":"Alrams",
+        "risk_rate":72.5,
+        "location":"Al Rams"
+    },
+    {
+        "name":"Cafeteria",
+        "street":null,
+        "region":null,
+        "risk_rate":null,
+        "location":null
+    },
+    {
+        "name":"Cafeteria",
+        "street":null,
+        "region":null,
+        "risk_rate":null,
+        "location":null
+    },
+    {
+        "name":"Cafeteria",
+        "street":null,
+        "region":"Ras al-Khaimah",
+        "risk_rate":51.0,
+        "location":"Ras Al-Khaimah"
+    },
+    {
+        "name":"Cafeteria",
+        "street":null,
+        "region":null,
+        "risk_rate":null,
+        "location":null
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Julphar Street",
+        "region":"Julphar",
+        "risk_rate":68.5,
+        "location":"Julfar"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"BEHIND DWAR AL KHURAN",
+        "region":"Al Kharran",
+        "risk_rate":82.75,
+        "location":"Al Kharan"
+    },
+    {
+        "name":"Cafeteria",
+        "street":null,
+        "region":"Ghil",
+        "risk_rate":93.0,
+        "location":"Ghayl"
+    },
+    {
+        "name":"Cafeteria",
+        "street":null,
+        "region":null,
+        "risk_rate":null,
+        "location":null
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Zayed Center Roundabout Street",
+        "region":"Al Dhait ",
+        "risk_rate":44.25,
+        "location":"Al Dhait "
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Al Ittihad Street ",
+        "region":"Aljazirah alhamra",
+        "risk_rate":73.75,
+        "location":"Al Jazeera Al Hamra"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Sheikh Salem Bin Sultan Street ",
+        "region":"Almaemura",
+        "risk_rate":87.25,
+        "location":"Al Mamourah"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Expo Street",
+        "region":"Alnakeel",
+        "risk_rate":60.5,
+        "location":"Al Nakheel"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"AL ABRA SOUQ",
+        "region":"Ras al-Khaimah",
+        "risk_rate":51.0,
+        "location":"Ras Al-Khaimah"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Sheikh Muhammad Bin Salem Street ",
+        "region":"Ras al-Khaimah",
+        "risk_rate":51.0,
+        "location":"Ras Al-Khaimah"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Julphar Street",
+        "region":"Julphar",
+        "risk_rate":68.5,
+        "location":"Julfar"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Al Qawasim Corniche Street ",
+        "region":"Aldifan",
+        "risk_rate":83.0,
+        "location":"Defan Ras Al Khaimah"
+    },
+    {
+        "name":"Cafeteria",
+        "street":null,
+        "region":"Aldaqdaqa",
+        "risk_rate":89.5,
+        "location":"Al Digdaga"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Flamngo Street  ",
+        "region":"Aleurqub",
+        "risk_rate":98.75,
+        "location":"Al Arqoub"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Sultan Alkabir Street West ",
+        "region":"Alqasidat  ",
+        "risk_rate":79.0,
+        "location":"Al Qussaidat"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Eid Prayer Street",
+        "region":"Alrams",
+        "risk_rate":72.5,
+        "location":"Al Rams"
+    },
+    {
+        "name":"Cafeteria",
+        "street":null,
+        "region":"Udhin",
+        "risk_rate":93.0,
+        "location":"Adhen"
+    },
+    {
+        "name":"Cafeteria",
+        "street":null,
+        "region":"Aldaqdaqa",
+        "risk_rate":89.5,
+        "location":"Al Digdaga"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Airport Street ",
+        "region":"Aldaqdaqa",
+        "risk_rate":89.5,
+        "location":"Al Digdaga"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Sheikh Muhammad Bin Salem Street ",
+        "region":"Ras al-Khaimah",
+        "risk_rate":51.0,
+        "location":"Ras Al-Khaimah"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Sheikh Muhammad Bin Salem Street ",
+        "region":"Aljazirah alhamra",
+        "risk_rate":73.75,
+        "location":"Al Jazeera Al Hamra"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Sheikh Saqr Bin Muhammad Al Qasimi Street ",
+        "region":"Alnakeel",
+        "risk_rate":60.5,
+        "location":"Al Nakheel"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Shaml Street",
+        "region":"Shaml",
+        "risk_rate":91.5,
+        "location":"Shamal"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Sheikh Rashid Bin Saeed Street",
+        "region":"Al Kharran",
+        "risk_rate":82.75,
+        "location":"Al Kharan"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Ahmed Bin Majid Street Street ",
+        "region":"Al-Mairid ",
+        "risk_rate":79.25,
+        "location":"Al Maireed"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Sheikh Kayd Bin Muhamad Street ",
+        "region":"Oraibi",
+        "risk_rate":92.0,
+        "location":"Al Araibi"
+    },
+    {
+        "name":"Cafeteria",
+        "street":null,
+        "region":"Ras al-Khaimah",
+        "risk_rate":51.0,
+        "location":"Ras Al-Khaimah"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Almaemura Street ",
+        "region":"Almaemura",
+        "risk_rate":87.25,
+        "location":"Al Mamourah"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Al Qawasim Corniche Street ",
+        "region":"CORNISH AL QWASIM",
+        "risk_rate":94.25,
+        "location":"Al Qawasim Corniche - Ras Al Khaimah Cornish"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Ahmed Bin Majid Street Street ",
+        "region":"Al-Mairid ",
+        "risk_rate":79.25,
+        "location":"Al Maireed"
+    },
+    {
+        "name":"Cafeteria",
+        "street":null,
+        "region":null,
+        "risk_rate":null,
+        "location":null
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Khuzam Street",
+        "region":"Alqasidat  ",
+        "risk_rate":79.0,
+        "location":"Al Qussaidat"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Khuzam Street",
+        "region":"Alqasidat  ",
+        "risk_rate":79.0,
+        "location":"Al Qussaidat"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"AL QURM",
+        "region":"Alqasidat  ",
+        "risk_rate":79.0,
+        "location":"Al Qussaidat"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Expo Street",
+        "region":"Alnakeel",
+        "risk_rate":60.5,
+        "location":"Al Nakheel"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Sidroh Street ",
+        "region":"Ras al-Khaimah",
+        "risk_rate":51.0,
+        "location":"Ras Al-Khaimah"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Sheikh Saqr Bin Muhammad Al Qasimi Street ",
+        "region":"Daih",
+        "risk_rate":98.0,
+        "location":"Dhayah"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"GENERAL STREET",
+        "region":"Alqasidat  ",
+        "risk_rate":79.0,
+        "location":"Al Qussaidat"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Vegetables and Fruits Market Street",
+        "region":"Alnakeel",
+        "risk_rate":60.5,
+        "location":"Al Nakheel"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"SECRAB STREET",
+        "region":"Al-Ghib",
+        "risk_rate":94.0,
+        "location":"Al Ghub"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Almataf Street ",
+        "region":"Julphar",
+        "risk_rate":68.5,
+        "location":"Julfar"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Union Square Street",
+        "region":"Alrams",
+        "risk_rate":72.5,
+        "location":"Al Rams"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Sheikh Salem Bin Sultan Street ",
+        "region":"Almaemura",
+        "risk_rate":87.25,
+        "location":"Al Mamourah"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Al Ghob Street",
+        "region":"Al-Ghib",
+        "risk_rate":94.0,
+        "location":"Al Ghub"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Khuzam Street ",
+        "region":"Khuzam",
+        "risk_rate":93.75,
+        "location":"Khuzam"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Aljawis Street ",
+        "region":"Aljawis",
+        "risk_rate":92.75,
+        "location":"Al Juwais"
+    },
+    {
+        "name":"Cafeteria",
+        "street":null,
+        "region":"Aljazirah alhamra",
+        "risk_rate":73.75,
+        "location":"Al Jazeera Al Hamra"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Almaemura Street ",
+        "region":"Almaemura",
+        "risk_rate":87.25,
+        "location":"Al Mamourah"
+    },
+    {
+        "name":"Cafeteria",
+        "street":null,
+        "region":null,
+        "risk_rate":null,
+        "location":null
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Shaml Street",
+        "region":"Shaml",
+        "risk_rate":91.5,
+        "location":"Shamal"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Al-Montaser Street",
+        "region":"Alnakeel",
+        "risk_rate":60.5,
+        "location":"Al Nakheel"
+    },
+    {
+        "name":"Cafeteria",
+        "street":null,
+        "region":null,
+        "risk_rate":null,
+        "location":null
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Shaam Hospital Street",
+        "region":"Sha&#39;am",
+        "risk_rate":90.25,
+        "location":"Shaam"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Ahmed Bin Majid Street Street ",
+        "region":"Al-Mairid ",
+        "risk_rate":79.25,
+        "location":"Al Maireed"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Bin Dhaher Street ",
+        "region":"Alnakeel",
+        "risk_rate":60.5,
+        "location":"Al Nakheel"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Almaemura Street ",
+        "region":"Alnakeel",
+        "risk_rate":60.5,
+        "location":"Al Nakheel"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Al Ittihad Street ",
+        "region":"Alrafaea",
+        "risk_rate":80.5,
+        "location":"Al Riffa"
+    },
+    {
+        "name":"Cafeteria",
+        "street":null,
+        "region":null,
+        "risk_rate":null,
+        "location":null
+    },
+    {
+        "name":"Cafeteria",
+        "street":"GENERAL STREET",
+        "region":"Ghil",
+        "risk_rate":93.0,
+        "location":"Ghayl"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Al-Montaser Street",
+        "region":"Alnakeel",
+        "risk_rate":60.5,
+        "location":"Al Nakheel"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Eid Prayer Street",
+        "region":"Alrams",
+        "risk_rate":72.5,
+        "location":"Al Rams"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Sheikh Abdullah Bin Mohammed Al Qasimi Street",
+        "region":"Syh alearibi",
+        "risk_rate":95.5,
+        "location":"Seih Al Araibi"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Al Ittihad Street ",
+        "region":"Al Dhait ",
+        "risk_rate":44.25,
+        "location":"Al Dhait "
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Al Ghob Street",
+        "region":"Al-Ghib",
+        "risk_rate":94.0,
+        "location":"Al Ghub"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Shabiya Rashid Street",
+        "region":"Alrams",
+        "risk_rate":72.5,
+        "location":"Al Rams"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Sheikh Muhammad Bin Salem Street ",
+        "region":"Ras al-Khaimah",
+        "risk_rate":51.0,
+        "location":"Ras Al-Khaimah"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Dafta Street",
+        "region":"Dafta",
+        "risk_rate":97.5,
+        "location":"Diftah"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Ahmed Bin Majid Street Street ",
+        "region":"Al-Mairid ",
+        "risk_rate":79.25,
+        "location":"Al Maireed"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Almataf Street ",
+        "region":"Julphar",
+        "risk_rate":68.5,
+        "location":"Julfar"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Sultan Alkabir Street West ",
+        "region":"Syh alqasidat",
+        "risk_rate":99.0,
+        "location":"Seih Al Qusaidat"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Al-Munayi Street",
+        "region":"Al-Munayi",
+        "risk_rate":99.0,
+        "location":"Al Muniai"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Al Ittihad Street ",
+        "region":"Aljazirah alhamra",
+        "risk_rate":73.75,
+        "location":"Al Jazeera Al Hamra"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Ahmed Bin Majid Street Street ",
+        "region":"Al-Mairid ",
+        "risk_rate":79.25,
+        "location":"Al Maireed"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Al Ittihad Street ",
+        "region":"Aljazirah alhamra",
+        "risk_rate":73.75,
+        "location":"Al Jazeera Al Hamra"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Sheikh Saqr Bin Muhammad Al Qasimi Street ",
+        "region":"Khor Khuwair",
+        "risk_rate":98.25,
+        "location":"Khor Khwair"
+    },
+    {
+        "name":"Cafeteria",
+        "street":null,
+        "region":"Ras al-Khaimah",
+        "risk_rate":51.0,
+        "location":"Ras Al-Khaimah"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Eid Prayer Street",
+        "region":"Alrams",
+        "risk_rate":72.5,
+        "location":"Al Rams"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Sheikh Saqr Bin Muhammad Al Qasimi Street ",
+        "region":"Sha&#39;am",
+        "risk_rate":90.25,
+        "location":"Sheikh Saqr City"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"GENERAL STREET",
+        "region":"Julphar",
+        "risk_rate":68.5,
+        "location":"Julfar"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Ghil Street - Internal",
+        "region":"Ghil",
+        "risk_rate":93.0,
+        "location":"Ghayl"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Sheikh Rashid Bin Saeed Street",
+        "region":"Al Dhait ",
+        "risk_rate":44.25,
+        "location":"Al Dhait "
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Sheikh Muhammad Bin Salem Street ",
+        "region":"Ras al-Khaimah",
+        "risk_rate":51.0,
+        "location":"Ras Al-Khaimah"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Sheikh Rashid Bin Saeed Street",
+        "region":"Saqr Bin Mohammed City",
+        "risk_rate":88.5,
+        "location":"Sheikh Saqr City"
+    },
+    {
+        "name":"Cafeteria",
+        "street":null,
+        "region":"Al Dhait ",
+        "risk_rate":44.25,
+        "location":"Al Dhait "
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Al Qawasim Corniche Street ",
+        "region":"Aldifan",
+        "risk_rate":83.0,
+        "location":"Defan Ras Al Khaimah"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Al Uraibi Street ",
+        "region":"Alnakeel",
+        "risk_rate":60.5,
+        "location":"Al Nakheel"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Julphar Street",
+        "region":"Julphar",
+        "risk_rate":68.5,
+        "location":"Julfar"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Zayed Center Roundabout Street",
+        "region":"Al Dhait ",
+        "risk_rate":44.25,
+        "location":"Al Dhait "
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Al-Montaser Street",
+        "region":"Alnakeel",
+        "risk_rate":60.5,
+        "location":"Al Nakheel"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"AL Jazaa Street",
+        "region":"Alnakeel",
+        "risk_rate":60.5,
+        "location":"Al Nakheel"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Sheikh Saqr Bin Muhammad Al Qasimi Street ",
+        "region":"Alnakeel",
+        "risk_rate":60.5,
+        "location":"Al Nakheel"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Khuzam Street ",
+        "region":"Khuzam",
+        "risk_rate":93.75,
+        "location":"Khuzam"
+    },
+    {
+        "name":"Cafeteria",
+        "street":null,
+        "region":null,
+        "risk_rate":null,
+        "location":null
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Eid Prayer Street",
+        "region":"Alrams",
+        "risk_rate":72.5,
+        "location":"Al Rams"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"INSIDE STREET",
+        "region":"AL FAHLAIN",
+        "risk_rate":95.5,
+        "location":"Al Fahlain"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Khuzam Street ",
+        "region":"Khuzam",
+        "risk_rate":93.75,
+        "location":"Khuzam"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Al Hudaiba Street ",
+        "region":"Alnakeel",
+        "risk_rate":60.5,
+        "location":"Al Nakheel"
+    },
+    {
+        "name":"Cafeteria",
+        "street":null,
+        "region":"Ras al-Khaimah",
+        "risk_rate":51.0,
+        "location":"Ras Al-Khaimah"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"GENERAL STREET",
+        "region":"Julphar",
+        "risk_rate":68.5,
+        "location":"Julfar"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Sheikh Saqr Bin Muhammad Al Qasimi Street ",
+        "region":"Daih",
+        "risk_rate":98.0,
+        "location":"Dhayah"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Al Ittihad Street ",
+        "region":"Al Dhait ",
+        "risk_rate":44.25,
+        "location":"Al Dhait "
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Sheikh Saqr Bin Muhammad Al Qasimi Street ",
+        "region":"Sha&#39;am",
+        "risk_rate":90.25,
+        "location":"Sheikh Saqr City"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Ahmed Bin Majid Street Street ",
+        "region":"Al-Mairid ",
+        "risk_rate":79.25,
+        "location":"Al Maireed"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Sheikh Muhammad Bin Salem Street ",
+        "region":"Ras al-Khaimah",
+        "risk_rate":51.0,
+        "location":"Ras Al-Khaimah"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Al Qawasim Corniche Street ",
+        "region":"Ras al-Khaimah",
+        "risk_rate":51.0,
+        "location":"Ras Al-Khaimah"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Sheikh Rashid Bin Saeed Street",
+        "region":"Al Kharran",
+        "risk_rate":82.75,
+        "location":"Al Kharan"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Al Uraibi Street ",
+        "region":"Oraibi",
+        "risk_rate":92.0,
+        "location":"Al Araibi"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Julphar Street",
+        "region":"Julphar",
+        "risk_rate":68.5,
+        "location":"Julfar"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Julphar Street",
+        "region":"Julphar",
+        "risk_rate":68.5,
+        "location":"Julfar"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Ahmed Bin Majid Street Street ",
+        "region":"Al-Mairid ",
+        "risk_rate":79.25,
+        "location":"Al Maireed"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Sheikh Muhammad Bin Salem Street ",
+        "region":"Ras al-Khaimah",
+        "risk_rate":51.0,
+        "location":"Ras Al-Khaimah"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Airport Street ",
+        "region":"Al Kharran",
+        "risk_rate":82.75,
+        "location":"Al Kharan"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Al-Huwailat Street - Internal",
+        "region":"Al-Huwailat",
+        "risk_rate":99.0,
+        "location":"Al Huwailat"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Sheikh Kayd Bin Muhamad Street ",
+        "region":"Oraibi",
+        "risk_rate":92.0,
+        "location":"Al Araibi"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Aljawazat Street ",
+        "region":"Almaemura",
+        "risk_rate":87.25,
+        "location":"Al Mamourah"
+    },
+    {
+        "name":"Cafeteria",
+        "street":null,
+        "region":"Ras al-Khaimah",
+        "risk_rate":51.0,
+        "location":"Ras Al-Khaimah"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Sheikh Saqr Bin Muhammad Al Qasimi Street ",
+        "region":"Alnakeel",
+        "risk_rate":60.5,
+        "location":"Al Nakheel"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Shaam Hospital Street",
+        "region":"Sha&#39;am",
+        "risk_rate":90.25,
+        "location":"Shaam"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Al Ghob Street",
+        "region":"Al-Ghib",
+        "risk_rate":94.0,
+        "location":"Al Ghub"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Eid Prayer Street",
+        "region":"Alrams",
+        "risk_rate":72.5,
+        "location":"Al Rams"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Sheikh Rashid Bin Saeed Street",
+        "region":"Al Kharran",
+        "risk_rate":82.75,
+        "location":"Al Kharan"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Aljawazat Street ",
+        "region":"Almaemura",
+        "risk_rate":87.25,
+        "location":"Al Mamourah"
+    },
+    {
+        "name":"Cafeteria",
+        "street":null,
+        "region":"Aldifan",
+        "risk_rate":83.0,
+        "location":"Defan Ras Al Khaimah"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Airport Street ",
+        "region":"Al Kharran",
+        "risk_rate":82.75,
+        "location":"Al Kharan"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Alsawan Street",
+        "region":"Alsawan",
+        "risk_rate":98.0,
+        "location":"Al Sewaan"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Alsawan Street",
+        "region":"Alsawan",
+        "risk_rate":98.0,
+        "location":"Al Sewaan"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Almaemura Street ",
+        "region":"Alnakeel",
+        "risk_rate":60.5,
+        "location":"Al Nakheel"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Airport Street ",
+        "region":"Aldaqdaqa",
+        "risk_rate":89.5,
+        "location":"Al Digdaga"
+    },
+    {
+        "name":"Cafeteria",
+        "street":null,
+        "region":null,
+        "risk_rate":null,
+        "location":null
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Shaml Street",
+        "region":"Shaml",
+        "risk_rate":91.5,
+        "location":"Shamal"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"GENERAL STREET",
+        "region":"Sha&#39;am",
+        "risk_rate":90.25,
+        "location":"Sheikh Saqr City"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Airport Street ",
+        "region":"Al Kharran",
+        "risk_rate":82.75,
+        "location":"Al Kharan"
+    },
+    {
+        "name":"Cafeteria",
+        "street":null,
+        "region":"Alrams",
+        "risk_rate":72.5,
+        "location":"Al Rams"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Sheikh Rashid Bin Saeed Street",
+        "region":"Al Dhait ",
+        "risk_rate":44.25,
+        "location":"Al Dhait "
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Ahmed Bin Majid Street Street ",
+        "region":"Al-Mairid ",
+        "risk_rate":79.25,
+        "location":"Al Maireed"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Sheikh Rashid Bin Saeed Street",
+        "region":"Al Kharran",
+        "risk_rate":82.75,
+        "location":"Al Kharan"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Al Sabkha Street",
+        "region":"Aldifan",
+        "risk_rate":83.0,
+        "location":"Defan Ras Al Khaimah"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Sheikh Muhammad Bin Salem Street ",
+        "region":"Aldifan",
+        "risk_rate":83.0,
+        "location":"Defan Ras Al Khaimah"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Sheikh Saqr Bin Muhammad Al Qasimi Street ",
+        "region":"Alqasidat  ",
+        "risk_rate":79.0,
+        "location":"Al Qussaidat"
+    },
+    {
+        "name":"Cafeteria",
+        "street":null,
+        "region":null,
+        "risk_rate":null,
+        "location":null
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Shabiya Rashid Street",
+        "region":"Alrams",
+        "risk_rate":72.5,
+        "location":"Al Rams"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Eid Prayer Street",
+        "region":"Alrams",
+        "risk_rate":72.5,
+        "location":"Al Rams"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Souq Alnakhil Street",
+        "region":"Alnakeel",
+        "risk_rate":60.5,
+        "location":"Al Nakheel"
+    },
+    {
+        "name":"Cafeteria",
+        "street":null,
+        "region":null,
+        "risk_rate":null,
+        "location":null
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Union Square Street",
+        "region":"Alrams",
+        "risk_rate":72.5,
+        "location":"Al Rams"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Shaml Street",
+        "region":"Shaml",
+        "risk_rate":91.5,
+        "location":"Shamal"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Sheikh Salem Bin Sultan Street ",
+        "region":"Almaemura",
+        "risk_rate":87.25,
+        "location":"Al Mamourah"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Sheikh Saqr Bin Muhammad Al Qasimi Street ",
+        "region":"Alqasidat  ",
+        "risk_rate":79.0,
+        "location":"Al Qussaidat"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Al Ittihad Street ",
+        "region":"Aljazirah alhamra",
+        "risk_rate":73.75,
+        "location":"Al Jazeera Al Hamra"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Souq Alnakhil Street",
+        "region":"Alnakeel",
+        "risk_rate":60.5,
+        "location":"Al Nakheel"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Eid Prayer Street",
+        "region":"Alrams",
+        "risk_rate":72.5,
+        "location":"Al Rams"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Sheikh Saqr Bin Muhammad Al Qasimi Street ",
+        "region":"Shaml",
+        "risk_rate":91.5,
+        "location":"Shamal"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"DHEHAN STREET",
+        "region":"DHEHAN ZONE",
+        "risk_rate":94.25,
+        "location":"Dahan"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Syh Albir Street ",
+        "region":"Sayh albir",
+        "risk_rate":99.0,
+        "location":"Seih Al Beer"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Eid Prayer Street",
+        "region":"Alrams",
+        "risk_rate":72.5,
+        "location":"Al Rams"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Shaam Hospital Street",
+        "region":"Sha&#39;am",
+        "risk_rate":90.25,
+        "location":"Shaam"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Hamraniya Street",
+        "region":"Hamraniya",
+        "risk_rate":99.25,
+        "location":"Hamraniya"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Julphar Street",
+        "region":"Julphar",
+        "risk_rate":68.5,
+        "location":"Julfar"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Almataf Street ",
+        "region":"Julphar",
+        "risk_rate":68.5,
+        "location":"Julfar"
+    },
+    {
+        "name":"Cafeteria",
+        "street":null,
+        "region":"Ras al-Khaimah",
+        "risk_rate":51.0,
+        "location":"Ras Al-Khaimah"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Masafi Street",
+        "region":"Masafi",
+        "risk_rate":95.0,
+        "location":"Masafi"
+    },
+    {
+        "name":"Cafeteria",
+        "street":null,
+        "region":"Ras al-Khaimah",
+        "risk_rate":51.0,
+        "location":"Ras Al-Khaimah"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Eid Prayer Street",
+        "region":"Alrams",
+        "risk_rate":72.5,
+        "location":"Al Rams"
+    },
+    {
+        "name":"Cafeteria",
+        "street":null,
+        "region":null,
+        "risk_rate":null,
+        "location":null
+    },
+    {
+        "name":"Cafeteria",
+        "street":null,
+        "region":null,
+        "risk_rate":null,
+        "location":null
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Sheikh Saqr Bin Muhammad Al Qasimi Street ",
+        "region":"Glilah",
+        "risk_rate":97.0,
+        "location":"Ghalilah"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Sheikh Salem Bin Sultan Street ",
+        "region":"Almaemura",
+        "risk_rate":87.25,
+        "location":"Al Mamourah"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Sidroh Street ",
+        "region":"Ras al-Khaimah",
+        "risk_rate":51.0,
+        "location":"Ras Al-Khaimah"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Al Ittihad Street ",
+        "region":"Al Dhait ",
+        "risk_rate":44.25,
+        "location":"Al Dhait "
+    },
+    {
+        "name":"Cafeteria",
+        "street":null,
+        "region":null,
+        "risk_rate":null,
+        "location":null
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Sheikh Saqr Bin Muhammad Al Qasimi Street ",
+        "region":"Glilah",
+        "risk_rate":97.0,
+        "location":"Ghalilah"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Airport Street ",
+        "region":"Aldaqdaqa",
+        "risk_rate":89.5,
+        "location":"Al Digdaga"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Almataf Street ",
+        "region":"Julphar",
+        "risk_rate":68.5,
+        "location":"Julfar"
+    },
+    {
+        "name":"Cafeteria",
+        "street":null,
+        "region":"Khat",
+        "risk_rate":98.75,
+        "location":"Khatt"
+    },
+    {
+        "name":"Cafeteria",
+        "street":null,
+        "region":"Ras al-Khaimah",
+        "risk_rate":51.0,
+        "location":"Ras Al-Khaimah"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Al Ittihad Street ",
+        "region":"Aljazirah alhamra",
+        "risk_rate":73.75,
+        "location":"Al Jazeera Al Hamra"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Athn Street ",
+        "region":"Udhin",
+        "risk_rate":93.0,
+        "location":"Adhen"
+    },
+    {
+        "name":"Cafeteria",
+        "street":"Sheikh Muhammad Bin Salem Street ",
+        "region":"Ras al-Khaimah",
+        "risk_rate":51.0,
+        "location":"Ras Al-Khaimah"
+    }
+]
