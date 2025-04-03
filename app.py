@@ -14,11 +14,6 @@ from geopy.geocoders import Nominatim
 from geopy.extra.rate_limiter import RateLimiter
 
 
-with open("street_to_region_alias_with_variations.json") as f:
-    street_region_map = json.load(f)
-with open("region_aliases.json") as f:
-    region_aliases = json.load(f)
-
 
 app = Flask(__name__)
 
@@ -31,39 +26,29 @@ def normalize(text):
 
 
 
-# Load your dataset
-file_url = "https://docs.google.com/spreadsheets/d/e/2PACX-1vRnH-_FyYUJ5NCF_HHQjT1JhCGl7MsMxRlsRWVib3wi7P78LHuDgkLk2RwjlcuXNQ/pub?output=csv"
-df = pd.read_csv(file_url)
+cafeterias = json.load(open('cafeterias.json'))
 
-# Filter for cafes
-cafes = df[df['MainActivity'].str.lower() == 'cafe'].copy()
-cafes['FullAddress'] = cafes['Street'].fillna('') + ', ' + cafes['Region'].fillna('')
+@app.route('/get_risk_rate', methods=['POST'])
+def get_risk_rate():
+    data = request.json
+    lat, lng = data['latitude'], data['longitude']
 
-# Setup geocoder
-geolocator = Nominatim(user_agent="cafe_mapper")
-geocode = RateLimiter(geolocator.geocode, min_delay_seconds=1)
+    # Reverse geocoding
+    geolocator = Nominatim(user_agent="cafeteria-risk")
+    location = geolocator.reverse((lat, lng), language='en')
+    address = location.raw['address']
+    street = address.get('road', '')
+    region = address.get('city', '') or address.get('state', '')
 
-# Geocode
-cafes['Location'] = cafes['FullAddress'].apply(geocode)
-cafes['Latitude'] = cafes['Location'].apply(lambda loc: loc.latitude if loc else None)
-cafes['Longitude'] = cafes['Location'].apply(lambda loc: loc.longitude if loc else None)
+    # Match from cafeteria data
+    for c in cafeterias:
+        if street.lower() in c['street'].lower() and region.lower() in c['region'].lower():
+            return jsonify({
+                'name': c['name'],
+                'risk_rate': c['risk_rate']
+            })
 
-# Save it
-cafes_clean = cafes.dropna(subset=["Latitude", "Longitude"])
-cafes_clean[['MainActivity', 'Street', 'Region', 'Latitude', 'Longitude']].to_csv("cafe_dataset_geocoded.csv", index=False)
-
-
-@app.route("/get_all_cafes", methods=["GET"])
-def get_all_cafes():
-    try:
-        df = pd.read_csv("cafe_dataset_geocoded.csv")
-        result = df.to_dict(orient="records")
-        return jsonify(result), 200
-    except Exception as e:
-        return jsonify({"error": str(e)}), 500
-
-
-
+    return jsonify({'message': 'No match found'}), 404
 
 
 
@@ -171,27 +156,6 @@ def normalize(text):
     return str(text).lower().strip().replace("-", "").replace(" ", "")
 
 
-@app.route("/get_risk_rate", methods=["POST"])
-def get_risk_rate():
-    data = request.get_json()
-    activity = data.get("MainActivity")
-    region = data.get("Region")
-
-    try:
-        df = pd.read_excel("RiskScript.xlsx")
-
-        row = df[
-            (df["MainActivity"].str.lower() == activity.lower()) &
-            (df["Region"].str.lower() == region.lower())
-        ]
-
-        if row.empty:
-            return jsonify({"RiskRate": None, "message": "No match found"}), 404
-
-        risk_rate = row["RiskRate"].values[0]
-        return jsonify({"RiskRate": risk_rate}), 200
-    except Exception as e:
-        return jsonify({"error": str(e)}), 500
 
         
 
