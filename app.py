@@ -74,13 +74,16 @@ def get_risk_rate():
 
         # Match with your cafeterias data
         for c in cafeterias:
-            if c['location'].strip().lower() == region:
-                print(f"✅ Matched: {c['name']} in {region}")
-                return jsonify({
-                    'name': c['name'],
-                    'location': c['location'],
-                    'risk_rate': c['risk_rate']
-                })
+            cafeteria_location = c.get('location')
+            if cafeteria_location and isinstance(cafeteria_location, str):
+                if cafeteria_location.strip().lower() == region:
+                    print(f"✅ Matched: {c['name']} in {region}")
+                    return jsonify({
+                        'name': c['name'],
+                        'location': c['location'],
+                        'risk_rate': c['risk_rate']
+                    })
+
 
         print("❌ No match found for region")
         return jsonify({'risk_rate': 0})
