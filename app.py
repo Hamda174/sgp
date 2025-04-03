@@ -48,7 +48,6 @@ def get_risk_rate():
         if lat is None or lng is None:
             return jsonify({'error': 'Missing latitude or longitude'}), 400
 
-        # Reverse geocoding
         location = geolocator.reverse((lat, lng), language='en')
         if not location:
             print("❗ Reverse geocoding failed")
@@ -56,34 +55,39 @@ def get_risk_rate():
 
         address = location.raw.get('address', {})
         print(f"📫 Reverse geocoded address: {address}")
-        print(f"📍 Using region for matching: '{region}'")
 
-        region = (
+        # ✅ Safely assign region with a fallback
+        region_value = (
             address.get('suburb') or
             address.get('neighbourhood') or
             address.get('city_district') or
             address.get('city') or
-            address.get('state') or
-            ""
-        ).strip().lower()
+            address.get('state')
+        )
 
+        if not region_value:
+            print("❗ No region found in address")
+            return jsonify({'risk_rate': 0})
+
+        region = region_value.strip().lower()
+        print(f"🔍 Matching with region: {region}")
+
+        # Match with your cafeterias data
         for c in cafeterias:
             if c['location'].strip().lower() == region:
-                print(f"✅ Matched region: {region}")
+                print(f"✅ Matched: {c['name']} in {region}")
                 return jsonify({
                     'name': c['name'],
                     'location': c['location'],
                     'risk_rate': c['risk_rate']
                 })
 
-        print("❌ No match found")
+        print("❌ No match found for region")
         return jsonify({'risk_rate': 0})
 
     except Exception as e:
         print(f"🔥 ERROR: {str(e)}")
         return jsonify({'error': str(e)}), 500
-
-
 
 
 
