@@ -56,6 +56,7 @@ def get_risk_rate():
 
         address = location.raw.get('address', {})
         print(f"📫 Reverse geocoded address: {address}")
+        print(f"📍 Using region for matching: '{region}'")
 
         region = (
             address.get('suburb') or
@@ -63,7 +64,7 @@ def get_risk_rate():
             address.get('city_district') or
             address.get('city') or
             address.get('state') or
-            ''
+            ""
         ).strip().lower()
 
         for c in cafeterias:
