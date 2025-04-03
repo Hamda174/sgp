@@ -26,29 +26,59 @@ def normalize(text):
 
 
 
-cafeterias = json.load(open('cafeterias.json'))
+
+
+# Load JSON data
+with open("cafeterias.json") as f:
+    cafeterias = json.load(f)
+
+# Initialize app
+app = Flask(__name__)
+geolocator = Nominatim(user_agent="cafeteria-risk")
 
 @app.route('/get_risk_rate', methods=['POST'])
 def get_risk_rate():
-    data = request.json
-    lat, lng = data['latitude'], data['longitude']
+    data = request.get_json()
+    lat = data.get('latitude')
+    lng = data.get('longitude')
 
-    # Reverse geocoding
-    geolocator = Nominatim(user_agent="cafeteria-risk")
-    location = geolocator.reverse((lat, lng), language='en')
-    address = location.raw['address']
-    street = address.get('road', '')
-    region = address.get('city', '') or address.get('state', '')
+    if not lat or not lng:
+        return jsonify({'error': 'Missing coordinates'}), 400
 
-    # Match from cafeteria data
-    for c in cafeterias:
-        if street.lower() in c['street'].lower() and region.lower() in c['region'].lower():
-            return jsonify({
-                'name': c['name'],
-                'risk_rate': c['risk_rate']
-            })
+    # Reverse geocode to get human-readable location
+    try:
+        location = geolocator.reverse((lat, lng), language='en')
+        if not location:
+            return jsonify({'risk_rate': 0})
+        address = location.raw.get('address', {})
+        region = (
+            address.get('suburb') or
+            address.get('neighbourhood') or
+            address.get('city_district') or
+            address.get('city') or
+            address.get('state') or
+            ''
+        ).strip().lower()
 
-    return jsonify({'message': 'No match found'}), 404
+        # Match with `location` field in JSON (case insensitive)
+        for c in cafeterias:
+            if c['location'].strip().lower() == region:
+                return jsonify({
+                    'name': c['name'],
+                    'location': c['location'],
+                    'risk_rate': c['risk_rate']
+                })
+
+        return jsonify({'risk_rate': 0})  # No match found
+    except Exception as e:
+        return jsonify({'error': str(e)}), 500
+
+if __name__ == '__main__':
+    app.run(debug=True)
+
+
+
+
 
 
 
