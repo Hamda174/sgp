@@ -43,15 +43,20 @@ def get_risk_rate():
         lat = data.get('latitude')
         lng = data.get('longitude')
 
+        print(f"📍 Incoming lat/lng: {lat}, {lng}")
+
         if lat is None or lng is None:
             return jsonify({'error': 'Missing latitude or longitude'}), 400
 
         # Reverse geocoding
         location = geolocator.reverse((lat, lng), language='en')
         if not location:
+            print("❗ Reverse geocoding failed")
             return jsonify({'risk_rate': 0})
 
         address = location.raw.get('address', {})
+        print(f"📫 Reverse geocoded address: {address}")
+
         region = (
             address.get('suburb') or
             address.get('neighbourhood') or
@@ -61,18 +66,18 @@ def get_risk_rate():
             ''
         ).strip().lower()
 
-        print(f"User tapped at: lat={lat}, lng={lng} -> region={region}")
-
-        # Match against cleaned cafeteria data
         for c in cafeterias:
             if c['location'].strip().lower() == region:
+                print(f"✅ Matched region: {region}")
                 return jsonify({
                     'name': c['name'],
                     'location': c['location'],
                     'risk_rate': c['risk_rate']
                 })
 
+        print("❌ No match found")
         return jsonify({'risk_rate': 0})
+
     except Exception as e:
         print(f"🔥 ERROR: {str(e)}")
         return jsonify({'error': str(e)}), 500
