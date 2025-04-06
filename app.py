@@ -91,6 +91,11 @@ def get_risk_rate():
                         'location': c['location'],
                         'risk_rate': c['risk_rate']
                     })
+    
+    except Exception as e:
+        print(f"❌ Error: {e}")
+        return jsonify({'error': 'Internal server error'}), 500
+
                     
     with open("buildingMaintenance.json") as f:
     buildingMaintenance = json.load(f)
