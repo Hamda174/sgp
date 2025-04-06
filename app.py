@@ -92,6 +92,86 @@ def get_risk_rate():
                         'risk_rate': c['risk_rate']
                     })
 
+
+
+
+
+
+
+
+# Load JSON data
+with open("building_maintenance_activities.json") as f:
+    building_maintenance = json.load(f)
+
+# Initialize app
+app = Flask(__name__)
+geolocator = Nominatim(user_agent="building_maintenance-risk")
+
+@app.route('/get_risk_rate', methods=['POST'])
+def get_risk_rate():
+    try:
+        data = request.get_json(force=True)
+        lat = data.get('latitude')
+        lng = data.get('longitude')
+
+        print(f"📍 Incoming lat/lng: {lat}, {lng}")
+
+        if lat is None or lng is None:
+            return jsonify({'error': 'Missing latitude or longitude'}), 400
+
+        location = geolocator.reverse((lat, lng), language='en')
+        if not location:
+            print("❗ Reverse geocoding failed")
+            return jsonify({'risk_rate': 0})
+
+        address = location.raw.get('address', {})
+        print(f"📫 Reverse geocoded address: {address}")
+
+        # ✅ Safely assign region with a fallback
+        region_value = (
+            address.get('suburb') or
+            address.get('neighbourhood') or
+            address.get('city_district') or
+            address.get('city') or
+            address.get('state')
+        )
+
+        if not region_value:
+            print("❗ No region found in address")
+            return jsonify({'risk_rate': 0})
+
+        region = region_value.strip().lower()
+        print(f"🔍 Matching with region: {region}")
+
+
+        def find_best_match_region(region):
+            all_locations = [c['location'].strip().lower() for b in building_maintenance if b.get('location')]
+            matches = difflib.get_close_matches(region, all_locations, n=1, cutoff=0.6)
+            return matches[0] if matches else None
+
+
+        match = find_best_match_region(region)
+        if match:
+            for b in building_maintenance:
+                if b['location'].strip().lower() == match:
+                    return jsonify({
+                        'name': b['name'],
+                        'location': b['location'],
+                        'risk_rate': b['risk_rate']
+                    })
+
+
+
+
+
+
+
+
+
+
+
+        
+
         # Match with your cafeterias data
         #for c in cafeterias:
             #cafeteria_location = c.get('location')
