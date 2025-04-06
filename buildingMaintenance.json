@@ -1,0 +1,6281 @@
+[
+  {
+    "name": "Building Maintenance",
+    "street": "DWAR AL KHURAN STREET",
+    "region": "Al Kharran",
+    "risk_rate": 62.0,
+    "location": "DWAR AL KHURAN STREET, Al Kharran"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "behaind kuzam street",
+    "region": "Alqasidat  ",
+    "risk_rate": 7.5,
+    "location": "behaind kuzam street, Alqasidat  "
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Athen Street - Internal",
+    "region": "Udhin",
+    "risk_rate": 88.25,
+    "location": "Athen Street - Internal, Udhin"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "behaind kuzam street",
+    "region": "Alqasidat  ",
+    "risk_rate": 7.5,
+    "location": "behaind kuzam street, Alqasidat  "
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "AL QURM",
+    "region": "Alqasidat  ",
+    "risk_rate": 7.5,
+    "location": "AL QURM, Alqasidat  "
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "DHEHAN STREET",
+    "region": "DHEHAN ZONE",
+    "risk_rate": 76.5,
+    "location": "DHEHAN STREET, DHEHAN ZONE"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Al Dhait Street",
+    "region": "Khalifa Bin Zayed City",
+    "risk_rate": 92.25,
+    "location": "Al Dhait Street, Khalifa Bin Zayed City"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Shaml Street",
+    "region": "Shaml",
+    "risk_rate": 82.5,
+    "location": "Shaml Street, Shaml"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Almataf Street ",
+    "region": "Julphar",
+    "risk_rate": 23.5,
+    "location": "Almataf Street , Julphar"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Al-Montaser Street",
+    "region": "Almaemura",
+    "risk_rate": 55.75,
+    "location": "Al-Montaser Street, Almaemura"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Almataf Street ",
+    "region": "Julphar",
+    "risk_rate": 23.5,
+    "location": "Almataf Street , Julphar"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "behaind kuzam street",
+    "region": "Alqasidat  ",
+    "risk_rate": 7.5,
+    "location": "behaind kuzam street, Alqasidat  "
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "behaind kuzam street",
+    "region": "Alqasidat  ",
+    "risk_rate": 7.5,
+    "location": "behaind kuzam street, Alqasidat  "
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Almaemura Street ",
+    "region": "Alnakeel",
+    "risk_rate": 47.25,
+    "location": "Almaemura Street , Alnakeel"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "behaind kuzam street",
+    "region": "Alqasidat  ",
+    "risk_rate": 7.5,
+    "location": "behaind kuzam street, Alqasidat  "
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "behaind kuzam street",
+    "region": "Alqasidat  ",
+    "risk_rate": 7.5,
+    "location": "behaind kuzam street, Alqasidat  "
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sheikh Saqr Bin Muhammad Al Qasimi Street ",
+    "region": "Shaml",
+    "risk_rate": 82.5,
+    "location": "Sheikh Saqr Bin Muhammad Al Qasimi Street , Shaml"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Almataf Street ",
+    "region": "Julphar",
+    "risk_rate": 23.5,
+    "location": "Almataf Street , Julphar"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "behaind kuzam street",
+    "region": "Alqasidat  ",
+    "risk_rate": 7.5,
+    "location": "behaind kuzam street, Alqasidat  "
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Al Dhait Street",
+    "region": "Khalifa Bin Zayed City",
+    "risk_rate": 92.25,
+    "location": "Al Dhait Street, Khalifa Bin Zayed City"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Airport Street ",
+    "region": "Aldaqdaqa",
+    "risk_rate": 70.0,
+    "location": "Airport Street , Aldaqdaqa"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sheikh Muhammad Bin Salem Street ",
+    "region": "DHEHAN ZONE",
+    "risk_rate": 76.5,
+    "location": "Sheikh Muhammad Bin Salem Street , DHEHAN ZONE"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Al-Montaser Street",
+    "region": "Alnakeel",
+    "risk_rate": 47.25,
+    "location": "Al-Montaser Street, Alnakeel"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Almataf Street ",
+    "region": "Julphar",
+    "risk_rate": 23.5,
+    "location": "Almataf Street , Julphar"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Al-Montaser Street",
+    "region": "Alnakeel",
+    "risk_rate": 47.25,
+    "location": "Al-Montaser Street, Alnakeel"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Al-Montaser Street",
+    "region": "Alnakeel",
+    "risk_rate": 47.25,
+    "location": "Al-Montaser Street, Alnakeel"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Shaml Street",
+    "region": "Shaml",
+    "risk_rate": 82.5,
+    "location": "Shaml Street, Shaml"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Shaml Street",
+    "region": "Shaml",
+    "risk_rate": 82.5,
+    "location": "Shaml Street, Shaml"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "DWAR AL KHURAN STREET",
+    "region": "Al Kharran",
+    "risk_rate": 62.0,
+    "location": "DWAR AL KHURAN STREET, Al Kharran"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Al-Montaser Street",
+    "region": "Almaemura",
+    "risk_rate": 55.75,
+    "location": "Al-Montaser Street, Almaemura"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "behaind kuzam street",
+    "region": "Alqasidat  ",
+    "risk_rate": 7.5,
+    "location": "behaind kuzam street, Alqasidat  "
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Al-Montaser Street",
+    "region": "Almaemura",
+    "risk_rate": 55.75,
+    "location": "Al-Montaser Street, Almaemura"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Al-Montaser Street",
+    "region": "Almaemura",
+    "risk_rate": 55.75,
+    "location": "Al-Montaser Street, Almaemura"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Almataf Street ",
+    "region": "Julphar",
+    "risk_rate": 23.5,
+    "location": "Almataf Street , Julphar"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "behaind kuzam street",
+    "region": "Alqasidat  ",
+    "risk_rate": 7.5,
+    "location": "behaind kuzam street, Alqasidat  "
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Khuzam Street",
+    "region": "Alqasidat  ",
+    "risk_rate": 7.5,
+    "location": "Khuzam Street, Alqasidat  "
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Al Ghob Street",
+    "region": "Al-Ghib",
+    "risk_rate": 95.75,
+    "location": "Al Ghob Street, Al-Ghib"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "behaind kuzam street",
+    "region": "Alqasidat  ",
+    "risk_rate": 7.5,
+    "location": "behaind kuzam street, Alqasidat  "
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Al-Montaser Street",
+    "region": "Almaemura",
+    "risk_rate": 55.75,
+    "location": "Al-Montaser Street, Almaemura"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Shaml Street",
+    "region": "Shaml",
+    "risk_rate": 82.5,
+    "location": "Shaml Street, Shaml"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Almaemura Street ",
+    "region": "Almaemura",
+    "risk_rate": 55.75,
+    "location": "Almaemura Street , Almaemura"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "behaind kuzam street",
+    "region": "Alqasidat  ",
+    "risk_rate": 7.5,
+    "location": "behaind kuzam street, Alqasidat  "
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Zayed Center Roundabout Street",
+    "region": "Al Dhait ",
+    "risk_rate": 77.5,
+    "location": "Zayed Center Roundabout Street, Al Dhait "
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Khuzam Street",
+    "region": "Alqasidat  ",
+    "risk_rate": 7.5,
+    "location": "Khuzam Street, Alqasidat  "
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Shaml Street",
+    "region": "Shaml",
+    "risk_rate": 82.5,
+    "location": "Shaml Street, Shaml"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "INSIDE STREET",
+    "region": "Al Dhait ",
+    "risk_rate": 77.5,
+    "location": "INSIDE STREET, Al Dhait "
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "behaind kuzam street",
+    "region": "Alqasidat  ",
+    "risk_rate": 7.5,
+    "location": "behaind kuzam street, Alqasidat  "
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Al Dhait Street",
+    "region": "Khalifa Bin Zayed City",
+    "risk_rate": 92.25,
+    "location": "Al Dhait Street, Khalifa Bin Zayed City"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Airport Street ",
+    "region": "Aldaqdaqa",
+    "risk_rate": 70.0,
+    "location": "Airport Street , Aldaqdaqa"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "INSIDE STREET",
+    "region": "Aljawis",
+    "risk_rate": 89.5,
+    "location": "INSIDE STREET, Aljawis"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Al-Montaser Street",
+    "region": "Almaemura",
+    "risk_rate": 55.75,
+    "location": "Al-Montaser Street, Almaemura"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Al-Montaser Street",
+    "region": "Almaemura",
+    "risk_rate": 55.75,
+    "location": "Al-Montaser Street, Almaemura"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sheikh Saqr Bin Muhammad Al Qasimi Street ",
+    "region": "Alqasidat  ",
+    "risk_rate": 7.5,
+    "location": "Sheikh Saqr Bin Muhammad Al Qasimi Street , Alqasidat  "
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Aljawis Street ",
+    "region": "Aljawis",
+    "risk_rate": 89.5,
+    "location": "Aljawis Street , Aljawis"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Aljawazat Street ",
+    "region": "Almaemura",
+    "risk_rate": 55.75,
+    "location": "Aljawazat Street , Almaemura"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Al Sharisha Street",
+    "region": "Julphar",
+    "risk_rate": 23.5,
+    "location": "Al Sharisha Street, Julphar"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Almataf Street ",
+    "region": "Julphar",
+    "risk_rate": 23.5,
+    "location": "Almataf Street , Julphar"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "behaind kuzam street",
+    "region": "Alqasidat  ",
+    "risk_rate": 7.5,
+    "location": "behaind kuzam street, Alqasidat  "
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "AL SHAIKH SAQR BIN MOHAMMED",
+    "region": "Julphar",
+    "risk_rate": 23.5,
+    "location": "AL SHAIKH SAQR BIN MOHAMMED, Julphar"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Al-Montaser Street",
+    "region": "Almaemura",
+    "risk_rate": 55.75,
+    "location": "Al-Montaser Street, Almaemura"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "behaind kuzam street",
+    "region": "Alqasidat  ",
+    "risk_rate": 7.5,
+    "location": "behaind kuzam street, Alqasidat  "
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sheikh Muhammad Bin Salem Street ",
+    "region": "DHEHAN ZONE",
+    "risk_rate": 76.5,
+    "location": "Sheikh Muhammad Bin Salem Street , DHEHAN ZONE"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Ahmed Bin Majid Street Street ",
+    "region": "Al-Mairid ",
+    "risk_rate": 81.75,
+    "location": "Ahmed Bin Majid Street Street , Al-Mairid "
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sheikh Muhammad Bin Salem Street ",
+    "region": "Aldifan",
+    "risk_rate": 96.0,
+    "location": "Sheikh Muhammad Bin Salem Street , Aldifan"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Al-Montaser Street",
+    "region": "Almaemura",
+    "risk_rate": 55.75,
+    "location": "Al-Montaser Street, Almaemura"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "behaind kuzam street",
+    "region": "Alqasidat  ",
+    "risk_rate": 7.5,
+    "location": "behaind kuzam street, Alqasidat  "
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "DWAR AL KHURAN STREET",
+    "region": "Al Kharran",
+    "risk_rate": 62.0,
+    "location": "DWAR AL KHURAN STREET, Al Kharran"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Almataf Street ",
+    "region": "Julphar",
+    "risk_rate": 23.5,
+    "location": "Almataf Street , Julphar"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Almataf Street ",
+    "region": "Julphar",
+    "risk_rate": 23.5,
+    "location": "Almataf Street , Julphar"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Airport Street ",
+    "region": "SOHILA",
+    "risk_rate": 94.5,
+    "location": "Airport Street , SOHILA"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Al-Montaser Street",
+    "region": "Julphar",
+    "risk_rate": 23.5,
+    "location": "Al-Montaser Street, Julphar"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Al Ittihad Street ",
+    "region": "Al Dhait ",
+    "risk_rate": 77.5,
+    "location": "Al Ittihad Street , Al Dhait "
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Al Qawasim Corniche Street ",
+    "region": "NEW RAS AL KHAIMAH",
+    "risk_rate": 99.25,
+    "location": "Al Qawasim Corniche Street , NEW RAS AL KHAIMAH"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Khuzam Street",
+    "region": "Aljawis",
+    "risk_rate": 89.5,
+    "location": "Khuzam Street, Aljawis"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sidroh Street ",
+    "region": "sedro",
+    "risk_rate": 96.75,
+    "location": "Sidroh Street , sedro"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Julphar Street",
+    "region": "Julphar",
+    "risk_rate": 23.5,
+    "location": "Julphar Street, Julphar"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "behaind kuzam street",
+    "region": "Alqasidat  ",
+    "risk_rate": 7.5,
+    "location": "behaind kuzam street, Alqasidat  "
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sheikh Muhammad Bin Salem Street ",
+    "region": "DHEHAN ZONE",
+    "risk_rate": 76.5,
+    "location": "Sheikh Muhammad Bin Salem Street , DHEHAN ZONE"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Almataf Street ",
+    "region": "Julphar",
+    "risk_rate": 23.5,
+    "location": "Almataf Street , Julphar"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "AL Jazaa Street",
+    "region": "Alnakeel",
+    "risk_rate": 47.25,
+    "location": "AL Jazaa Street, Alnakeel"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Almataf Street ",
+    "region": "Julphar",
+    "risk_rate": 23.5,
+    "location": "Almataf Street , Julphar"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Julphar Street",
+    "region": "Julphar",
+    "risk_rate": 23.5,
+    "location": "Julphar Street, Julphar"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Al-Montaser Street",
+    "region": "Almaemura",
+    "risk_rate": 55.75,
+    "location": "Al-Montaser Street, Almaemura"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "behaind kuzam street",
+    "region": "Alqasidat  ",
+    "risk_rate": 7.5,
+    "location": "behaind kuzam street, Alqasidat  "
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sheikh Saqr Bin Muhammad Al Qasimi Street ",
+    "region": "Alqasidat  ",
+    "risk_rate": 7.5,
+    "location": "Sheikh Saqr Bin Muhammad Al Qasimi Street , Alqasidat  "
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "behaind kuzam street",
+    "region": "Alqasidat  ",
+    "risk_rate": 7.5,
+    "location": "behaind kuzam street, Alqasidat  "
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Ahmed Bin Majid Street Street ",
+    "region": "Al-Mairid ",
+    "risk_rate": 81.75,
+    "location": "Ahmed Bin Majid Street Street , Al-Mairid "
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sheikh Saqr Bin Muhammad Al Qasimi Street ",
+    "region": "Al Kharran",
+    "risk_rate": 62.0,
+    "location": "Sheikh Saqr Bin Muhammad Al Qasimi Street , Al Kharran"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Ahmed Bin Majid Street Street ",
+    "region": "Al-Mairid ",
+    "risk_rate": 81.75,
+    "location": "Ahmed Bin Majid Street Street , Al-Mairid "
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Al Hudaiba Street ",
+    "region": "AL HODYBA",
+    "risk_rate": 99.25,
+    "location": "Al Hudaiba Street , AL HODYBA"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sheikh Muhammad Bin Salem Street ",
+    "region": "DHEHAN ZONE",
+    "risk_rate": 76.5,
+    "location": "Sheikh Muhammad Bin Salem Street , DHEHAN ZONE"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sheikh Muhammad Bin Salem Street ",
+    "region": "DHEHAN ZONE",
+    "risk_rate": 76.5,
+    "location": "Sheikh Muhammad Bin Salem Street , DHEHAN ZONE"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Ahmed Bin Majid Street Street ",
+    "region": "Al-Mairid ",
+    "risk_rate": 81.75,
+    "location": "Ahmed Bin Majid Street Street , Al-Mairid "
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "DHEHAN STREET",
+    "region": "DHEHAN ZONE",
+    "risk_rate": 76.5,
+    "location": "DHEHAN STREET, DHEHAN ZONE"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Almataf Street ",
+    "region": "Julphar",
+    "risk_rate": 23.5,
+    "location": "Almataf Street , Julphar"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Almataf Street ",
+    "region": "Julphar",
+    "risk_rate": 23.5,
+    "location": "Almataf Street , Julphar"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Expo Street",
+    "region": "Alnakeel",
+    "risk_rate": 47.25,
+    "location": "Expo Street, Alnakeel"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sheikh Saqr Bin Muhammad Al Qasimi Street ",
+    "region": "Alqasidat  ",
+    "risk_rate": 7.5,
+    "location": "Sheikh Saqr Bin Muhammad Al Qasimi Street , Alqasidat  "
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sheikh Saqr Bin Muhammad Al Qasimi Street ",
+    "region": "Oraibi",
+    "risk_rate": 81.0,
+    "location": "Sheikh Saqr Bin Muhammad Al Qasimi Street , Oraibi"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "DHEHAN STREET",
+    "region": "DHEHAN ZONE",
+    "risk_rate": 76.5,
+    "location": "DHEHAN STREET, DHEHAN ZONE"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Almataf Street ",
+    "region": "Julphar",
+    "risk_rate": 23.5,
+    "location": "Almataf Street , Julphar"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sheikh Muhammad Bin Salem Street ",
+    "region": "Ras al-Khaimah",
+    "risk_rate": 50.5,
+    "location": "Sheikh Muhammad Bin Salem Street , Ras al-Khaimah"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Souq Al-Mrayed Street",
+    "region": "Almaemura",
+    "risk_rate": 55.75,
+    "location": "Souq Al-Mrayed Street, Almaemura"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Khuzam Street ",
+    "region": "Khuzam",
+    "risk_rate": 92.25,
+    "location": "Khuzam Street , Khuzam"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": null,
+    "region": null,
+    "risk_rate": null,
+    "location": null
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Shaml Street",
+    "region": "Almaemura",
+    "risk_rate": 55.75,
+    "location": "Shaml Street, Almaemura"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Ahmed Bin Majid Street Street ",
+    "region": "Al-Mairid ",
+    "risk_rate": 81.75,
+    "location": "Ahmed Bin Majid Street Street , Al-Mairid "
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "behaind kuzam street",
+    "region": "Alqasidat  ",
+    "risk_rate": 7.5,
+    "location": "behaind kuzam street, Alqasidat  "
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Khuzam Street",
+    "region": "Alqasidat  ",
+    "risk_rate": 7.5,
+    "location": "Khuzam Street, Alqasidat  "
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sheikh Muhammad Bin Salem Street ",
+    "region": "Ras al-Khaimah",
+    "risk_rate": 50.5,
+    "location": "Sheikh Muhammad Bin Salem Street , Ras al-Khaimah"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Julphar Street",
+    "region": "Julphar",
+    "risk_rate": 23.5,
+    "location": "Julphar Street, Julphar"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Ahmed Bin Majid Street Street ",
+    "region": "Al-Mairid ",
+    "risk_rate": 81.75,
+    "location": "Ahmed Bin Majid Street Street , Al-Mairid "
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "DHEHAN STREET",
+    "region": "DHEHAN ZONE",
+    "risk_rate": 76.5,
+    "location": "DHEHAN STREET, DHEHAN ZONE"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sheikh Muhammad Bin Salem Street ",
+    "region": "DHEHAN ZONE",
+    "risk_rate": 76.5,
+    "location": "Sheikh Muhammad Bin Salem Street , DHEHAN ZONE"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Almataf Street ",
+    "region": "Julphar",
+    "risk_rate": 23.5,
+    "location": "Almataf Street , Julphar"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sheikh Saqr Bin Muhammad Al Qasimi Street ",
+    "region": "Sha&#39;am",
+    "risk_rate": 88.5,
+    "location": "Sheikh Saqr Bin Muhammad Al Qasimi Street , Sha&#39;am"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sheikh Muhammad Bin Salem Street ",
+    "region": "AL DHAIT AL SHMALI",
+    "risk_rate": 99.25,
+    "location": "Sheikh Muhammad Bin Salem Street , AL DHAIT AL SHMALI"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Aljawis Street ",
+    "region": "Aljawis",
+    "risk_rate": 89.5,
+    "location": "Aljawis Street , Aljawis"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sheikh Mohammed bin Zayed Street",
+    "region": "Aljazirah alhamra",
+    "risk_rate": 90.75,
+    "location": "Sheikh Mohammed bin Zayed Street, Aljazirah alhamra"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sheikh Muhammad Bin Salem Street ",
+    "region": "DHEHAN ZONE",
+    "risk_rate": 76.5,
+    "location": "Sheikh Muhammad Bin Salem Street , DHEHAN ZONE"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sheikh Abdullah Bin Mohammed Al Qasimi Street",
+    "region": "Alqasidat  ",
+    "risk_rate": 7.5,
+    "location": "Sheikh Abdullah Bin Mohammed Al Qasimi Street, Alqasidat  "
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "AL Jazaa Street",
+    "region": "Alnakeel",
+    "risk_rate": 47.25,
+    "location": "AL Jazaa Street, Alnakeel"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sheikh Muhammad Bin Salem Street ",
+    "region": "Ras al-Khaimah",
+    "risk_rate": 50.5,
+    "location": "Sheikh Muhammad Bin Salem Street , Ras al-Khaimah"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Al-Huwailat Street ",
+    "region": "Al-Huwailat",
+    "risk_rate": 97.0,
+    "location": "Al-Huwailat Street , Al-Huwailat"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Expo Street",
+    "region": "Alnakeel",
+    "risk_rate": 47.25,
+    "location": "Expo Street, Alnakeel"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Al Uraibi Street ",
+    "region": "Oraibi",
+    "risk_rate": 81.0,
+    "location": "Al Uraibi Street , Oraibi"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Khuzam Street",
+    "region": "Alqasidat  ",
+    "risk_rate": 7.5,
+    "location": "Khuzam Street, Alqasidat  "
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sheikh Saqr Bin Muhammad Al Qasimi Street ",
+    "region": "Alqasidat  ",
+    "risk_rate": 7.5,
+    "location": "Sheikh Saqr Bin Muhammad Al Qasimi Street , Alqasidat  "
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "INSIDE STREET",
+    "region": "Al Dhait ",
+    "risk_rate": 77.5,
+    "location": "INSIDE STREET, Al Dhait "
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "INSIDE STREET",
+    "region": "Aljazirah alhamra",
+    "risk_rate": 90.75,
+    "location": "INSIDE STREET, Aljazirah alhamra"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Altarafa Street ",
+    "region": "Alqasidat  ",
+    "risk_rate": 7.5,
+    "location": "Altarafa Street , Alqasidat  "
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sheikh Muhammad Bin Salem Street ",
+    "region": "DEHAN AL SHARQYA",
+    "risk_rate": 97.75,
+    "location": "Sheikh Muhammad Bin Salem Street , DEHAN AL SHARQYA"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Al-Montaser Street",
+    "region": "Alqasidat  ",
+    "risk_rate": 7.5,
+    "location": "Al-Montaser Street, Alqasidat  "
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Expo Street",
+    "region": "Alnakeel",
+    "risk_rate": 47.25,
+    "location": "Expo Street, Alnakeel"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Almataf Street ",
+    "region": "Julphar",
+    "risk_rate": 23.5,
+    "location": "Almataf Street , Julphar"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Al-Montaser Street",
+    "region": "Alnakeel",
+    "risk_rate": 47.25,
+    "location": "Al-Montaser Street, Alnakeel"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sheikh Saqr Bin Muhammad Al Qasimi Street ",
+    "region": "Alnakeel",
+    "risk_rate": 47.25,
+    "location": "Sheikh Saqr Bin Muhammad Al Qasimi Street , Alnakeel"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Al Ittihad Street ",
+    "region": "AL NADYA",
+    "risk_rate": 99.75,
+    "location": "Al Ittihad Street , AL NADYA"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Ahmed Bin Majid Street Street ",
+    "region": "Al-Mairid ",
+    "risk_rate": 81.75,
+    "location": "Ahmed Bin Majid Street Street , Al-Mairid "
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "DHEHAN STREET",
+    "region": "DHEHAN ZONE",
+    "risk_rate": 76.5,
+    "location": "DHEHAN STREET, DHEHAN ZONE"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sheikh Saqr Bin Muhammad Al Qasimi Street ",
+    "region": "Alrams",
+    "risk_rate": 75.25,
+    "location": "Sheikh Saqr Bin Muhammad Al Qasimi Street , Alrams"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Al-Montaser Street",
+    "region": "Almaemura",
+    "risk_rate": 55.75,
+    "location": "Al-Montaser Street, Almaemura"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sheikh Muhammad Bin Salem Street ",
+    "region": "DHEHAN ZONE",
+    "risk_rate": 76.5,
+    "location": "Sheikh Muhammad Bin Salem Street , DHEHAN ZONE"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Khuzam Street",
+    "region": "Aljawis",
+    "risk_rate": 89.5,
+    "location": "Khuzam Street, Aljawis"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Khuzam Street",
+    "region": "Alqasidat  ",
+    "risk_rate": 7.5,
+    "location": "Khuzam Street, Alqasidat  "
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sidroh Street ",
+    "region": "sedro",
+    "risk_rate": 96.75,
+    "location": "Sidroh Street , sedro"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sheikh Saqr Bin Muhammad Al Qasimi Street ",
+    "region": "Alqasidat  ",
+    "risk_rate": 7.5,
+    "location": "Sheikh Saqr Bin Muhammad Al Qasimi Street , Alqasidat  "
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Julphar Street",
+    "region": "Julphar",
+    "risk_rate": 23.5,
+    "location": "Julphar Street, Julphar"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Al-Montaser Street",
+    "region": "Almaemura",
+    "risk_rate": 55.75,
+    "location": "Al-Montaser Street, Almaemura"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Julphar Street",
+    "region": "Julphar",
+    "risk_rate": 23.5,
+    "location": "Julphar Street, Julphar"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Al-Munayi Street",
+    "region": "WADI AL QOOR",
+    "risk_rate": 99.75,
+    "location": "Al-Munayi Street, WADI AL QOOR"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "INSIDE STREET",
+    "region": "Oraibi",
+    "risk_rate": 81.0,
+    "location": "INSIDE STREET, Oraibi"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Almataf Street ",
+    "region": "Julphar",
+    "risk_rate": 23.5,
+    "location": "Almataf Street , Julphar"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Khuzam Street",
+    "region": "Alqasidat  ",
+    "risk_rate": 7.5,
+    "location": "Khuzam Street, Alqasidat  "
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sidroh Street ",
+    "region": "Ras al-Khaimah",
+    "risk_rate": 50.5,
+    "location": "Sidroh Street , Ras al-Khaimah"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Julphar Street",
+    "region": "Julphar",
+    "risk_rate": 23.5,
+    "location": "Julphar Street, Julphar"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Airport Street ",
+    "region": "Aldaqdaqa",
+    "risk_rate": 70.0,
+    "location": "Airport Street , Aldaqdaqa"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Khuzam Street",
+    "region": "Alqasidat  ",
+    "risk_rate": 7.5,
+    "location": "Khuzam Street, Alqasidat  "
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Athn Street ",
+    "region": "Udhin",
+    "risk_rate": 88.25,
+    "location": "Athn Street , Udhin"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sheikh Muhammad Bin Salem Street ",
+    "region": "DHEHAN ZONE",
+    "risk_rate": 76.5,
+    "location": "Sheikh Muhammad Bin Salem Street , DHEHAN ZONE"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Al Uraibi Street ",
+    "region": "Alnakeel",
+    "risk_rate": 47.25,
+    "location": "Al Uraibi Street , Alnakeel"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sheikh Saqr Bin Muhammad Al Qasimi Street ",
+    "region": "Glilah",
+    "risk_rate": 93.75,
+    "location": "Sheikh Saqr Bin Muhammad Al Qasimi Street , Glilah"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Al-Montaser Street",
+    "region": "Alnakeel",
+    "risk_rate": 47.25,
+    "location": "Al-Montaser Street, Alnakeel"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Aljawazat Street ",
+    "region": "Almaemura",
+    "risk_rate": 55.75,
+    "location": "Aljawazat Street , Almaemura"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sheikh Saqr Bin Muhammad Al Qasimi Street ",
+    "region": "Alnakeel",
+    "risk_rate": 47.25,
+    "location": "Sheikh Saqr Bin Muhammad Al Qasimi Street , Alnakeel"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sheikh Rashid Bin Saeed Street",
+    "region": "Saqr Bin Mohammed City",
+    "risk_rate": 88.5,
+    "location": "Sheikh Rashid Bin Saeed Street, Saqr Bin Mohammed City"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sheikh Saqr Bin Muhammad Al Qasimi Street ",
+    "region": "Alqasidat  ",
+    "risk_rate": 7.5,
+    "location": "Sheikh Saqr Bin Muhammad Al Qasimi Street , Alqasidat  "
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Athn Street ",
+    "region": "Udhin",
+    "risk_rate": 88.25,
+    "location": "Athn Street , Udhin"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sheikh Saqr Bin Muhammad Al Qasimi Street ",
+    "region": "Alqasidat  ",
+    "risk_rate": 7.5,
+    "location": "Sheikh Saqr Bin Muhammad Al Qasimi Street , Alqasidat  "
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Shaml Street",
+    "region": "Shaml",
+    "risk_rate": 82.5,
+    "location": "Shaml Street, Shaml"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Airport Street ",
+    "region": "Aldaqdaqa",
+    "risk_rate": 70.0,
+    "location": "Airport Street , Aldaqdaqa"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sheikh Abdullah Bin Mohammed Al Qasimi Street",
+    "region": "Aljawis",
+    "risk_rate": 89.5,
+    "location": "Sheikh Abdullah Bin Mohammed Al Qasimi Street, Aljawis"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sheikh Saqr Bin Muhammad Al Qasimi Street ",
+    "region": "Alfiliya",
+    "risk_rate": 88.75,
+    "location": "Sheikh Saqr Bin Muhammad Al Qasimi Street , Alfiliya"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sheikh Saqr Bin Muhammad Al Qasimi Street ",
+    "region": "Alnakeel",
+    "risk_rate": 47.25,
+    "location": "Sheikh Saqr Bin Muhammad Al Qasimi Street , Alnakeel"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Airport Street ",
+    "region": "Aldaqdaqa",
+    "risk_rate": 70.0,
+    "location": "Airport Street , Aldaqdaqa"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Al-Montaser Street",
+    "region": "Julphar",
+    "risk_rate": 23.5,
+    "location": "Al-Montaser Street, Julphar"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sheikh Muhammad Bin Salem Street ",
+    "region": "Ras al-Khaimah",
+    "risk_rate": 50.5,
+    "location": "Sheikh Muhammad Bin Salem Street , Ras al-Khaimah"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Aljawazat Street ",
+    "region": "Almaemura",
+    "risk_rate": 55.75,
+    "location": "Aljawazat Street , Almaemura"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": null,
+    "region": null,
+    "risk_rate": null,
+    "location": null
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Aljawazat Street ",
+    "region": "Almaemura",
+    "risk_rate": 55.75,
+    "location": "Aljawazat Street , Almaemura"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sheikh Mohammed bin Zayed Street",
+    "region": "Aljazirah alhamra",
+    "risk_rate": 90.75,
+    "location": "Sheikh Mohammed bin Zayed Street, Aljazirah alhamra"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sheikh Saqr Bin Muhammad Al Qasimi Street ",
+    "region": "Alnakeel",
+    "risk_rate": 47.25,
+    "location": "Sheikh Saqr Bin Muhammad Al Qasimi Street , Alnakeel"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sheikh Saqr Bin Muhammad Al Qasimi Street ",
+    "region": "Alnakeel",
+    "risk_rate": 47.25,
+    "location": "Sheikh Saqr Bin Muhammad Al Qasimi Street , Alnakeel"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sheikh Rashid Bin Saeed Street",
+    "region": "Al Dhait ",
+    "risk_rate": 77.5,
+    "location": "Sheikh Rashid Bin Saeed Street, Al Dhait "
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Al-Huwailat Street ",
+    "region": "Al-Huwailat",
+    "risk_rate": 97.0,
+    "location": "Al-Huwailat Street , Al-Huwailat"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sheikh Salem Bin Sultan Street ",
+    "region": "Almaemura",
+    "risk_rate": 55.75,
+    "location": "Sheikh Salem Bin Sultan Street , Almaemura"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Al Uraibi Street ",
+    "region": "Oraibi",
+    "risk_rate": 81.0,
+    "location": "Al Uraibi Street , Oraibi"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sheikh Saqr Bin Muhammad Al Qasimi Street ",
+    "region": "Shaml",
+    "risk_rate": 82.5,
+    "location": "Sheikh Saqr Bin Muhammad Al Qasimi Street , Shaml"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Al-Montaser Street",
+    "region": "Alqasidat  ",
+    "risk_rate": 7.5,
+    "location": "Al-Montaser Street, Alqasidat  "
+  },
+  {
+    "name": "Building Maintenance",
+    "street": null,
+    "region": null,
+    "risk_rate": null,
+    "location": null
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sheikh Saqr Bin Muhammad Al Qasimi Street ",
+    "region": "Alqasidat  ",
+    "risk_rate": 7.5,
+    "location": "Sheikh Saqr Bin Muhammad Al Qasimi Street , Alqasidat  "
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sheikh Saqr Bin Muhammad Al Qasimi Street ",
+    "region": "Alqasidat  ",
+    "risk_rate": 7.5,
+    "location": "Sheikh Saqr Bin Muhammad Al Qasimi Street , Alqasidat  "
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Al Rams Club Street",
+    "region": "Alrams",
+    "risk_rate": 75.25,
+    "location": "Al Rams Club Street, Alrams"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sheikh Saqr Bin Muhammad Al Qasimi Street ",
+    "region": "Alfiliya",
+    "risk_rate": 88.75,
+    "location": "Sheikh Saqr Bin Muhammad Al Qasimi Street , Alfiliya"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": null,
+    "region": null,
+    "risk_rate": null,
+    "location": null
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sheikh Saqr Bin Muhammad Al Qasimi Street ",
+    "region": "Alnakeel",
+    "risk_rate": 47.25,
+    "location": "Sheikh Saqr Bin Muhammad Al Qasimi Street , Alnakeel"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sheikh Abdullah Bin Mohammed Al Qasimi Street",
+    "region": "Alqasidat  ",
+    "risk_rate": 7.5,
+    "location": "Sheikh Abdullah Bin Mohammed Al Qasimi Street, Alqasidat  "
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Khuzam Street",
+    "region": "Alqasidat  ",
+    "risk_rate": 7.5,
+    "location": "Khuzam Street, Alqasidat  "
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Almataf Street ",
+    "region": "Julphar",
+    "risk_rate": 23.5,
+    "location": "Almataf Street , Julphar"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Khuzam Street ",
+    "region": "Khuzam",
+    "risk_rate": 92.25,
+    "location": "Khuzam Street , Khuzam"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Expo Street",
+    "region": "Alnakeel",
+    "risk_rate": 47.25,
+    "location": "Expo Street, Alnakeel"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Al-Montaser Street",
+    "region": "Julphar",
+    "risk_rate": 23.5,
+    "location": "Al-Montaser Street, Julphar"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Expo Street",
+    "region": "Alnakeel",
+    "risk_rate": 47.25,
+    "location": "Expo Street, Alnakeel"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "GENERAL STREET",
+    "region": "Almaemura",
+    "risk_rate": 55.75,
+    "location": "GENERAL STREET, Almaemura"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Airport Street ",
+    "region": "SOHILA",
+    "risk_rate": 94.5,
+    "location": "Airport Street , SOHILA"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Al Ittihad Street ",
+    "region": "Al Dhait ",
+    "risk_rate": 77.5,
+    "location": "Al Ittihad Street , Al Dhait "
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sheikh Saqr Bin Muhammad Al Qasimi Street ",
+    "region": "Alqasidat  ",
+    "risk_rate": 7.5,
+    "location": "Sheikh Saqr Bin Muhammad Al Qasimi Street , Alqasidat  "
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Athn Street ",
+    "region": "Udhin",
+    "risk_rate": 88.25,
+    "location": "Athn Street , Udhin"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Vegetables and Fruits Market Street",
+    "region": "Alnakeel",
+    "risk_rate": 47.25,
+    "location": "Vegetables and Fruits Market Street, Alnakeel"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Al Rams Street - Old Market",
+    "region": "Alrams",
+    "risk_rate": 75.25,
+    "location": "Al Rams Street - Old Market, Alrams"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Almaemura Street ",
+    "region": "Almaemura",
+    "risk_rate": 55.75,
+    "location": "Almaemura Street , Almaemura"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Al Dhait Street",
+    "region": "Khalifa Bin Zayed City",
+    "risk_rate": 92.25,
+    "location": "Al Dhait Street, Khalifa Bin Zayed City"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Expo Street",
+    "region": "Alnakeel",
+    "risk_rate": 47.25,
+    "location": "Expo Street, Alnakeel"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sheikh Rashid Bin Saeed Street",
+    "region": "Al Kharran",
+    "risk_rate": 62.0,
+    "location": "Sheikh Rashid Bin Saeed Street, Al Kharran"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Khuzam Street",
+    "region": "Alqasidat  ",
+    "risk_rate": 7.5,
+    "location": "Khuzam Street, Alqasidat  "
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Al Uraibi Street ",
+    "region": "Oraibi",
+    "risk_rate": 81.0,
+    "location": "Al Uraibi Street , Oraibi"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Al Ittihad Street ",
+    "region": "Alrafaea",
+    "risk_rate": 98.25,
+    "location": "Al Ittihad Street , Alrafaea"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sheikh Abdullah Bin Mohammed Al Qasimi Street",
+    "region": "Alqasidat  ",
+    "risk_rate": 7.5,
+    "location": "Sheikh Abdullah Bin Mohammed Al Qasimi Street, Alqasidat  "
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Al Ittihad Street ",
+    "region": "Aljazirah alhamra",
+    "risk_rate": 90.75,
+    "location": "Al Ittihad Street , Aljazirah alhamra"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Al-Montaser Street",
+    "region": "Alnakeel",
+    "risk_rate": 47.25,
+    "location": "Al-Montaser Street, Alnakeel"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Aljawazat Street ",
+    "region": "Almaemura",
+    "risk_rate": 55.75,
+    "location": "Aljawazat Street , Almaemura"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sheikh Muhammad Bin Salem Street ",
+    "region": "DHEHAN ZONE",
+    "risk_rate": 76.5,
+    "location": "Sheikh Muhammad Bin Salem Street , DHEHAN ZONE"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sheikh Rashid Bin Saeed Street",
+    "region": "Al Kharran",
+    "risk_rate": 62.0,
+    "location": "Sheikh Rashid Bin Saeed Street, Al Kharran"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Khuzam Street ",
+    "region": "Khuzam",
+    "risk_rate": 92.25,
+    "location": "Khuzam Street , Khuzam"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "BEHIND THE CINEMA",
+    "region": "Alnakeel",
+    "risk_rate": 47.25,
+    "location": "BEHIND THE CINEMA, Alnakeel"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Altarafa Street ",
+    "region": "Alqasidat  ",
+    "risk_rate": 7.5,
+    "location": "Altarafa Street , Alqasidat  "
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sheikh Saqr Bin Muhammad Al Qasimi Street ",
+    "region": "Alqasidat  ",
+    "risk_rate": 7.5,
+    "location": "Sheikh Saqr Bin Muhammad Al Qasimi Street , Alqasidat  "
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "GENERAL STREET",
+    "region": "Julphar",
+    "risk_rate": 23.5,
+    "location": "GENERAL STREET, Julphar"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Aljawis Street ",
+    "region": "Alqasidat  ",
+    "risk_rate": 7.5,
+    "location": "Aljawis Street , Alqasidat  "
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sheikh Saqr Bin Muhammad Al Qasimi Street ",
+    "region": "Alqasidat  ",
+    "risk_rate": 7.5,
+    "location": "Sheikh Saqr Bin Muhammad Al Qasimi Street , Alqasidat  "
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sheikh Rashid Bin Saeed Street",
+    "region": "Al Kharran",
+    "risk_rate": 62.0,
+    "location": "Sheikh Rashid Bin Saeed Street, Al Kharran"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Altarafa Street ",
+    "region": "Alqasidat  ",
+    "risk_rate": 7.5,
+    "location": "Altarafa Street , Alqasidat  "
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "DHEHAN STREET",
+    "region": "sedro",
+    "risk_rate": 96.75,
+    "location": "DHEHAN STREET, sedro"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "behaind kuzam street",
+    "region": "Alqasidat  ",
+    "risk_rate": 7.5,
+    "location": "behaind kuzam street, Alqasidat  "
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sheikh Saqr Bin Muhammad Al Qasimi Street ",
+    "region": "Alqasidat  ",
+    "risk_rate": 7.5,
+    "location": "Sheikh Saqr Bin Muhammad Al Qasimi Street , Alqasidat  "
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "DHEHAN STREET",
+    "region": "DHEHAN ZONE",
+    "risk_rate": 76.5,
+    "location": "DHEHAN STREET, DHEHAN ZONE"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Al Rams Club Street",
+    "region": "Alrams",
+    "risk_rate": 75.25,
+    "location": "Al Rams Club Street, Alrams"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Al Ittihad Street ",
+    "region": "Aljazirah alhamra",
+    "risk_rate": 90.75,
+    "location": "Al Ittihad Street , Aljazirah alhamra"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "INSIDE STREET",
+    "region": "Al Dhait ",
+    "risk_rate": 77.5,
+    "location": "INSIDE STREET, Al Dhait "
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Al Rams Corniche Street",
+    "region": "Alrams",
+    "risk_rate": 75.25,
+    "location": "Al Rams Corniche Street, Alrams"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Shaml Street",
+    "region": "Shaml",
+    "risk_rate": 82.5,
+    "location": "Shaml Street, Shaml"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Julphar Street",
+    "region": "Julphar",
+    "risk_rate": 23.5,
+    "location": "Julphar Street, Julphar"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Expo Street",
+    "region": "Alnakeel",
+    "risk_rate": 47.25,
+    "location": "Expo Street, Alnakeel"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sheikh Abdullah Bin Mohammed Al Qasimi Street",
+    "region": "Syh alearibi",
+    "risk_rate": 95.25,
+    "location": "Sheikh Abdullah Bin Mohammed Al Qasimi Street, Syh alearibi"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Al Rams Street - Old Market",
+    "region": "Alrams",
+    "risk_rate": 75.25,
+    "location": "Al Rams Street - Old Market, Alrams"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Al Rams Corniche Street",
+    "region": "Alrams",
+    "risk_rate": 75.25,
+    "location": "Al Rams Corniche Street, Alrams"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sheikh Saqr Bin Muhammad Al Qasimi Street ",
+    "region": "Alfiliya",
+    "risk_rate": 88.75,
+    "location": "Sheikh Saqr Bin Muhammad Al Qasimi Street , Alfiliya"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Ghil Street ",
+    "region": "Ghil",
+    "risk_rate": 91.25,
+    "location": "Ghil Street , Ghil"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Shaml Street",
+    "region": "Shaml",
+    "risk_rate": 82.5,
+    "location": "Shaml Street, Shaml"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Al Ittihad Street ",
+    "region": "Al Dhait ",
+    "risk_rate": 77.5,
+    "location": "Al Ittihad Street , Al Dhait "
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Aljawis Street ",
+    "region": "Aljawis",
+    "risk_rate": 89.5,
+    "location": "Aljawis Street , Aljawis"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Shaam Hospital Street",
+    "region": "Sha&#39;am",
+    "risk_rate": 88.5,
+    "location": "Shaam Hospital Street, Sha&#39;am"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Aljawis Street ",
+    "region": "Aljawis",
+    "risk_rate": 89.5,
+    "location": "Aljawis Street , Aljawis"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sheikh Muhammad Bin Salem Street ",
+    "region": "Ras al-Khaimah",
+    "risk_rate": 50.5,
+    "location": "Sheikh Muhammad Bin Salem Street , Ras al-Khaimah"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Khuzam Street ",
+    "region": "Khuzam",
+    "risk_rate": 92.25,
+    "location": "Khuzam Street , Khuzam"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Al Ghob Street",
+    "region": "Al-Ghib",
+    "risk_rate": 95.75,
+    "location": "Al Ghob Street, Al-Ghib"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": null,
+    "region": "Alqasidat  ",
+    "risk_rate": 7.5,
+    "location": null
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Ahmed Bin Majid Street Street ",
+    "region": "Al-Mairid ",
+    "risk_rate": 81.75,
+    "location": "Ahmed Bin Majid Street Street , Al-Mairid "
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sheikh Muhammad Bin Salem Street ",
+    "region": "Ras al-Khaimah",
+    "risk_rate": 50.5,
+    "location": "Sheikh Muhammad Bin Salem Street , Ras al-Khaimah"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Al Ittihad Street ",
+    "region": "Aljazirah alhamra",
+    "risk_rate": 90.75,
+    "location": "Al Ittihad Street , Aljazirah alhamra"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sheikh Saqr Bin Muhammad Al Qasimi Street ",
+    "region": "Oraibi",
+    "risk_rate": 81.0,
+    "location": "Sheikh Saqr Bin Muhammad Al Qasimi Street , Oraibi"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Julphar Street",
+    "region": "Julphar",
+    "risk_rate": 23.5,
+    "location": "Julphar Street, Julphar"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Al Jeer Street",
+    "region": "Al jeer",
+    "risk_rate": 93.0,
+    "location": "Al Jeer Street, Al jeer"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "shawka Street",
+    "region": "shawka",
+    "risk_rate": 98.0,
+    "location": "shawka Street, shawka"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Hamraniya Street",
+    "region": "Hamraniya",
+    "risk_rate": 96.25,
+    "location": "Hamraniya Street, Hamraniya"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sheikh Rashid Bin Saeed Street",
+    "region": "Alfiliya",
+    "risk_rate": 88.75,
+    "location": "Sheikh Rashid Bin Saeed Street, Alfiliya"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Aljawis Street ",
+    "region": "Alqasidat  ",
+    "risk_rate": 7.5,
+    "location": "Aljawis Street , Alqasidat  "
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "INSIDE STREET",
+    "region": "Khor Khuwair",
+    "risk_rate": 97.25,
+    "location": "INSIDE STREET, Khor Khuwair"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Al Ittihad Street ",
+    "region": "Aljazirah alhamra",
+    "risk_rate": 90.75,
+    "location": "Al Ittihad Street , Aljazirah alhamra"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Airport Street ",
+    "region": "Aldaqdaqa",
+    "risk_rate": 70.0,
+    "location": "Airport Street , Aldaqdaqa"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": null,
+    "region": "Alnakeel",
+    "risk_rate": 47.25,
+    "location": null
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Almataf Street ",
+    "region": "Julphar",
+    "risk_rate": 23.5,
+    "location": "Almataf Street , Julphar"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": null,
+    "region": "Ras al-Khaimah",
+    "risk_rate": 50.5,
+    "location": null
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Julphar Street",
+    "region": "Julphar",
+    "risk_rate": 23.5,
+    "location": "Julphar Street, Julphar"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sheikh Muhammad Bin Salem Street ",
+    "region": "Ras al-Khaimah",
+    "risk_rate": 50.5,
+    "location": "Sheikh Muhammad Bin Salem Street , Ras al-Khaimah"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Khuzam Street",
+    "region": "Alqasidat  ",
+    "risk_rate": 7.5,
+    "location": "Khuzam Street, Alqasidat  "
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Khuzam Street",
+    "region": "Alqasidat  ",
+    "risk_rate": 7.5,
+    "location": "Khuzam Street, Alqasidat  "
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sheikh Saqr Bin Muhammad Al Qasimi Street ",
+    "region": "Al Kharran",
+    "risk_rate": 62.0,
+    "location": "Sheikh Saqr Bin Muhammad Al Qasimi Street , Al Kharran"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sheikh Muhammad Bin Salem Street ",
+    "region": "DHEHAN ZONE",
+    "risk_rate": 76.5,
+    "location": "Sheikh Muhammad Bin Salem Street , DHEHAN ZONE"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Athn Street ",
+    "region": "Udhin",
+    "risk_rate": 88.25,
+    "location": "Athn Street , Udhin"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sheikh Saqr Bin Muhammad Al Qasimi Street ",
+    "region": "Alqasidat  ",
+    "risk_rate": 7.5,
+    "location": "Sheikh Saqr Bin Muhammad Al Qasimi Street , Alqasidat  "
+  },
+  {
+    "name": "Building Maintenance",
+    "street": null,
+    "region": null,
+    "risk_rate": null,
+    "location": null
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sheikh Saqr Bin Muhammad Al Qasimi Street ",
+    "region": "Alfiliya",
+    "risk_rate": 88.75,
+    "location": "Sheikh Saqr Bin Muhammad Al Qasimi Street , Alfiliya"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Shaml Street",
+    "region": "Shaml",
+    "risk_rate": 82.5,
+    "location": "Shaml Street, Shaml"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Ghil Street ",
+    "region": "Ghil",
+    "risk_rate": 91.25,
+    "location": "Ghil Street , Ghil"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "GENERAL STREET",
+    "region": "Ghil",
+    "risk_rate": 91.25,
+    "location": "GENERAL STREET, Ghil"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Al Uraibi Street ",
+    "region": "Alnakeel",
+    "risk_rate": 47.25,
+    "location": "Al Uraibi Street , Alnakeel"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Ahmed Bin Majid Street Street ",
+    "region": "Al-Mairid ",
+    "risk_rate": 81.75,
+    "location": "Ahmed Bin Majid Street Street , Al-Mairid "
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Al Rams Club Street",
+    "region": "Alrams",
+    "risk_rate": 75.25,
+    "location": "Al Rams Club Street, Alrams"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Al-Huwailat Street ",
+    "region": "Al-Huwailat",
+    "risk_rate": 97.0,
+    "location": "Al-Huwailat Street , Al-Huwailat"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Julphar Street",
+    "region": "Julphar",
+    "risk_rate": 23.5,
+    "location": "Julphar Street, Julphar"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Airport Street ",
+    "region": "SOHILA",
+    "risk_rate": 94.5,
+    "location": "Airport Street , SOHILA"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sheikh Rashid Bin Saeed Street",
+    "region": "Saqr Bin Mohammed City",
+    "risk_rate": 88.5,
+    "location": "Sheikh Rashid Bin Saeed Street, Saqr Bin Mohammed City"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Aljawazat Street ",
+    "region": "Almaemura",
+    "risk_rate": 55.75,
+    "location": "Aljawazat Street , Almaemura"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Shaml Street",
+    "region": "Shaml",
+    "risk_rate": 82.5,
+    "location": "Shaml Street, Shaml"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Al Ittihad Street ",
+    "region": "Al Dhait ",
+    "risk_rate": 77.5,
+    "location": "Al Ittihad Street , Al Dhait "
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Al-Montaser Street",
+    "region": "Almaemura",
+    "risk_rate": 55.75,
+    "location": "Al-Montaser Street, Almaemura"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Al-Montaser Street",
+    "region": "Alnakeel",
+    "risk_rate": 47.25,
+    "location": "Al-Montaser Street, Alnakeel"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": null,
+    "region": "Ras al-Khaimah",
+    "risk_rate": 50.5,
+    "location": null
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sheikh Rashid Bin Saeed Street",
+    "region": "Al Kharran",
+    "risk_rate": 62.0,
+    "location": "Sheikh Rashid Bin Saeed Street, Al Kharran"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Al-Montaser Street",
+    "region": "Alnakeel",
+    "risk_rate": 47.25,
+    "location": "Al-Montaser Street, Alnakeel"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Al Dhait Street",
+    "region": "Khalifa Bin Zayed City",
+    "risk_rate": 92.25,
+    "location": "Al Dhait Street, Khalifa Bin Zayed City"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "DHEHAN STREET",
+    "region": "DHEHAN ZONE",
+    "risk_rate": 76.5,
+    "location": "DHEHAN STREET, DHEHAN ZONE"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": null,
+    "region": "Alnakeel",
+    "risk_rate": 47.25,
+    "location": null
+  },
+  {
+    "name": "Building Maintenance",
+    "street": null,
+    "region": "Ras al-Khaimah",
+    "risk_rate": 50.5,
+    "location": null
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Shaml Street",
+    "region": "Shaml",
+    "risk_rate": 82.5,
+    "location": "Shaml Street, Shaml"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Vegetables and Fruits Market Street",
+    "region": "Alnakeel",
+    "risk_rate": 47.25,
+    "location": "Vegetables and Fruits Market Street, Alnakeel"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sheikh Muhammad Bin Salem Street ",
+    "region": "DHEHAN ZONE",
+    "risk_rate": 76.5,
+    "location": "Sheikh Muhammad Bin Salem Street , DHEHAN ZONE"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "INSIDE STREET",
+    "region": "Ras al-Khaimah",
+    "risk_rate": 50.5,
+    "location": "INSIDE STREET, Ras al-Khaimah"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": null,
+    "region": null,
+    "risk_rate": null,
+    "location": null
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Athn Street ",
+    "region": "Udhin",
+    "risk_rate": 88.25,
+    "location": "Athn Street , Udhin"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sheikh Rashid Bin Saeed Street",
+    "region": "Saqr Bin Mohammed City",
+    "risk_rate": 88.5,
+    "location": "Sheikh Rashid Bin Saeed Street, Saqr Bin Mohammed City"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sheikh Saqr Bin Muhammad Al Qasimi Street ",
+    "region": "Alqasidat  ",
+    "risk_rate": 7.5,
+    "location": "Sheikh Saqr Bin Muhammad Al Qasimi Street , Alqasidat  "
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Al Dhait Street",
+    "region": "Khalifa Bin Zayed City",
+    "risk_rate": 92.25,
+    "location": "Al Dhait Street, Khalifa Bin Zayed City"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sheikh Rashid Bin Saeed Street",
+    "region": "Al Kharran",
+    "risk_rate": 62.0,
+    "location": "Sheikh Rashid Bin Saeed Street, Al Kharran"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "DWAR AL KHURAN STREET",
+    "region": "Al Kharran",
+    "risk_rate": 62.0,
+    "location": "DWAR AL KHURAN STREET, Al Kharran"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": null,
+    "region": "Alsalihia",
+    "risk_rate": 96.25,
+    "location": null
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "AL Jazaa Street",
+    "region": "Alnakeel",
+    "risk_rate": 47.25,
+    "location": "AL Jazaa Street, Alnakeel"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Athn Street ",
+    "region": "Udhin",
+    "risk_rate": 88.25,
+    "location": "Athn Street , Udhin"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sheikh Rashid Bin Saeed Street",
+    "region": "Saqr Bin Mohammed City",
+    "risk_rate": 88.5,
+    "location": "Sheikh Rashid Bin Saeed Street, Saqr Bin Mohammed City"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sheikh Saqr Bin Muhammad Al Qasimi Street ",
+    "region": "Oraibi",
+    "risk_rate": 81.0,
+    "location": "Sheikh Saqr Bin Muhammad Al Qasimi Street , Oraibi"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Shaml Street",
+    "region": "Shaml",
+    "risk_rate": 82.5,
+    "location": "Shaml Street, Shaml"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Julphar Street",
+    "region": "Julphar",
+    "risk_rate": 23.5,
+    "location": "Julphar Street, Julphar"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sheikh Abdullah Bin Mohammed Al Qasimi Street",
+    "region": "Syh alearibi",
+    "risk_rate": 95.25,
+    "location": "Sheikh Abdullah Bin Mohammed Al Qasimi Street, Syh alearibi"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Khuzam Street",
+    "region": "Alqasidat  ",
+    "risk_rate": 7.5,
+    "location": "Khuzam Street, Alqasidat  "
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Ghil Street ",
+    "region": "Ghil",
+    "risk_rate": 91.25,
+    "location": "Ghil Street , Ghil"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sheikh Rashid Bin Saeed Street",
+    "region": "Alfiliya",
+    "risk_rate": 88.75,
+    "location": "Sheikh Rashid Bin Saeed Street, Alfiliya"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Al-Montaser Street",
+    "region": "Alnakeel",
+    "risk_rate": 47.25,
+    "location": "Al-Montaser Street, Alnakeel"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Khuzam Street",
+    "region": "Alqasidat  ",
+    "risk_rate": 7.5,
+    "location": "Khuzam Street, Alqasidat  "
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Shaam Hospital Street",
+    "region": "Sha&#39;am",
+    "risk_rate": 88.5,
+    "location": "Shaam Hospital Street, Sha&#39;am"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": null,
+    "region": "Alfiliya",
+    "risk_rate": 88.75,
+    "location": null
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Khuzam Street",
+    "region": "Alqasidat  ",
+    "risk_rate": 7.5,
+    "location": "Khuzam Street, Alqasidat  "
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Aljawis Street ",
+    "region": "Alqasidat  ",
+    "risk_rate": 7.5,
+    "location": "Aljawis Street , Alqasidat  "
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sheikh Muhammad Bin Salem Street ",
+    "region": "Aldifan",
+    "risk_rate": 96.0,
+    "location": "Sheikh Muhammad Bin Salem Street , Aldifan"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Altarafa Street ",
+    "region": "Alqasidat  ",
+    "risk_rate": 7.5,
+    "location": "Altarafa Street , Alqasidat  "
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sheikh Saqr Bin Muhammad Al Qasimi Street ",
+    "region": "Oraibi",
+    "risk_rate": 81.0,
+    "location": "Sheikh Saqr Bin Muhammad Al Qasimi Street , Oraibi"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "BEHIND DWAR AL KHURAN",
+    "region": "Al Kharran",
+    "risk_rate": 62.0,
+    "location": "BEHIND DWAR AL KHURAN, Al Kharran"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Al Nadud Street",
+    "region": "Julphar",
+    "risk_rate": 23.5,
+    "location": "Al Nadud Street, Julphar"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sheikh Saqr Bin Muhammad Al Qasimi Street ",
+    "region": "Alnakeel",
+    "risk_rate": 47.25,
+    "location": "Sheikh Saqr Bin Muhammad Al Qasimi Street , Alnakeel"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sheikh Saqr Bin Muhammad Al Qasimi Street ",
+    "region": "Alnakeel",
+    "risk_rate": 47.25,
+    "location": "Sheikh Saqr Bin Muhammad Al Qasimi Street , Alnakeel"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": null,
+    "region": "Oraibi",
+    "risk_rate": 81.0,
+    "location": null
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Airport Street - Internal",
+    "region": "Aldaqdaqa",
+    "risk_rate": 70.0,
+    "location": "Airport Street - Internal, Aldaqdaqa"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Julphar Street",
+    "region": "Julphar",
+    "risk_rate": 23.5,
+    "location": "Julphar Street, Julphar"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "DHEHAN STREET",
+    "region": "DHEHAN ZONE",
+    "risk_rate": 76.5,
+    "location": "DHEHAN STREET, DHEHAN ZONE"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sheikh Saqr Bin Muhammad Al Qasimi Street ",
+    "region": "Alqasidat  ",
+    "risk_rate": 7.5,
+    "location": "Sheikh Saqr Bin Muhammad Al Qasimi Street , Alqasidat  "
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sheikh Saqr Bin Muhammad Al Qasimi Street ",
+    "region": "Alnakeel",
+    "risk_rate": 47.25,
+    "location": "Sheikh Saqr Bin Muhammad Al Qasimi Street , Alnakeel"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sheikh Saqr Bin Muhammad Al Qasimi Street ",
+    "region": "Glilah",
+    "risk_rate": 93.75,
+    "location": "Sheikh Saqr Bin Muhammad Al Qasimi Street , Glilah"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sheikh Saqr Bin Muhammad Al Qasimi Street ",
+    "region": "Alqasidat  ",
+    "risk_rate": 7.5,
+    "location": "Sheikh Saqr Bin Muhammad Al Qasimi Street , Alqasidat  "
+  },
+  {
+    "name": "Building Maintenance",
+    "street": null,
+    "region": "Julphar",
+    "risk_rate": 23.5,
+    "location": null
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sheikh Saqr Bin Muhammad Al Qasimi Street ",
+    "region": "Alqasidat  ",
+    "risk_rate": 7.5,
+    "location": "Sheikh Saqr Bin Muhammad Al Qasimi Street , Alqasidat  "
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Julphar Street",
+    "region": "Julphar",
+    "risk_rate": 23.5,
+    "location": "Julphar Street, Julphar"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sheikh Saqr Bin Muhammad Al Qasimi Street ",
+    "region": "Oraibi",
+    "risk_rate": 81.0,
+    "location": "Sheikh Saqr Bin Muhammad Al Qasimi Street , Oraibi"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Almataf Street ",
+    "region": "Julphar",
+    "risk_rate": 23.5,
+    "location": "Almataf Street , Julphar"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sheikh Kayd Bin Muhamad Street ",
+    "region": "Oraibi",
+    "risk_rate": 81.0,
+    "location": "Sheikh Kayd Bin Muhamad Street , Oraibi"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": null,
+    "region": "Aljazirah alhamra",
+    "risk_rate": 90.75,
+    "location": null
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Al-Montaser Street",
+    "region": "Almaemura",
+    "risk_rate": 55.75,
+    "location": "Al-Montaser Street, Almaemura"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "INSIDE STREET",
+    "region": "Saqr Bin Mohammed City",
+    "risk_rate": 88.5,
+    "location": "INSIDE STREET, Saqr Bin Mohammed City"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Ghil Street ",
+    "region": "Ghil",
+    "risk_rate": 91.25,
+    "location": "Ghil Street , Ghil"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Souq Alnakhil Street",
+    "region": "Alnakeel",
+    "risk_rate": 47.25,
+    "location": "Souq Alnakhil Street, Alnakeel"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Al-Montaser Street",
+    "region": "Alnakeel",
+    "risk_rate": 47.25,
+    "location": "Al-Montaser Street, Alnakeel"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": null,
+    "region": "Alqasidat  ",
+    "risk_rate": 7.5,
+    "location": null
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sheikh Saqr Bin Muhammad Al Qasimi Street ",
+    "region": "Alqasidat  ",
+    "risk_rate": 7.5,
+    "location": "Sheikh Saqr Bin Muhammad Al Qasimi Street , Alqasidat  "
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Al-Montaser Street",
+    "region": "Alnakeel",
+    "risk_rate": 47.25,
+    "location": "Al-Montaser Street, Alnakeel"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Altarafa Street ",
+    "region": "Alqasidat  ",
+    "risk_rate": 7.5,
+    "location": "Altarafa Street , Alqasidat  "
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Khuzam Street",
+    "region": "Alqasidat  ",
+    "risk_rate": 7.5,
+    "location": "Khuzam Street, Alqasidat  "
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Salhia Industrial Street",
+    "region": "Alsalihia",
+    "risk_rate": 96.25,
+    "location": "Salhia Industrial Street, Alsalihia"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Airport Street - Internal",
+    "region": "Aldaqdaqa",
+    "risk_rate": 70.0,
+    "location": "Airport Street - Internal, Aldaqdaqa"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": null,
+    "region": "Ras al-Khaimah",
+    "risk_rate": 50.5,
+    "location": null
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Shaml Street",
+    "region": "Shaml",
+    "risk_rate": 82.5,
+    "location": "Shaml Street, Shaml"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Ahmed Bin Majid Street Street ",
+    "region": "Al-Mairid ",
+    "risk_rate": 81.75,
+    "location": "Ahmed Bin Majid Street Street , Al-Mairid "
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "GENERAL STREET",
+    "region": "Alqasidat  ",
+    "risk_rate": 7.5,
+    "location": "GENERAL STREET, Alqasidat  "
+  },
+  {
+    "name": "Building Maintenance",
+    "street": null,
+    "region": "Alqasidat  ",
+    "risk_rate": 7.5,
+    "location": null
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Almataf Street ",
+    "region": "Julphar",
+    "risk_rate": 23.5,
+    "location": "Almataf Street , Julphar"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Julphar Street",
+    "region": "Julphar",
+    "risk_rate": 23.5,
+    "location": "Julphar Street, Julphar"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sheikh Muhammad Bin Salem Street ",
+    "region": "Ras al-Khaimah",
+    "risk_rate": 50.5,
+    "location": "Sheikh Muhammad Bin Salem Street , Ras al-Khaimah"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sheikh Rashid Bin Saeed Street",
+    "region": "Al Kharran",
+    "risk_rate": 62.0,
+    "location": "Sheikh Rashid Bin Saeed Street, Al Kharran"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Altarafa Street ",
+    "region": "Alqasidat  ",
+    "risk_rate": 7.5,
+    "location": "Altarafa Street , Alqasidat  "
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Hamraniya Street - Internal",
+    "region": "Hamraniya",
+    "risk_rate": 96.25,
+    "location": "Hamraniya Street - Internal, Hamraniya"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Al Ittihad Street ",
+    "region": "Al Dhait ",
+    "risk_rate": 77.5,
+    "location": "Al Ittihad Street , Al Dhait "
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Airport Street ",
+    "region": "SOHILA",
+    "risk_rate": 94.5,
+    "location": "Airport Street , SOHILA"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": null,
+    "region": "Alsalihia",
+    "risk_rate": 96.25,
+    "location": null
+  },
+  {
+    "name": "Building Maintenance",
+    "street": null,
+    "region": "Alnakeel",
+    "risk_rate": 47.25,
+    "location": null
+  },
+  {
+    "name": "Building Maintenance",
+    "street": null,
+    "region": "Almaemura",
+    "risk_rate": 55.75,
+    "location": null
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Almataf Street ",
+    "region": "Julphar",
+    "risk_rate": 23.5,
+    "location": "Almataf Street , Julphar"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Athn Street ",
+    "region": "Udhin",
+    "risk_rate": 88.25,
+    "location": "Athn Street , Udhin"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "DHEHAN STREET",
+    "region": "sedro",
+    "risk_rate": 96.75,
+    "location": "DHEHAN STREET, sedro"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": null,
+    "region": null,
+    "risk_rate": null,
+    "location": null
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sheikh Saqr Bin Muhammad Al Qasimi Street ",
+    "region": "Alqasidat  ",
+    "risk_rate": 7.5,
+    "location": "Sheikh Saqr Bin Muhammad Al Qasimi Street , Alqasidat  "
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sheikh Saqr Bin Muhammad Al Qasimi Street ",
+    "region": "Alqasidat  ",
+    "risk_rate": 7.5,
+    "location": "Sheikh Saqr Bin Muhammad Al Qasimi Street , Alqasidat  "
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Al-Montaser Street",
+    "region": "Almaemura",
+    "risk_rate": 55.75,
+    "location": "Al-Montaser Street, Almaemura"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sheikh Saqr Bin Muhammad Al Qasimi Street ",
+    "region": "Alqasidat  ",
+    "risk_rate": 7.5,
+    "location": "Sheikh Saqr Bin Muhammad Al Qasimi Street , Alqasidat  "
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Aljawis Street ",
+    "region": "Alqasidat  ",
+    "risk_rate": 7.5,
+    "location": "Aljawis Street , Alqasidat  "
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Al Rams Street - Old Market",
+    "region": "Alrams",
+    "risk_rate": 75.25,
+    "location": "Al Rams Street - Old Market, Alrams"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Aljawazat Street ",
+    "region": "Almaemura",
+    "risk_rate": 55.75,
+    "location": "Aljawazat Street , Almaemura"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": null,
+    "region": "Alfiliya",
+    "risk_rate": 88.75,
+    "location": null
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "INSIDE STREET",
+    "region": "Al-Mairid ",
+    "risk_rate": 81.75,
+    "location": "INSIDE STREET, Al-Mairid "
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Hamraniya Street",
+    "region": "Hamraniya",
+    "risk_rate": 96.25,
+    "location": "Hamraniya Street, Hamraniya"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Al Jeer Street",
+    "region": "Al jeer",
+    "risk_rate": 93.0,
+    "location": "Al Jeer Street, Al jeer"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Airport Street ",
+    "region": "Aldaqdaqa",
+    "risk_rate": 70.0,
+    "location": "Airport Street , Aldaqdaqa"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": null,
+    "region": "Ras al-Khaimah",
+    "risk_rate": 50.5,
+    "location": null
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Julphar Street",
+    "region": "Julphar",
+    "risk_rate": 23.5,
+    "location": "Julphar Street, Julphar"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sheikh Saqr Bin Muhammad Al Qasimi Street ",
+    "region": "Alsalihia",
+    "risk_rate": 96.25,
+    "location": "Sheikh Saqr Bin Muhammad Al Qasimi Street , Alsalihia"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sheikh Rashid Bin Saeed Street",
+    "region": "Al Kharran",
+    "risk_rate": 62.0,
+    "location": "Sheikh Rashid Bin Saeed Street, Al Kharran"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": null,
+    "region": null,
+    "risk_rate": null,
+    "location": null
+  },
+  {
+    "name": "Building Maintenance",
+    "street": null,
+    "region": null,
+    "risk_rate": null,
+    "location": null
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sheikh Muhammad Bin Salem Street ",
+    "region": "Ras al-Khaimah",
+    "risk_rate": 50.5,
+    "location": "Sheikh Muhammad Bin Salem Street , Ras al-Khaimah"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Khuzam Street",
+    "region": "Alqasidat  ",
+    "risk_rate": 7.5,
+    "location": "Khuzam Street, Alqasidat  "
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Khuzam Street",
+    "region": "Alqasidat  ",
+    "risk_rate": 7.5,
+    "location": "Khuzam Street, Alqasidat  "
+  },
+  {
+    "name": "Building Maintenance",
+    "street": null,
+    "region": "Al Kharran",
+    "risk_rate": 62.0,
+    "location": null
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Khuzam Street ",
+    "region": "Khuzam",
+    "risk_rate": 92.25,
+    "location": "Khuzam Street , Khuzam"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sheikh Saqr Bin Muhammad Al Qasimi Street ",
+    "region": "Alfiliya",
+    "risk_rate": 88.75,
+    "location": "Sheikh Saqr Bin Muhammad Al Qasimi Street , Alfiliya"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Shaml Street",
+    "region": "Shaml",
+    "risk_rate": 82.5,
+    "location": "Shaml Street, Shaml"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sheikh Saqr Bin Muhammad Al Qasimi Street ",
+    "region": "Alnakeel",
+    "risk_rate": 47.25,
+    "location": "Sheikh Saqr Bin Muhammad Al Qasimi Street , Alnakeel"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Masafi Street",
+    "region": "Masafi",
+    "risk_rate": 98.25,
+    "location": "Masafi Street, Masafi"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Al Rams Street - Old Market",
+    "region": "Alrams",
+    "risk_rate": 75.25,
+    "location": "Al Rams Street - Old Market, Alrams"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sheikh Muhammad Bin Salem Street ",
+    "region": "DHEHAN ZONE",
+    "risk_rate": 76.5,
+    "location": "Sheikh Muhammad Bin Salem Street , DHEHAN ZONE"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Al Jeer Street",
+    "region": "Al jeer",
+    "risk_rate": 93.0,
+    "location": "Al Jeer Street, Al jeer"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Airport Street - Internal",
+    "region": "Aldaqdaqa",
+    "risk_rate": 70.0,
+    "location": "Airport Street - Internal, Aldaqdaqa"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": null,
+    "region": "Almaemura",
+    "risk_rate": 55.75,
+    "location": null
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Ghil Street ",
+    "region": "Ghil",
+    "risk_rate": 91.25,
+    "location": "Ghil Street , Ghil"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Wadi Kub Street",
+    "region": "Wadi kub",
+    "risk_rate": 98.75,
+    "location": "Wadi Kub Street, Wadi kub"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": null,
+    "region": "Ras al-Khaimah",
+    "risk_rate": 50.5,
+    "location": null
+  },
+  {
+    "name": "Building Maintenance",
+    "street": null,
+    "region": "Alnakeel",
+    "risk_rate": 47.25,
+    "location": null
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Athen Street - Internal",
+    "region": "Udhin",
+    "risk_rate": 88.25,
+    "location": "Athen Street - Internal, Udhin"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "BEHIND THE CINEMA",
+    "region": "Alnakeel",
+    "risk_rate": 47.25,
+    "location": "BEHIND THE CINEMA, Alnakeel"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sheikh Saqr Bin Muhammad Al Qasimi Street ",
+    "region": "Alqasidat  ",
+    "risk_rate": 7.5,
+    "location": "Sheikh Saqr Bin Muhammad Al Qasimi Street , Alqasidat  "
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sheikh Saqr Bin Muhammad Al Qasimi Street ",
+    "region": "Oraibi",
+    "risk_rate": 81.0,
+    "location": "Sheikh Saqr Bin Muhammad Al Qasimi Street , Oraibi"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sheikh Saqr Bin Muhammad Al Qasimi Street ",
+    "region": "Alqasidat  ",
+    "risk_rate": 7.5,
+    "location": "Sheikh Saqr Bin Muhammad Al Qasimi Street , Alqasidat  "
+  },
+  {
+    "name": "Building Maintenance",
+    "street": null,
+    "region": "Aldaqdaqa",
+    "risk_rate": 70.0,
+    "location": null
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Souq Alnakhil Street",
+    "region": "Alnakeel",
+    "risk_rate": 47.25,
+    "location": "Souq Alnakhil Street, Alnakeel"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Almaemura Street ",
+    "region": "Almaemura",
+    "risk_rate": 55.75,
+    "location": "Almaemura Street , Almaemura"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "INSIDE STREET",
+    "region": "Ras al-Khaimah",
+    "risk_rate": 50.5,
+    "location": "INSIDE STREET, Ras al-Khaimah"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "INSIDE STREET",
+    "region": "AL FAHLAIN",
+    "risk_rate": 97.5,
+    "location": "INSIDE STREET, AL FAHLAIN"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Al-Montaser Street",
+    "region": "Alnakeel",
+    "risk_rate": 47.25,
+    "location": "Al-Montaser Street, Alnakeel"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sheikh Saqr Bin Muhammad Al Qasimi Street ",
+    "region": "Aljawis",
+    "risk_rate": 89.5,
+    "location": "Sheikh Saqr Bin Muhammad Al Qasimi Street , Aljawis"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Al Dhait Street",
+    "region": "Khalifa Bin Zayed City",
+    "risk_rate": 92.25,
+    "location": "Al Dhait Street, Khalifa Bin Zayed City"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "GENERAL STREET",
+    "region": "Almaemura",
+    "risk_rate": 55.75,
+    "location": "GENERAL STREET, Almaemura"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sheikh Saqr Bin Muhammad Al Qasimi Street ",
+    "region": "Alnakeel",
+    "risk_rate": 47.25,
+    "location": "Sheikh Saqr Bin Muhammad Al Qasimi Street , Alnakeel"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sheikh Rashid Bin Saeed Street",
+    "region": "Al Kharran",
+    "risk_rate": 62.0,
+    "location": "Sheikh Rashid Bin Saeed Street, Al Kharran"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sheikh Saqr Bin Muhammad Al Qasimi Street ",
+    "region": "Kabdah",
+    "risk_rate": 99.0,
+    "location": "Sheikh Saqr Bin Muhammad Al Qasimi Street , Kabdah"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": null,
+    "region": "Udhin",
+    "risk_rate": 88.25,
+    "location": null
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Julphar Street",
+    "region": "Julphar",
+    "risk_rate": 23.5,
+    "location": "Julphar Street, Julphar"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sheikh Rashid Bin Saeed Street",
+    "region": "Saqr Bin Mohammed City",
+    "risk_rate": 88.5,
+    "location": "Sheikh Rashid Bin Saeed Street, Saqr Bin Mohammed City"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": null,
+    "region": "Ras al-Khaimah",
+    "risk_rate": 50.5,
+    "location": null
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sheikh Rashid Bin Saeed Street",
+    "region": "Saqr Bin Mohammed City",
+    "risk_rate": 88.5,
+    "location": "Sheikh Rashid Bin Saeed Street, Saqr Bin Mohammed City"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sheikh Muhammad Bin Salem Street ",
+    "region": "Ras al-Khaimah",
+    "risk_rate": 50.5,
+    "location": "Sheikh Muhammad Bin Salem Street , Ras al-Khaimah"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": null,
+    "region": "Ras al-Khaimah",
+    "risk_rate": 50.5,
+    "location": null
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sidroh Street ",
+    "region": "Ras al-Khaimah",
+    "risk_rate": 50.5,
+    "location": "Sidroh Street , Ras al-Khaimah"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "DWAR AL KHURAN STREET",
+    "region": "Al Kharran",
+    "risk_rate": 62.0,
+    "location": "DWAR AL KHURAN STREET, Al Kharran"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Hosun Street",
+    "region": "Ras al-Khaimah",
+    "risk_rate": 50.5,
+    "location": "Hosun Street, Ras al-Khaimah"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sheikh Saqr Bin Muhammad Al Qasimi Street ",
+    "region": "Aljawis",
+    "risk_rate": 89.5,
+    "location": "Sheikh Saqr Bin Muhammad Al Qasimi Street , Aljawis"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sheikh Saqr Bin Muhammad Al Qasimi Street ",
+    "region": "Alrams",
+    "risk_rate": 75.25,
+    "location": "Sheikh Saqr Bin Muhammad Al Qasimi Street , Alrams"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": null,
+    "region": "Udhin",
+    "risk_rate": 88.25,
+    "location": null
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Al Ittihad Street ",
+    "region": "Aljazirah alhamra",
+    "risk_rate": 90.75,
+    "location": "Al Ittihad Street , Aljazirah alhamra"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": null,
+    "region": null,
+    "risk_rate": null,
+    "location": null
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Almaemura Street ",
+    "region": "Almaemura",
+    "risk_rate": 55.75,
+    "location": "Almaemura Street , Almaemura"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Aljawazat Street ",
+    "region": "Almaemura",
+    "risk_rate": 55.75,
+    "location": "Aljawazat Street , Almaemura"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Al Ittihad Street ",
+    "region": "Alrafaea",
+    "risk_rate": 98.25,
+    "location": "Al Ittihad Street , Alrafaea"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Almataf Street ",
+    "region": "Julphar",
+    "risk_rate": 23.5,
+    "location": "Almataf Street , Julphar"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sheikh Saqr Bin Muhammad Al Qasimi Street ",
+    "region": "Glilah",
+    "risk_rate": 93.75,
+    "location": "Sheikh Saqr Bin Muhammad Al Qasimi Street , Glilah"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Shaml Street",
+    "region": "Shaml",
+    "risk_rate": 82.5,
+    "location": "Shaml Street, Shaml"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "INSIDE STREET",
+    "region": "Saqr Bin Mohammed City",
+    "risk_rate": 88.5,
+    "location": "INSIDE STREET, Saqr Bin Mohammed City"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Shaml Street",
+    "region": "Shaml",
+    "risk_rate": 82.5,
+    "location": "Shaml Street, Shaml"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "GENERAL STREET",
+    "region": "Julphar",
+    "risk_rate": 23.5,
+    "location": "GENERAL STREET, Julphar"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Almaemura Street ",
+    "region": "Almaemura",
+    "risk_rate": 55.75,
+    "location": "Almaemura Street , Almaemura"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sheikh Saqr Bin Muhammad Al Qasimi Street ",
+    "region": "Alrams",
+    "risk_rate": 75.25,
+    "location": "Sheikh Saqr Bin Muhammad Al Qasimi Street , Alrams"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": null,
+    "region": "Almaemura",
+    "risk_rate": 55.75,
+    "location": null
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Airport Street - Internal",
+    "region": "Aldaqdaqa",
+    "risk_rate": 70.0,
+    "location": "Airport Street - Internal, Aldaqdaqa"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sheikh Saqr Bin Muhammad Al Qasimi Street ",
+    "region": "Alqasidat  ",
+    "risk_rate": 7.5,
+    "location": "Sheikh Saqr Bin Muhammad Al Qasimi Street , Alqasidat  "
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Al Ittihad Street ",
+    "region": "Al Dhait ",
+    "risk_rate": 77.5,
+    "location": "Al Ittihad Street , Al Dhait "
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Airport Street - Internal",
+    "region": "Aldaqdaqa",
+    "risk_rate": 70.0,
+    "location": "Airport Street - Internal, Aldaqdaqa"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "AL Marina street",
+    "region": "Aljazirah alhamra",
+    "risk_rate": 90.75,
+    "location": "AL Marina street, Aljazirah alhamra"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": null,
+    "region": null,
+    "risk_rate": null,
+    "location": null
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Almataf Street ",
+    "region": "Julphar",
+    "risk_rate": 23.5,
+    "location": "Almataf Street , Julphar"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Alsawan Street",
+    "region": "Aldaqdaqa",
+    "risk_rate": 70.0,
+    "location": "Alsawan Street, Aldaqdaqa"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Shaml Street",
+    "region": "Shaml",
+    "risk_rate": 82.5,
+    "location": "Shaml Street, Shaml"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sheikh Rashid Bin Saeed Street",
+    "region": "Saqr Bin Mohammed City",
+    "risk_rate": 88.5,
+    "location": "Sheikh Rashid Bin Saeed Street, Saqr Bin Mohammed City"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Eid Prayer Street",
+    "region": "Alrams",
+    "risk_rate": 75.25,
+    "location": "Eid Prayer Street, Alrams"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sheikh Abdullah Bin Mohammed Al Qasimi Street",
+    "region": "Syh alearibi",
+    "risk_rate": 95.25,
+    "location": "Sheikh Abdullah Bin Mohammed Al Qasimi Street, Syh alearibi"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": null,
+    "region": "Ras al-Khaimah",
+    "risk_rate": 50.5,
+    "location": null
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sheikh Abdullah Bin Mohammed Al Qasimi Street",
+    "region": "Syh alearibi",
+    "risk_rate": 95.25,
+    "location": "Sheikh Abdullah Bin Mohammed Al Qasimi Street, Syh alearibi"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Airport Street ",
+    "region": "Aldaqdaqa",
+    "risk_rate": 70.0,
+    "location": "Airport Street , Aldaqdaqa"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Ahmed Bin Majid Street Street ",
+    "region": "Al-Mairid ",
+    "risk_rate": 81.75,
+    "location": "Ahmed Bin Majid Street Street , Al-Mairid "
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sheikh Saqr Bin Muhammad Al Qasimi Street ",
+    "region": "Oraibi",
+    "risk_rate": 81.0,
+    "location": "Sheikh Saqr Bin Muhammad Al Qasimi Street , Oraibi"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "behaind kuzam street",
+    "region": "Alqasidat  ",
+    "risk_rate": 7.5,
+    "location": "behaind kuzam street, Alqasidat  "
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Shaml Street",
+    "region": "Shaml",
+    "risk_rate": 82.5,
+    "location": "Shaml Street, Shaml"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "AL QURM",
+    "region": "Alqasidat  ",
+    "risk_rate": 7.5,
+    "location": "AL QURM, Alqasidat  "
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Al Sharisha Street",
+    "region": "Julphar",
+    "risk_rate": 23.5,
+    "location": "Al Sharisha Street, Julphar"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Al-Montaser Street",
+    "region": "Alnakeel",
+    "risk_rate": 47.25,
+    "location": "Al-Montaser Street, Alnakeel"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Eid Prayer Street",
+    "region": "Alrams",
+    "risk_rate": 75.25,
+    "location": "Eid Prayer Street, Alrams"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Airport Street ",
+    "region": "Al Kharran",
+    "risk_rate": 62.0,
+    "location": "Airport Street , Al Kharran"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Airport Street ",
+    "region": "Aldaqdaqa",
+    "risk_rate": 70.0,
+    "location": "Airport Street , Aldaqdaqa"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sheikh Rashid Bin Saeed Street",
+    "region": "Saqr Bin Mohammed City",
+    "risk_rate": 88.5,
+    "location": "Sheikh Rashid Bin Saeed Street, Saqr Bin Mohammed City"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sheikh Saqr Bin Muhammad Al Qasimi Street ",
+    "region": "Oraibi",
+    "risk_rate": 81.0,
+    "location": "Sheikh Saqr Bin Muhammad Al Qasimi Street , Oraibi"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Al Sabkha Street",
+    "region": "Aldifan",
+    "risk_rate": 96.0,
+    "location": "Al Sabkha Street, Aldifan"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sheikh Saqr Bin Muhammad Al Qasimi Street ",
+    "region": "Sha&#39;am",
+    "risk_rate": 88.5,
+    "location": "Sheikh Saqr Bin Muhammad Al Qasimi Street , Sha&#39;am"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sheikh Saqr Bin Muhammad Al Qasimi Street ",
+    "region": "Aljawis",
+    "risk_rate": 89.5,
+    "location": "Sheikh Saqr Bin Muhammad Al Qasimi Street , Aljawis"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Airport Street ",
+    "region": "Aldaqdaqa",
+    "risk_rate": 70.0,
+    "location": "Airport Street , Aldaqdaqa"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sheikh Muhammad Bin Salem Street ",
+    "region": "Ras al-Khaimah",
+    "risk_rate": 50.5,
+    "location": "Sheikh Muhammad Bin Salem Street , Ras al-Khaimah"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "DHEHAN STREET",
+    "region": "DHEHAN ZONE",
+    "risk_rate": 76.5,
+    "location": "DHEHAN STREET, DHEHAN ZONE"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Almataf Street ",
+    "region": "Julphar",
+    "risk_rate": 23.5,
+    "location": "Almataf Street , Julphar"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sheikh Saqr Bin Muhammad Al Qasimi Street ",
+    "region": "Aljawis",
+    "risk_rate": 89.5,
+    "location": "Sheikh Saqr Bin Muhammad Al Qasimi Street , Aljawis"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Saqr Bin Khalid Street",
+    "region": "Saih al-Ghib",
+    "risk_rate": 97.0,
+    "location": "Saqr Bin Khalid Street, Saih al-Ghib"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": null,
+    "region": "Al Kharran",
+    "risk_rate": 62.0,
+    "location": null
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Al Hudaiba Street ",
+    "region": "Al-Ghib",
+    "risk_rate": 95.75,
+    "location": "Al Hudaiba Street , Al-Ghib"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Martyr Tariq Al-Shehhi Street",
+    "region": "Sha&#39;am",
+    "risk_rate": 88.5,
+    "location": "Martyr Tariq Al-Shehhi Street, Sha&#39;am"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sheikh Rashid Bin Saeed Street",
+    "region": "Al Dhait ",
+    "risk_rate": 77.5,
+    "location": "Sheikh Rashid Bin Saeed Street, Al Dhait "
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Al Rams Street - Old Market",
+    "region": "Alrams",
+    "risk_rate": 75.25,
+    "location": "Al Rams Street - Old Market, Alrams"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "INSIDE STREET",
+    "region": "Ras al-Khaimah",
+    "risk_rate": 50.5,
+    "location": "INSIDE STREET, Ras al-Khaimah"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Khuzam Street",
+    "region": "Alqasidat  ",
+    "risk_rate": 7.5,
+    "location": "Khuzam Street, Alqasidat  "
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "BEHIND DWAR AL KHURAN",
+    "region": "Al Kharran",
+    "risk_rate": 62.0,
+    "location": "BEHIND DWAR AL KHURAN, Al Kharran"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Khuzam Street",
+    "region": "Alqasidat  ",
+    "risk_rate": 7.5,
+    "location": "Khuzam Street, Alqasidat  "
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Khat Street",
+    "region": "Khat",
+    "risk_rate": 97.5,
+    "location": "Khat Street, Khat"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sheikh Saqr Bin Muhammad Al Qasimi Street ",
+    "region": "Alqasidat  ",
+    "risk_rate": 7.5,
+    "location": "Sheikh Saqr Bin Muhammad Al Qasimi Street , Alqasidat  "
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Athn Street ",
+    "region": "Udhin",
+    "risk_rate": 88.25,
+    "location": "Athn Street , Udhin"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sheikh Saqr Bin Muhammad Al Qasimi Street ",
+    "region": "Shaml",
+    "risk_rate": 82.5,
+    "location": "Sheikh Saqr Bin Muhammad Al Qasimi Street , Shaml"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "INSIDE STREET",
+    "region": "AL FAHLAIN",
+    "risk_rate": 97.5,
+    "location": "INSIDE STREET, AL FAHLAIN"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Hamraniya Street",
+    "region": "Hamraniya",
+    "risk_rate": 96.25,
+    "location": "Hamraniya Street, Hamraniya"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": null,
+    "region": null,
+    "risk_rate": null,
+    "location": null
+  },
+  {
+    "name": "Building Maintenance",
+    "street": null,
+    "region": "Julphar",
+    "risk_rate": 23.5,
+    "location": null
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Almataf Street ",
+    "region": "Julphar",
+    "risk_rate": 23.5,
+    "location": "Almataf Street , Julphar"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sheikh Saqr Bin Muhammad Al Qasimi Street ",
+    "region": "Alqasidat  ",
+    "risk_rate": 7.5,
+    "location": "Sheikh Saqr Bin Muhammad Al Qasimi Street , Alqasidat  "
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sidroh Street ",
+    "region": "Ras al-Khaimah",
+    "risk_rate": 50.5,
+    "location": "Sidroh Street , Ras al-Khaimah"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Al Uraibi Street ",
+    "region": "Oraibi",
+    "risk_rate": 81.0,
+    "location": "Al Uraibi Street , Oraibi"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Almataf Street ",
+    "region": "Julphar",
+    "risk_rate": 23.5,
+    "location": "Almataf Street , Julphar"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Zayed Center Roundabout Street",
+    "region": "Al Dhait ",
+    "risk_rate": 77.5,
+    "location": "Zayed Center Roundabout Street, Al Dhait "
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Union Square Street",
+    "region": "Alrams",
+    "risk_rate": 75.25,
+    "location": "Union Square Street, Alrams"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": null,
+    "region": "Alrams",
+    "risk_rate": 75.25,
+    "location": null
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sheikh Rashid Bin Saeed Street",
+    "region": "Al Kharran",
+    "risk_rate": 62.0,
+    "location": "Sheikh Rashid Bin Saeed Street, Al Kharran"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Shaml Street",
+    "region": "Shaml",
+    "risk_rate": 82.5,
+    "location": "Shaml Street, Shaml"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": null,
+    "region": null,
+    "risk_rate": null,
+    "location": null
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Eid Prayer Street",
+    "region": "Alrams",
+    "risk_rate": 75.25,
+    "location": "Eid Prayer Street, Alrams"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sheikh Saqr Bin Muhammad Al Qasimi Street ",
+    "region": "Alqasidat  ",
+    "risk_rate": 7.5,
+    "location": "Sheikh Saqr Bin Muhammad Al Qasimi Street , Alqasidat  "
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Al-Huwailat Street ",
+    "region": "Al-Huwailat",
+    "risk_rate": 97.0,
+    "location": "Al-Huwailat Street , Al-Huwailat"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Khuzam Street",
+    "region": "Alqasidat  ",
+    "risk_rate": 7.5,
+    "location": "Khuzam Street, Alqasidat  "
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Al-Montaser Street",
+    "region": "Almaemura",
+    "risk_rate": 55.75,
+    "location": "Al-Montaser Street, Almaemura"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sheikh Rashid Bin Saeed Street",
+    "region": "Al Kharran",
+    "risk_rate": 62.0,
+    "location": "Sheikh Rashid Bin Saeed Street, Al Kharran"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "GENERAL STREET",
+    "region": "Sha&#39;am",
+    "risk_rate": 88.5,
+    "location": "GENERAL STREET, Sha&#39;am"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sheikh Muhammad Bin Salem Street ",
+    "region": "Ras al-Khaimah",
+    "risk_rate": 50.5,
+    "location": "Sheikh Muhammad Bin Salem Street , Ras al-Khaimah"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Almataf Street ",
+    "region": "Julphar",
+    "risk_rate": 23.5,
+    "location": "Almataf Street , Julphar"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": null,
+    "region": "Aldaqdaqa",
+    "risk_rate": 70.0,
+    "location": null
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Ahmed Bin Majid Street Street ",
+    "region": "Al-Mairid ",
+    "risk_rate": 81.75,
+    "location": "Ahmed Bin Majid Street Street , Al-Mairid "
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Al-Montaser Street",
+    "region": "Julphar",
+    "risk_rate": 23.5,
+    "location": "Al-Montaser Street, Julphar"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Khat Street",
+    "region": "Khat",
+    "risk_rate": 97.5,
+    "location": "Khat Street, Khat"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Ghil Street ",
+    "region": "Ghil",
+    "risk_rate": 91.25,
+    "location": "Ghil Street , Ghil"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "AL QURM",
+    "region": "Alqasidat  ",
+    "risk_rate": 7.5,
+    "location": "AL QURM, Alqasidat  "
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Al Jeer Street",
+    "region": "Al jeer",
+    "risk_rate": 93.0,
+    "location": "Al Jeer Street, Al jeer"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Almataf Street ",
+    "region": "Julphar",
+    "risk_rate": 23.5,
+    "location": "Almataf Street , Julphar"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Julphar Street",
+    "region": "Julphar",
+    "risk_rate": 23.5,
+    "location": "Julphar Street, Julphar"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Airport Street ",
+    "region": "Aldaqdaqa",
+    "risk_rate": 70.0,
+    "location": "Airport Street , Aldaqdaqa"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sheikh Muhammad Bin Salem Street ",
+    "region": "Ras al-Khaimah",
+    "risk_rate": 50.5,
+    "location": "Sheikh Muhammad Bin Salem Street , Ras al-Khaimah"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Saqr Bin Khalid Street",
+    "region": "Saih al-Ghib",
+    "risk_rate": 97.0,
+    "location": "Saqr Bin Khalid Street, Saih al-Ghib"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Ghil Street - Internal",
+    "region": "Ghil",
+    "risk_rate": 91.25,
+    "location": "Ghil Street - Internal, Ghil"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Al-Huwailat Street ",
+    "region": "Al-Huwailat",
+    "risk_rate": 97.0,
+    "location": "Al-Huwailat Street , Al-Huwailat"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Shaam Hospital Street",
+    "region": "Sha&#39;am",
+    "risk_rate": 88.5,
+    "location": "Shaam Hospital Street, Sha&#39;am"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": null,
+    "region": "Alrams",
+    "risk_rate": 75.25,
+    "location": null
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Aljawazat Street ",
+    "region": "Almaemura",
+    "risk_rate": 55.75,
+    "location": "Aljawazat Street , Almaemura"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": null,
+    "region": "Aldaqdaqa",
+    "risk_rate": 70.0,
+    "location": null
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Shawka Street - Internal",
+    "region": "shawka",
+    "risk_rate": 98.0,
+    "location": "Shawka Street - Internal, shawka"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": null,
+    "region": null,
+    "risk_rate": null,
+    "location": null
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Al Uraibi Street ",
+    "region": "Oraibi",
+    "risk_rate": 81.0,
+    "location": "Al Uraibi Street , Oraibi"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": null,
+    "region": "Alfiliya",
+    "risk_rate": 88.75,
+    "location": null
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Ghil Street - Internal",
+    "region": "Ghil",
+    "risk_rate": 91.25,
+    "location": "Ghil Street - Internal, Ghil"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": null,
+    "region": "Aldaqdaqa",
+    "risk_rate": 70.0,
+    "location": null
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Martyr Tariq Al-Shehhi Street",
+    "region": "Sha&#39;am",
+    "risk_rate": 88.5,
+    "location": "Martyr Tariq Al-Shehhi Street, Sha&#39;am"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sheikh Muhammad Bin Salem Street ",
+    "region": "Ras al-Khaimah",
+    "risk_rate": 50.5,
+    "location": "Sheikh Muhammad Bin Salem Street , Ras al-Khaimah"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sheikh Muhammad Bin Saqr Al Qasimi Street",
+    "region": "Julphar",
+    "risk_rate": 23.5,
+    "location": "Sheikh Muhammad Bin Saqr Al Qasimi Street, Julphar"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sheikh Muhammad Bin Salem Street ",
+    "region": "Ras al-Khaimah",
+    "risk_rate": 50.5,
+    "location": "Sheikh Muhammad Bin Salem Street , Ras al-Khaimah"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Al Rams Corniche Street",
+    "region": "Alrams",
+    "risk_rate": 75.25,
+    "location": "Al Rams Corniche Street, Alrams"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sheikh Rashid Bin Saeed Street",
+    "region": "Saqr Bin Mohammed City",
+    "risk_rate": 88.5,
+    "location": "Sheikh Rashid Bin Saeed Street, Saqr Bin Mohammed City"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Airport Street ",
+    "region": "Aldaqdaqa",
+    "risk_rate": 70.0,
+    "location": "Airport Street , Aldaqdaqa"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "GENERAL STREET",
+    "region": "Alqasidat  ",
+    "risk_rate": 7.5,
+    "location": "GENERAL STREET, Alqasidat  "
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Al Ittihad Street ",
+    "region": "Al Dhait ",
+    "risk_rate": 77.5,
+    "location": "Al Ittihad Street , Al Dhait "
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Almataf Street ",
+    "region": "Julphar",
+    "risk_rate": 23.5,
+    "location": "Almataf Street , Julphar"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Khuzam Street ",
+    "region": "Khuzam",
+    "risk_rate": 92.25,
+    "location": "Khuzam Street , Khuzam"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Souq Alnakhil Street",
+    "region": "Alnakeel",
+    "risk_rate": 47.25,
+    "location": "Souq Alnakhil Street, Alnakeel"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Al-Montaser Street",
+    "region": "Almaemura",
+    "risk_rate": 55.75,
+    "location": "Al-Montaser Street, Almaemura"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": null,
+    "region": "Alnakeel",
+    "risk_rate": 47.25,
+    "location": null
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Aljawazat Street ",
+    "region": "Almaemura",
+    "risk_rate": 55.75,
+    "location": "Aljawazat Street , Almaemura"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Khuzam Street",
+    "region": "Alqasidat  ",
+    "risk_rate": 7.5,
+    "location": "Khuzam Street, Alqasidat  "
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Ghil Street ",
+    "region": "Ghil",
+    "risk_rate": 91.25,
+    "location": "Ghil Street , Ghil"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Al Dhait Street",
+    "region": "Khalifa Bin Zayed City",
+    "risk_rate": 92.25,
+    "location": "Al Dhait Street, Khalifa Bin Zayed City"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sheikh Saqr Bin Muhammad Al Qasimi Street ",
+    "region": "Khor Khuwair",
+    "risk_rate": 97.25,
+    "location": "Sheikh Saqr Bin Muhammad Al Qasimi Street , Khor Khuwair"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Airport Street ",
+    "region": "Aldaqdaqa",
+    "risk_rate": 70.0,
+    "location": "Airport Street , Aldaqdaqa"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Airport Street - Internal",
+    "region": "Aldaqdaqa",
+    "risk_rate": 70.0,
+    "location": "Airport Street - Internal, Aldaqdaqa"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sidroh Street ",
+    "region": "Ras al-Khaimah",
+    "risk_rate": 50.5,
+    "location": "Sidroh Street , Ras al-Khaimah"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "GENERAL STREET",
+    "region": "Alqasidat  ",
+    "risk_rate": 7.5,
+    "location": "GENERAL STREET, Alqasidat  "
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "DWAR AL KHURAN STREET",
+    "region": "Al Kharran",
+    "risk_rate": 62.0,
+    "location": "DWAR AL KHURAN STREET, Al Kharran"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": null,
+    "region": "Alqasidat  ",
+    "risk_rate": 7.5,
+    "location": null
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sheikh Saqr Bin Muhammad Al Qasimi Street ",
+    "region": "Alfiliya",
+    "risk_rate": 88.75,
+    "location": "Sheikh Saqr Bin Muhammad Al Qasimi Street , Alfiliya"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Airport Street ",
+    "region": "Aldaqdaqa",
+    "risk_rate": 70.0,
+    "location": "Airport Street , Aldaqdaqa"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "AL QURM",
+    "region": "Alqasidat  ",
+    "risk_rate": 7.5,
+    "location": "AL QURM, Alqasidat  "
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Khuzam Street",
+    "region": "Alqasidat  ",
+    "risk_rate": 7.5,
+    "location": "Khuzam Street, Alqasidat  "
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Al Sharisha Street",
+    "region": "Julphar",
+    "risk_rate": 23.5,
+    "location": "Al Sharisha Street, Julphar"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "GENERAL STREET",
+    "region": "Ghil",
+    "risk_rate": 91.25,
+    "location": "GENERAL STREET, Ghil"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Airport Street - Internal",
+    "region": "Aldaqdaqa",
+    "risk_rate": 70.0,
+    "location": "Airport Street - Internal, Aldaqdaqa"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sheikh Rashid Bin Saeed Street",
+    "region": "Al Dhait ",
+    "risk_rate": 77.5,
+    "location": "Sheikh Rashid Bin Saeed Street, Al Dhait "
+  },
+  {
+    "name": "Building Maintenance",
+    "street": null,
+    "region": "Ghil",
+    "risk_rate": 91.25,
+    "location": null
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Airport Street - Internal",
+    "region": "Aldaqdaqa",
+    "risk_rate": 70.0,
+    "location": "Airport Street - Internal, Aldaqdaqa"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "DHEHAN STREET",
+    "region": "DHEHAN ZONE",
+    "risk_rate": 76.5,
+    "location": "DHEHAN STREET, DHEHAN ZONE"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Airport Street - Internal",
+    "region": "Aldaqdaqa",
+    "risk_rate": 70.0,
+    "location": "Airport Street - Internal, Aldaqdaqa"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Almataf Street ",
+    "region": "Julphar",
+    "risk_rate": 23.5,
+    "location": "Almataf Street , Julphar"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "behaind kuzam street",
+    "region": "Alqasidat  ",
+    "risk_rate": 7.5,
+    "location": "behaind kuzam street, Alqasidat  "
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Khuzam Street",
+    "region": "Alqasidat  ",
+    "risk_rate": 7.5,
+    "location": "Khuzam Street, Alqasidat  "
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sheikh Rashid Bin Saeed Street",
+    "region": "Al Kharran",
+    "risk_rate": 62.0,
+    "location": "Sheikh Rashid Bin Saeed Street, Al Kharran"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sheikh Saqr Bin Muhammad Al Qasimi Street ",
+    "region": "Glilah",
+    "risk_rate": 93.75,
+    "location": "Sheikh Saqr Bin Muhammad Al Qasimi Street , Glilah"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "INSIDE STREET",
+    "region": "Ras al-Khaimah",
+    "risk_rate": 50.5,
+    "location": "INSIDE STREET, Ras al-Khaimah"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Al-Munayi Street - Internal",
+    "region": "Al-Munayi",
+    "risk_rate": 99.0,
+    "location": "Al-Munayi Street - Internal, Al-Munayi"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Julphar Street",
+    "region": "Julphar",
+    "risk_rate": 23.5,
+    "location": "Julphar Street, Julphar"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Zayed Center Roundabout Street",
+    "region": "Al Dhait ",
+    "risk_rate": 77.5,
+    "location": "Zayed Center Roundabout Street, Al Dhait "
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Julphar Street",
+    "region": "Julphar",
+    "risk_rate": 23.5,
+    "location": "Julphar Street, Julphar"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Al Dhait Street",
+    "region": "Khalifa Bin Zayed City",
+    "risk_rate": 92.25,
+    "location": "Al Dhait Street, Khalifa Bin Zayed City"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Souq Al-Mrayed Street",
+    "region": "Almaemura",
+    "risk_rate": 55.75,
+    "location": "Souq Al-Mrayed Street, Almaemura"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Athen Street - Internal",
+    "region": "Udhin",
+    "risk_rate": 88.25,
+    "location": "Athen Street - Internal, Udhin"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Souq Al-Mrayed Street",
+    "region": "Almaemura",
+    "risk_rate": 55.75,
+    "location": "Souq Al-Mrayed Street, Almaemura"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Bin Dhaher Street ",
+    "region": "Alnakeel",
+    "risk_rate": 47.25,
+    "location": "Bin Dhaher Street , Alnakeel"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Airport Street - Internal",
+    "region": "Aldaqdaqa",
+    "risk_rate": 70.0,
+    "location": "Airport Street - Internal, Aldaqdaqa"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Al Dhait Street",
+    "region": "Khalifa Bin Zayed City",
+    "risk_rate": 92.25,
+    "location": "Al Dhait Street, Khalifa Bin Zayed City"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "BEHIND DWAR AL KHURAN",
+    "region": "Al Kharran",
+    "risk_rate": 62.0,
+    "location": "BEHIND DWAR AL KHURAN, Al Kharran"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Martyr Tariq Al-Shehhi Street",
+    "region": "Sha&#39;am",
+    "risk_rate": 88.5,
+    "location": "Martyr Tariq Al-Shehhi Street, Sha&#39;am"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Airport Street ",
+    "region": "Aldaqdaqa",
+    "risk_rate": 70.0,
+    "location": "Airport Street , Aldaqdaqa"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Almataf Street ",
+    "region": "Julphar",
+    "risk_rate": 23.5,
+    "location": "Almataf Street , Julphar"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "INSIDE STREET",
+    "region": "Al Dhait ",
+    "risk_rate": 77.5,
+    "location": "INSIDE STREET, Al Dhait "
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Airport Street ",
+    "region": "Aldaqdaqa",
+    "risk_rate": 70.0,
+    "location": "Airport Street , Aldaqdaqa"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": null,
+    "region": "Saqr Bin Mohammed City",
+    "risk_rate": 88.5,
+    "location": null
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sheikh Muhammad Bin Salem Street ",
+    "region": "Ras al-Khaimah",
+    "risk_rate": 50.5,
+    "location": "Sheikh Muhammad Bin Salem Street , Ras al-Khaimah"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Hosun Street",
+    "region": "Ras al-Khaimah",
+    "risk_rate": 50.5,
+    "location": "Hosun Street, Ras al-Khaimah"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": null,
+    "region": "Almaemura",
+    "risk_rate": 55.75,
+    "location": null
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "INSIDE STREET",
+    "region": "Al Dhait ",
+    "risk_rate": 77.5,
+    "location": "INSIDE STREET, Al Dhait "
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Julphar Street",
+    "region": "Julphar",
+    "risk_rate": 23.5,
+    "location": "Julphar Street, Julphar"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": null,
+    "region": null,
+    "risk_rate": null,
+    "location": null
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Zayed Center Roundabout Street",
+    "region": "Al Dhait ",
+    "risk_rate": 77.5,
+    "location": "Zayed Center Roundabout Street, Al Dhait "
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "GENERAL STREET",
+    "region": "Julphar",
+    "risk_rate": 23.5,
+    "location": "GENERAL STREET, Julphar"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Al Rams Club Street",
+    "region": "Alrams",
+    "risk_rate": 75.25,
+    "location": "Al Rams Club Street, Alrams"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Almaemura Street ",
+    "region": "Alnakeel",
+    "risk_rate": 47.25,
+    "location": "Almaemura Street , Alnakeel"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Julphar Street",
+    "region": "Julphar",
+    "risk_rate": 23.5,
+    "location": "Julphar Street, Julphar"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": null,
+    "region": "Khuzam",
+    "risk_rate": 92.25,
+    "location": null
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sheikh Saqr Bin Muhammad Al Qasimi Street ",
+    "region": "Daih",
+    "risk_rate": 98.75,
+    "location": "Sheikh Saqr Bin Muhammad Al Qasimi Street , Daih"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": null,
+    "region": "Ras al-Khaimah",
+    "risk_rate": 50.5,
+    "location": null
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sheikh Rashid Bin Saeed Street",
+    "region": "Al Kharran",
+    "risk_rate": 62.0,
+    "location": "Sheikh Rashid Bin Saeed Street, Al Kharran"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sheikh Muhammad Bin Salem Street ",
+    "region": "DHEHAN ZONE",
+    "risk_rate": 76.5,
+    "location": "Sheikh Muhammad Bin Salem Street , DHEHAN ZONE"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Al-Montaser Street",
+    "region": "Almaemura",
+    "risk_rate": 55.75,
+    "location": "Al-Montaser Street, Almaemura"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sheikh Saqr Bin Muhammad Al Qasimi Street ",
+    "region": "Alrams",
+    "risk_rate": 75.25,
+    "location": "Sheikh Saqr Bin Muhammad Al Qasimi Street , Alrams"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sheikh Saqr Bin Muhammad Al Qasimi Street ",
+    "region": "Alhayl",
+    "risk_rate": 99.0,
+    "location": "Sheikh Saqr Bin Muhammad Al Qasimi Street , Alhayl"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sheikh Saqr Bin Muhammad Al Qasimi Street ",
+    "region": "Alnakeel",
+    "risk_rate": 47.25,
+    "location": "Sheikh Saqr Bin Muhammad Al Qasimi Street , Alnakeel"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sidroh Street ",
+    "region": "Ras al-Khaimah",
+    "risk_rate": 50.5,
+    "location": "Sidroh Street , Ras al-Khaimah"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sheikh Saqr Bin Muhammad Al Qasimi Street ",
+    "region": "Sha&#39;am",
+    "risk_rate": 88.5,
+    "location": "Sheikh Saqr Bin Muhammad Al Qasimi Street , Sha&#39;am"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sidroh Street ",
+    "region": "Ras al-Khaimah",
+    "risk_rate": 50.5,
+    "location": "Sidroh Street , Ras al-Khaimah"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "INSIDE STREET",
+    "region": "Saqr Bin Mohammed City",
+    "risk_rate": 88.5,
+    "location": "INSIDE STREET, Saqr Bin Mohammed City"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sidroh Street ",
+    "region": "Ras al-Khaimah",
+    "risk_rate": 50.5,
+    "location": "Sidroh Street , Ras al-Khaimah"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sheikh Saqr Bin Muhammad Al Qasimi Street ",
+    "region": "Oraibi",
+    "risk_rate": 81.0,
+    "location": "Sheikh Saqr Bin Muhammad Al Qasimi Street , Oraibi"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": null,
+    "region": "Al-Mairid ",
+    "risk_rate": 81.75,
+    "location": null
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Al Jeer Street",
+    "region": "Al jeer",
+    "risk_rate": 93.0,
+    "location": "Al Jeer Street, Al jeer"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": null,
+    "region": "Aldifan",
+    "risk_rate": 96.0,
+    "location": null
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sheikh Saqr Bin Muhammad Al Qasimi Street ",
+    "region": "Aljawis",
+    "risk_rate": 89.5,
+    "location": "Sheikh Saqr Bin Muhammad Al Qasimi Street , Aljawis"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Souq Al-Mrayed Street",
+    "region": "Almaemura",
+    "risk_rate": 55.75,
+    "location": "Souq Al-Mrayed Street, Almaemura"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "AL ABRA SOUQ",
+    "region": "Ras al-Khaimah",
+    "risk_rate": 50.5,
+    "location": "AL ABRA SOUQ, Ras al-Khaimah"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "BEHIND THE CINEMA",
+    "region": "Alnakeel",
+    "risk_rate": 47.25,
+    "location": "BEHIND THE CINEMA, Alnakeel"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Al Rams Street - Old Market",
+    "region": "Alrams",
+    "risk_rate": 75.25,
+    "location": "Al Rams Street - Old Market, Alrams"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Altarafa Street ",
+    "region": "Alqasidat  ",
+    "risk_rate": 7.5,
+    "location": "Altarafa Street , Alqasidat  "
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Almaemura Street ",
+    "region": "Almaemura",
+    "risk_rate": 55.75,
+    "location": "Almaemura Street , Almaemura"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sultan Alkabir Street West ",
+    "region": "Syh alqasidat",
+    "risk_rate": 98.0,
+    "location": "Sultan Alkabir Street West , Syh alqasidat"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Almataf Street ",
+    "region": "Julphar",
+    "risk_rate": 23.5,
+    "location": "Almataf Street , Julphar"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Al Ghob Street",
+    "region": "Saih al-Ghib",
+    "risk_rate": 97.0,
+    "location": "Al Ghob Street, Saih al-Ghib"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": null,
+    "region": "Alnakeel",
+    "risk_rate": 47.25,
+    "location": null
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Shaml Street",
+    "region": "Shaml",
+    "risk_rate": 82.5,
+    "location": "Shaml Street, Shaml"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Al Uraibi Street ",
+    "region": "Alnakeel",
+    "risk_rate": 47.25,
+    "location": "Al Uraibi Street , Alnakeel"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "behaind kuzam street",
+    "region": "Alqasidat  ",
+    "risk_rate": 7.5,
+    "location": "behaind kuzam street, Alqasidat  "
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sheikh Saqr Bin Muhammad Al Qasimi Street ",
+    "region": "Sha&#39;am",
+    "risk_rate": 88.5,
+    "location": "Sheikh Saqr Bin Muhammad Al Qasimi Street , Sha&#39;am"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "AL QURM",
+    "region": "Aljawis",
+    "risk_rate": 89.5,
+    "location": "AL QURM, Aljawis"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Eid Prayer Street",
+    "region": "Alrams",
+    "risk_rate": 75.25,
+    "location": "Eid Prayer Street, Alrams"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Almataf Street ",
+    "region": "Julphar",
+    "risk_rate": 23.5,
+    "location": "Almataf Street , Julphar"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sheikh Kayd Bin Muhamad Street ",
+    "region": "Oraibi",
+    "risk_rate": 81.0,
+    "location": "Sheikh Kayd Bin Muhamad Street , Oraibi"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Al Qawasim Corniche Street ",
+    "region": "Ras al-Khaimah",
+    "risk_rate": 50.5,
+    "location": "Al Qawasim Corniche Street , Ras al-Khaimah"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "INSIDE STREET",
+    "region": "Alqasidat  ",
+    "risk_rate": 7.5,
+    "location": "INSIDE STREET, Alqasidat  "
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Al Ittihad Street ",
+    "region": "Aljazirah alhamra",
+    "risk_rate": 90.75,
+    "location": "Al Ittihad Street , Aljazirah alhamra"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Almataf Street ",
+    "region": "Julphar",
+    "risk_rate": 23.5,
+    "location": "Almataf Street , Julphar"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Al Rams Club Street",
+    "region": "Alrams",
+    "risk_rate": 75.25,
+    "location": "Al Rams Club Street, Alrams"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "behaind kuzam street",
+    "region": "Alqasidat  ",
+    "risk_rate": 7.5,
+    "location": "behaind kuzam street, Alqasidat  "
+  },
+  {
+    "name": "Building Maintenance",
+    "street": null,
+    "region": null,
+    "risk_rate": null,
+    "location": null
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Almataf Street ",
+    "region": "Julphar",
+    "risk_rate": 23.5,
+    "location": "Almataf Street , Julphar"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "AL Jazaa Street",
+    "region": "Alnakeel",
+    "risk_rate": 47.25,
+    "location": "AL Jazaa Street, Alnakeel"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "DWAR AL KHURAN STREET",
+    "region": "Al Kharran",
+    "risk_rate": 62.0,
+    "location": "DWAR AL KHURAN STREET, Al Kharran"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sheikh Saqr Bin Muhammad Al Qasimi Street ",
+    "region": "Alnakeel",
+    "risk_rate": 47.25,
+    "location": "Sheikh Saqr Bin Muhammad Al Qasimi Street , Alnakeel"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Union Square Street",
+    "region": "Alrams",
+    "risk_rate": 75.25,
+    "location": "Union Square Street, Alrams"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sheikh Mohammed bin Zayed Street",
+    "region": "Aljazirah alhamra",
+    "risk_rate": 90.75,
+    "location": "Sheikh Mohammed bin Zayed Street, Aljazirah alhamra"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sheikh Saqr Bin Muhammad Al Qasimi Street ",
+    "region": "Alfiliya",
+    "risk_rate": 88.75,
+    "location": "Sheikh Saqr Bin Muhammad Al Qasimi Street , Alfiliya"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": null,
+    "region": null,
+    "risk_rate": null,
+    "location": null
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sheikh Muhammad Bin Salem Street ",
+    "region": "DHEHAN ZONE",
+    "risk_rate": 76.5,
+    "location": "Sheikh Muhammad Bin Salem Street , DHEHAN ZONE"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Almataf Street ",
+    "region": "Julphar",
+    "risk_rate": 23.5,
+    "location": "Almataf Street , Julphar"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Al Rams Street - Old Market",
+    "region": "Alrams",
+    "risk_rate": 75.25,
+    "location": "Al Rams Street - Old Market, Alrams"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "behaind kuzam street",
+    "region": "Alqasidat  ",
+    "risk_rate": 7.5,
+    "location": "behaind kuzam street, Alqasidat  "
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Airport Street ",
+    "region": "SOHILA",
+    "risk_rate": 94.5,
+    "location": "Airport Street , SOHILA"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Shaml Street",
+    "region": "Julphar",
+    "risk_rate": 23.5,
+    "location": "Shaml Street, Julphar"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Al-Montaser Street",
+    "region": "Almaemura",
+    "risk_rate": 55.75,
+    "location": "Al-Montaser Street, Almaemura"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sheikh Saqr Bin Muhammad Al Qasimi Street ",
+    "region": "Alrams",
+    "risk_rate": 75.25,
+    "location": "Sheikh Saqr Bin Muhammad Al Qasimi Street , Alrams"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Asimah Street",
+    "region": "Asimah",
+    "risk_rate": 99.0,
+    "location": "Asimah Street, Asimah"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Khuzam Street",
+    "region": "Alqasidat  ",
+    "risk_rate": 7.5,
+    "location": "Khuzam Street, Alqasidat  "
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "GENERAL STREET",
+    "region": "Julphar",
+    "risk_rate": 23.5,
+    "location": "GENERAL STREET, Julphar"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "AL JSER STREET",
+    "region": "Alnakeel",
+    "risk_rate": 47.25,
+    "location": "AL JSER STREET, Alnakeel"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "behaind kuzam street",
+    "region": "Alqasidat  ",
+    "risk_rate": 7.5,
+    "location": "behaind kuzam street, Alqasidat  "
+  },
+  {
+    "name": "Building Maintenance",
+    "street": null,
+    "region": "Alqasidat  ",
+    "risk_rate": 7.5,
+    "location": null
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Al Hudaiba Street ",
+    "region": "Alnakeel",
+    "risk_rate": 47.25,
+    "location": "Al Hudaiba Street , Alnakeel"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Altarafa Street ",
+    "region": "Alqasidat  ",
+    "risk_rate": 7.5,
+    "location": "Altarafa Street , Alqasidat  "
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sheikh Saqr Bin Muhammad Al Qasimi Street ",
+    "region": "Daih",
+    "risk_rate": 98.75,
+    "location": "Sheikh Saqr Bin Muhammad Al Qasimi Street , Daih"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Al Uraibi Street ",
+    "region": "Alnakeel",
+    "risk_rate": 47.25,
+    "location": "Al Uraibi Street , Alnakeel"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Khuzam Street ",
+    "region": "Khuzam",
+    "risk_rate": 92.25,
+    "location": "Khuzam Street , Khuzam"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sheikh Saqr Bin Muhammad Al Qasimi Street ",
+    "region": "Alqasidat  ",
+    "risk_rate": 7.5,
+    "location": "Sheikh Saqr Bin Muhammad Al Qasimi Street , Alqasidat  "
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Al-Montaser Street",
+    "region": "Oraibi",
+    "risk_rate": 81.0,
+    "location": "Al-Montaser Street, Oraibi"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "DWAR AL KHURAN STREET",
+    "region": "Al Kharran",
+    "risk_rate": 62.0,
+    "location": "DWAR AL KHURAN STREET, Al Kharran"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sheikh Rashid Bin Saeed Street",
+    "region": "Al Kharran",
+    "risk_rate": 62.0,
+    "location": "Sheikh Rashid Bin Saeed Street, Al Kharran"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Al-Montaser Street",
+    "region": "Alnakeel",
+    "risk_rate": 47.25,
+    "location": "Al-Montaser Street, Alnakeel"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Julphar Street",
+    "region": "Julphar",
+    "risk_rate": 23.5,
+    "location": "Julphar Street, Julphar"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Al-Montaser Street",
+    "region": "Oraibi",
+    "risk_rate": 81.0,
+    "location": "Al-Montaser Street, Oraibi"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Al Jeer Street",
+    "region": "Al jeer",
+    "risk_rate": 93.0,
+    "location": "Al Jeer Street, Al jeer"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Al Rams Street - Old Market",
+    "region": "Alrams",
+    "risk_rate": 75.25,
+    "location": "Al Rams Street - Old Market, Alrams"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": null,
+    "region": "Udhin",
+    "risk_rate": 88.25,
+    "location": null
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "AL JSER STREET",
+    "region": "Alnakeel",
+    "risk_rate": 47.25,
+    "location": "AL JSER STREET, Alnakeel"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Altarafa Street ",
+    "region": "Alqasidat  ",
+    "risk_rate": 7.5,
+    "location": "Altarafa Street , Alqasidat  "
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sheikh Muhammad Bin Salem Street ",
+    "region": "Ras al-Khaimah",
+    "risk_rate": 50.5,
+    "location": "Sheikh Muhammad Bin Salem Street , Ras al-Khaimah"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": null,
+    "region": "Ras al-Khaimah",
+    "risk_rate": 50.5,
+    "location": null
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sheikh Muhammad Bin Salem Street ",
+    "region": "Aldifan",
+    "risk_rate": 96.0,
+    "location": "Sheikh Muhammad Bin Salem Street , Aldifan"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Al Ittihad Street ",
+    "region": "Al Dhait ",
+    "risk_rate": 77.5,
+    "location": "Al Ittihad Street , Al Dhait "
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "DHEHAN STREET",
+    "region": "DHEHAN ZONE",
+    "risk_rate": 76.5,
+    "location": "DHEHAN STREET, DHEHAN ZONE"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Almataf Street ",
+    "region": "Julphar",
+    "risk_rate": 23.5,
+    "location": "Almataf Street , Julphar"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "DHEHAN STREET",
+    "region": "DHEHAN ZONE",
+    "risk_rate": 76.5,
+    "location": "DHEHAN STREET, DHEHAN ZONE"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": null,
+    "region": "Almaemura",
+    "risk_rate": 55.75,
+    "location": null
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Al-Montaser Street",
+    "region": "Almaemura",
+    "risk_rate": 55.75,
+    "location": "Al-Montaser Street, Almaemura"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Al Uraibi Street ",
+    "region": "Oraibi",
+    "risk_rate": 81.0,
+    "location": "Al Uraibi Street , Oraibi"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": null,
+    "region": "Alnakeel",
+    "risk_rate": 47.25,
+    "location": null
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Aljawazat Street ",
+    "region": "Almaemura",
+    "risk_rate": 55.75,
+    "location": "Aljawazat Street , Almaemura"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Julphar Street",
+    "region": "Julphar",
+    "risk_rate": 23.5,
+    "location": "Julphar Street, Julphar"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": null,
+    "region": "Khor Khuwair",
+    "risk_rate": 97.25,
+    "location": null
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Al Ittihad Street ",
+    "region": "Al Dhait ",
+    "risk_rate": 77.5,
+    "location": "Al Ittihad Street , Al Dhait "
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Aljawis Street ",
+    "region": "Alqasidat  ",
+    "risk_rate": 7.5,
+    "location": "Aljawis Street , Alqasidat  "
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "INSIDE STREET",
+    "region": "AL FAHLAIN",
+    "risk_rate": 97.5,
+    "location": "INSIDE STREET, AL FAHLAIN"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Masafi Street - Internal",
+    "region": "Masafi",
+    "risk_rate": 98.25,
+    "location": "Masafi Street - Internal, Masafi"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sheikh Rashid Bin Saeed Street",
+    "region": "Al Kharran",
+    "risk_rate": 62.0,
+    "location": "Sheikh Rashid Bin Saeed Street, Al Kharran"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sheikh Saqr Bin Muhammad Al Qasimi Street ",
+    "region": "Alnakeel",
+    "risk_rate": 47.25,
+    "location": "Sheikh Saqr Bin Muhammad Al Qasimi Street , Alnakeel"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Altarafa Street ",
+    "region": "Alqasidat  ",
+    "risk_rate": 7.5,
+    "location": "Altarafa Street , Alqasidat  "
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Airport Street ",
+    "region": "Aldaqdaqa",
+    "risk_rate": 70.0,
+    "location": "Airport Street , Aldaqdaqa"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "DWAR AL KHURAN STREET",
+    "region": "Al Kharran",
+    "risk_rate": 62.0,
+    "location": "DWAR AL KHURAN STREET, Al Kharran"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": null,
+    "region": null,
+    "risk_rate": null,
+    "location": null
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "BEHIND DWAR AL KHURAN",
+    "region": "Al Kharran",
+    "risk_rate": 62.0,
+    "location": "BEHIND DWAR AL KHURAN, Al Kharran"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sheikh Saqr Bin Muhammad Al Qasimi Street ",
+    "region": "Alfiliya",
+    "risk_rate": 88.75,
+    "location": "Sheikh Saqr Bin Muhammad Al Qasimi Street , Alfiliya"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Dafta Street",
+    "region": "Dafta",
+    "risk_rate": 99.0,
+    "location": "Dafta Street, Dafta"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "GENERAL STREET",
+    "region": "Al-Mairid ",
+    "risk_rate": 81.75,
+    "location": "GENERAL STREET, Al-Mairid "
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "behaind kuzam street",
+    "region": "Alqasidat  ",
+    "risk_rate": 7.5,
+    "location": "behaind kuzam street, Alqasidat  "
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Khuzam Street",
+    "region": "Alqasidat  ",
+    "risk_rate": 7.5,
+    "location": "Khuzam Street, Alqasidat  "
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Ahmed Bin Majid Street Street ",
+    "region": "Al-Mairid ",
+    "risk_rate": 81.75,
+    "location": "Ahmed Bin Majid Street Street , Al-Mairid "
+  },
+  {
+    "name": "Building Maintenance",
+    "street": null,
+    "region": "Ras al-Khaimah",
+    "risk_rate": 50.5,
+    "location": null
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sheikh Saqr Bin Muhammad Al Qasimi Street ",
+    "region": "Glilah",
+    "risk_rate": 93.75,
+    "location": "Sheikh Saqr Bin Muhammad Al Qasimi Street , Glilah"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sheikh Saqr Bin Muhammad Al Qasimi Street ",
+    "region": "Alnakeel",
+    "risk_rate": 47.25,
+    "location": "Sheikh Saqr Bin Muhammad Al Qasimi Street , Alnakeel"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": null,
+    "region": "Ras al-Khaimah",
+    "risk_rate": 50.5,
+    "location": null
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sheikh Muhammad Bin Salem Street ",
+    "region": "Ras al-Khaimah",
+    "risk_rate": 50.5,
+    "location": "Sheikh Muhammad Bin Salem Street , Ras al-Khaimah"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Airport Street ",
+    "region": "Aldaqdaqa",
+    "risk_rate": 70.0,
+    "location": "Airport Street , Aldaqdaqa"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Al Rams Club Street",
+    "region": "Alrams",
+    "risk_rate": 75.25,
+    "location": "Al Rams Club Street, Alrams"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Souq Al-Mrayed Street",
+    "region": "Almaemura",
+    "risk_rate": 55.75,
+    "location": "Souq Al-Mrayed Street, Almaemura"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Airport Street ",
+    "region": "Aldaqdaqa",
+    "risk_rate": 70.0,
+    "location": "Airport Street , Aldaqdaqa"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sheikh Rashid Bin Saeed Street",
+    "region": "Al Kharran",
+    "risk_rate": 62.0,
+    "location": "Sheikh Rashid Bin Saeed Street, Al Kharran"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Al Uraibi Street ",
+    "region": "Oraibi",
+    "risk_rate": 81.0,
+    "location": "Al Uraibi Street , Oraibi"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": null,
+    "region": "Ras al-Khaimah",
+    "risk_rate": 50.5,
+    "location": null
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sheikh Muhammad Bin Salem Street ",
+    "region": "Ras al-Khaimah",
+    "risk_rate": 50.5,
+    "location": "Sheikh Muhammad Bin Salem Street , Ras al-Khaimah"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Julphar Street",
+    "region": "Julphar",
+    "risk_rate": 23.5,
+    "location": "Julphar Street, Julphar"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "DWAR AL KHURAN STREET",
+    "region": "Al Kharran",
+    "risk_rate": 62.0,
+    "location": "DWAR AL KHURAN STREET, Al Kharran"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sheikh Rashid Bin Saeed Street",
+    "region": "Al Kharran",
+    "risk_rate": 62.0,
+    "location": "Sheikh Rashid Bin Saeed Street, Al Kharran"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sheikh Saqr Bin Muhammad Al Qasimi Street ",
+    "region": "Aljawis",
+    "risk_rate": 89.5,
+    "location": "Sheikh Saqr Bin Muhammad Al Qasimi Street , Aljawis"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sheikh Rashid Bin Saeed Street",
+    "region": "Al Kharran",
+    "risk_rate": 62.0,
+    "location": "Sheikh Rashid Bin Saeed Street, Al Kharran"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Al Rams Street - Old Market",
+    "region": "Alrams",
+    "risk_rate": 75.25,
+    "location": "Al Rams Street - Old Market, Alrams"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Athn Street ",
+    "region": "Udhin",
+    "risk_rate": 88.25,
+    "location": "Athn Street , Udhin"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Shaml Street",
+    "region": "Shaml",
+    "risk_rate": 82.5,
+    "location": "Shaml Street, Shaml"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "GENERAL STREET",
+    "region": "Julphar",
+    "risk_rate": 23.5,
+    "location": "GENERAL STREET, Julphar"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": null,
+    "region": null,
+    "risk_rate": null,
+    "location": null
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "DWAR AL KHURAN STREET",
+    "region": "Al Kharran",
+    "risk_rate": 62.0,
+    "location": "DWAR AL KHURAN STREET, Al Kharran"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Al-Montaser Street",
+    "region": "Julphar",
+    "risk_rate": 23.5,
+    "location": "Al-Montaser Street, Julphar"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Ghil Street ",
+    "region": "Ghil",
+    "risk_rate": 91.25,
+    "location": "Ghil Street , Ghil"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "AL ABRA SOUQ",
+    "region": "Ras al-Khaimah",
+    "risk_rate": 50.5,
+    "location": "AL ABRA SOUQ, Ras al-Khaimah"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Julphar Street",
+    "region": "Julphar",
+    "risk_rate": 23.5,
+    "location": "Julphar Street, Julphar"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sultan Alkabir Street West ",
+    "region": "Syh alqasidat",
+    "risk_rate": 98.0,
+    "location": "Sultan Alkabir Street West , Syh alqasidat"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": null,
+    "region": "Julphar",
+    "risk_rate": 23.5,
+    "location": null
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Al Rams Corniche Street",
+    "region": "Alrams",
+    "risk_rate": 75.25,
+    "location": "Al Rams Corniche Street, Alrams"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "INSIDE STREET",
+    "region": "Aljawis",
+    "risk_rate": 89.5,
+    "location": "INSIDE STREET, Aljawis"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sheikh Muhammad Bin Salem Street ",
+    "region": "DHEHAN ZONE",
+    "risk_rate": 76.5,
+    "location": "Sheikh Muhammad Bin Salem Street , DHEHAN ZONE"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Al Ghob Street",
+    "region": "Al-Ghib",
+    "risk_rate": 95.75,
+    "location": "Al Ghob Street, Al-Ghib"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Al-Montaser Street",
+    "region": "Alnakeel",
+    "risk_rate": 47.25,
+    "location": "Al-Montaser Street, Alnakeel"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Almataf Street ",
+    "region": "Julphar",
+    "risk_rate": 23.5,
+    "location": "Almataf Street , Julphar"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sheikh Saqr Bin Muhammad Al Qasimi Street ",
+    "region": "Glilah",
+    "risk_rate": 93.75,
+    "location": "Sheikh Saqr Bin Muhammad Al Qasimi Street , Glilah"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sidroh Street ",
+    "region": "Ras al-Khaimah",
+    "risk_rate": 50.5,
+    "location": "Sidroh Street , Ras al-Khaimah"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Almataf Street ",
+    "region": "Julphar",
+    "risk_rate": 23.5,
+    "location": "Almataf Street , Julphar"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Almaemura Street ",
+    "region": "Almaemura",
+    "risk_rate": 55.75,
+    "location": "Almaemura Street , Almaemura"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sheikh Muhammad Bin Salem Street ",
+    "region": "Ras al-Khaimah",
+    "risk_rate": 50.5,
+    "location": "Sheikh Muhammad Bin Salem Street , Ras al-Khaimah"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sheikh Rashid Bin Saeed Street",
+    "region": "Al Kharran",
+    "risk_rate": 62.0,
+    "location": "Sheikh Rashid Bin Saeed Street, Al Kharran"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": null,
+    "region": null,
+    "risk_rate": null,
+    "location": null
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Khat Street",
+    "region": "Khat",
+    "risk_rate": 97.5,
+    "location": "Khat Street, Khat"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "DWAR AL KHURAN STREET",
+    "region": "Al Kharran",
+    "risk_rate": 62.0,
+    "location": "DWAR AL KHURAN STREET, Al Kharran"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": null,
+    "region": "Al-Mairid ",
+    "risk_rate": 81.75,
+    "location": null
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sheikh Muhammad Bin Salem Street ",
+    "region": "Ras al-Khaimah",
+    "risk_rate": 50.5,
+    "location": "Sheikh Muhammad Bin Salem Street , Ras al-Khaimah"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sheikh Muhammad Bin Salem Street ",
+    "region": "Ras al-Khaimah",
+    "risk_rate": 50.5,
+    "location": "Sheikh Muhammad Bin Salem Street , Ras al-Khaimah"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sheikh Rashid Bin Saeed Street",
+    "region": "Al Kharran",
+    "risk_rate": 62.0,
+    "location": "Sheikh Rashid Bin Saeed Street, Al Kharran"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": null,
+    "region": "Ras al-Khaimah",
+    "risk_rate": 50.5,
+    "location": null
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Altarafa Street ",
+    "region": "Alqasidat  ",
+    "risk_rate": 7.5,
+    "location": "Altarafa Street , Alqasidat  "
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Almataf Street ",
+    "region": "Julphar",
+    "risk_rate": 23.5,
+    "location": "Almataf Street , Julphar"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sheikh Saqr Bin Muhammad Al Qasimi Street ",
+    "region": "Al Kharran",
+    "risk_rate": 62.0,
+    "location": "Sheikh Saqr Bin Muhammad Al Qasimi Street , Al Kharran"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Aljawazat Street ",
+    "region": "Almaemura",
+    "risk_rate": 55.75,
+    "location": "Aljawazat Street , Almaemura"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sheikh Saqr Bin Muhammad Al Qasimi Street ",
+    "region": "Oraibi",
+    "risk_rate": 81.0,
+    "location": "Sheikh Saqr Bin Muhammad Al Qasimi Street , Oraibi"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sheikh Muhammad Bin Salem Street ",
+    "region": "Ras al-Khaimah",
+    "risk_rate": 50.5,
+    "location": "Sheikh Muhammad Bin Salem Street , Ras al-Khaimah"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": null,
+    "region": "Ras al-Khaimah",
+    "risk_rate": 50.5,
+    "location": null
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "INSIDE STREET",
+    "region": "Al Dhait ",
+    "risk_rate": 77.5,
+    "location": "INSIDE STREET, Al Dhait "
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sheikh Saqr Bin Muhammad Al Qasimi Street ",
+    "region": "Alqasidat  ",
+    "risk_rate": 7.5,
+    "location": "Sheikh Saqr Bin Muhammad Al Qasimi Street , Alqasidat  "
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "GENERAL STREET",
+    "region": "Glilah",
+    "risk_rate": 93.75,
+    "location": "GENERAL STREET, Glilah"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sheikh Saqr Bin Muhammad Al Qasimi Street ",
+    "region": "Al jeer",
+    "risk_rate": 93.0,
+    "location": "Sheikh Saqr Bin Muhammad Al Qasimi Street , Al jeer"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Ahmed Bin Majid Street Street ",
+    "region": "Al-Mairid ",
+    "risk_rate": 81.75,
+    "location": "Ahmed Bin Majid Street Street , Al-Mairid "
+  },
+  {
+    "name": "Building Maintenance",
+    "street": null,
+    "region": null,
+    "risk_rate": null,
+    "location": null
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Aljawazat Street ",
+    "region": "Almaemura",
+    "risk_rate": 55.75,
+    "location": "Aljawazat Street , Almaemura"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "AL QURM",
+    "region": "Alqasidat  ",
+    "risk_rate": 7.5,
+    "location": "AL QURM, Alqasidat  "
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sheikh Muhammad Bin Salem Street ",
+    "region": "Ras al-Khaimah",
+    "risk_rate": 50.5,
+    "location": "Sheikh Muhammad Bin Salem Street , Ras al-Khaimah"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sheikh Saqr Bin Muhammad Al Qasimi Street ",
+    "region": "Alqasidat  ",
+    "risk_rate": 7.5,
+    "location": "Sheikh Saqr Bin Muhammad Al Qasimi Street , Alqasidat  "
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Al Hudaiba Street ",
+    "region": "Alnakeel",
+    "risk_rate": 47.25,
+    "location": "Al Hudaiba Street , Alnakeel"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Aljawazat Street ",
+    "region": "Almaemura",
+    "risk_rate": 55.75,
+    "location": "Aljawazat Street , Almaemura"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Al Ittihad Street ",
+    "region": "Al Dhait ",
+    "risk_rate": 77.5,
+    "location": "Al Ittihad Street , Al Dhait "
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sheikh Saqr Bin Muhammad Al Qasimi Street ",
+    "region": "Oraibi",
+    "risk_rate": 81.0,
+    "location": "Sheikh Saqr Bin Muhammad Al Qasimi Street , Oraibi"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Aljawazat Street ",
+    "region": "Almaemura",
+    "risk_rate": 55.75,
+    "location": "Aljawazat Street , Almaemura"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "AL Jazaa Street",
+    "region": "Alnakeel",
+    "risk_rate": 47.25,
+    "location": "AL Jazaa Street, Alnakeel"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Al Uraibi Street ",
+    "region": "Oraibi",
+    "risk_rate": 81.0,
+    "location": "Al Uraibi Street , Oraibi"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sheikh Saqr Bin Muhammad Al Qasimi Street ",
+    "region": "Alnakeel",
+    "risk_rate": 47.25,
+    "location": "Sheikh Saqr Bin Muhammad Al Qasimi Street , Alnakeel"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sheikh Saqr Bin Muhammad Al Qasimi Street ",
+    "region": "Sha&#39;am",
+    "risk_rate": 88.5,
+    "location": "Sheikh Saqr Bin Muhammad Al Qasimi Street , Sha&#39;am"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Ahmed Bin Majid Street Street ",
+    "region": "Al-Mairid ",
+    "risk_rate": 81.75,
+    "location": "Ahmed Bin Majid Street Street , Al-Mairid "
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Aljawazat Street ",
+    "region": "Almaemura",
+    "risk_rate": 55.75,
+    "location": "Aljawazat Street , Almaemura"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Almataf Street ",
+    "region": "Julphar",
+    "risk_rate": 23.5,
+    "location": "Almataf Street , Julphar"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Almataf Street ",
+    "region": "Julphar",
+    "risk_rate": 23.5,
+    "location": "Almataf Street , Julphar"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sheikh Rashid Bin Saeed Street",
+    "region": "Al Kharran",
+    "risk_rate": 62.0,
+    "location": "Sheikh Rashid Bin Saeed Street, Al Kharran"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": null,
+    "region": "Ras al-Khaimah",
+    "risk_rate": 50.5,
+    "location": null
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sheikh Rashid Bin Saeed Street",
+    "region": "Al Dhait ",
+    "risk_rate": 77.5,
+    "location": "Sheikh Rashid Bin Saeed Street, Al Dhait "
+  },
+  {
+    "name": "Building Maintenance",
+    "street": null,
+    "region": null,
+    "risk_rate": null,
+    "location": null
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "behaind kuzam street",
+    "region": "Alqasidat  ",
+    "risk_rate": 7.5,
+    "location": "behaind kuzam street, Alqasidat  "
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Airport Street ",
+    "region": "SOHILA",
+    "risk_rate": 94.5,
+    "location": "Airport Street , SOHILA"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Shabiya Rashid Street",
+    "region": "Alrams",
+    "risk_rate": 75.25,
+    "location": "Shabiya Rashid Street, Alrams"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "AL ABRA SOUQ",
+    "region": "Ras al-Khaimah",
+    "risk_rate": 50.5,
+    "location": "AL ABRA SOUQ, Ras al-Khaimah"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sheikh Saqr Bin Muhammad Al Qasimi Street ",
+    "region": "Alrams",
+    "risk_rate": 75.25,
+    "location": "Sheikh Saqr Bin Muhammad Al Qasimi Street , Alrams"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sheikh Saqr Bin Muhammad Al Qasimi Street ",
+    "region": "Alqasidat  ",
+    "risk_rate": 7.5,
+    "location": "Sheikh Saqr Bin Muhammad Al Qasimi Street , Alqasidat  "
+  },
+  {
+    "name": "Building Maintenance",
+    "street": null,
+    "region": null,
+    "risk_rate": null,
+    "location": null
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sheikh Muhammad Bin Salem Street ",
+    "region": "Ras al-Khaimah",
+    "risk_rate": 50.5,
+    "location": "Sheikh Muhammad Bin Salem Street , Ras al-Khaimah"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sheikh Muhammad Bin Salem Street ",
+    "region": "DEHAN AL SHARQYA",
+    "risk_rate": 97.75,
+    "location": "Sheikh Muhammad Bin Salem Street , DEHAN AL SHARQYA"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Al-Montaser Street",
+    "region": "Alnakeel",
+    "risk_rate": 47.25,
+    "location": "Al-Montaser Street, Alnakeel"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": null,
+    "region": null,
+    "risk_rate": null,
+    "location": null
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Airport Street ",
+    "region": "Aldaqdaqa",
+    "risk_rate": 70.0,
+    "location": "Airport Street , Aldaqdaqa"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sheikh Saqr Bin Muhammad Al Qasimi Street ",
+    "region": "Alqasidat  ",
+    "risk_rate": 7.5,
+    "location": "Sheikh Saqr Bin Muhammad Al Qasimi Street , Alqasidat  "
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sheikh Muhammad Bin Salem Street ",
+    "region": "Ras al-Khaimah",
+    "risk_rate": 50.5,
+    "location": "Sheikh Muhammad Bin Salem Street , Ras al-Khaimah"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": null,
+    "region": null,
+    "risk_rate": null,
+    "location": null
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "GENERAL STREET",
+    "region": "Wadi kub",
+    "risk_rate": 98.75,
+    "location": "GENERAL STREET, Wadi kub"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": null,
+    "region": "Aleurqub",
+    "risk_rate": 99.0,
+    "location": null
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "GENERAL STREET",
+    "region": "Alqasidat  ",
+    "risk_rate": 7.5,
+    "location": "GENERAL STREET, Alqasidat  "
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Al Sharisha Street",
+    "region": "Julphar",
+    "risk_rate": 23.5,
+    "location": "Al Sharisha Street, Julphar"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sheikh Saqr Bin Muhammad Al Qasimi Street ",
+    "region": "Alfiliya",
+    "risk_rate": 88.75,
+    "location": "Sheikh Saqr Bin Muhammad Al Qasimi Street , Alfiliya"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Airport Street ",
+    "region": "Aldaqdaqa",
+    "risk_rate": 70.0,
+    "location": "Airport Street , Aldaqdaqa"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Almataf Street ",
+    "region": "Julphar",
+    "risk_rate": 23.5,
+    "location": "Almataf Street , Julphar"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": null,
+    "region": "Julphar",
+    "risk_rate": 23.5,
+    "location": null
+  },
+  {
+    "name": "Building Maintenance",
+    "street": null,
+    "region": "Udhin",
+    "risk_rate": 88.25,
+    "location": null
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sheikh Saqr Bin Muhammad Al Qasimi Street ",
+    "region": "Alqasidat  ",
+    "risk_rate": 7.5,
+    "location": "Sheikh Saqr Bin Muhammad Al Qasimi Street , Alqasidat  "
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Al Qawasim Corniche Street ",
+    "region": "Ras al-Khaimah",
+    "risk_rate": 50.5,
+    "location": "Al Qawasim Corniche Street , Ras al-Khaimah"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Airport Street ",
+    "region": "Aldaqdaqa",
+    "risk_rate": 70.0,
+    "location": "Airport Street , Aldaqdaqa"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sheikh Rashid Bin Saeed Street",
+    "region": "Al Kharran",
+    "risk_rate": 62.0,
+    "location": "Sheikh Rashid Bin Saeed Street, Al Kharran"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": null,
+    "region": "Ras al-Khaimah",
+    "risk_rate": 50.5,
+    "location": null
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "INSIDE STREET",
+    "region": "Ras al-Khaimah",
+    "risk_rate": 50.5,
+    "location": "INSIDE STREET, Ras al-Khaimah"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sheikh Rashid Bin Saeed Street",
+    "region": "Alfiliya",
+    "risk_rate": 88.75,
+    "location": "Sheikh Rashid Bin Saeed Street, Alfiliya"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Altarafa Street ",
+    "region": "Alqasidat  ",
+    "risk_rate": 7.5,
+    "location": "Altarafa Street , Alqasidat  "
+  },
+  {
+    "name": "Building Maintenance",
+    "street": null,
+    "region": "Aldaqdaqa",
+    "risk_rate": 70.0,
+    "location": null
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Khuzam Street ",
+    "region": "Khuzam",
+    "risk_rate": 92.25,
+    "location": "Khuzam Street , Khuzam"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Al Ittihad Street ",
+    "region": "Al Dhait ",
+    "risk_rate": 77.5,
+    "location": "Al Ittihad Street , Al Dhait "
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sheikh Saqr Bin Muhammad Al Qasimi Street ",
+    "region": "Al jeer",
+    "risk_rate": 93.0,
+    "location": "Sheikh Saqr Bin Muhammad Al Qasimi Street , Al jeer"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Athn Street ",
+    "region": "Udhin",
+    "risk_rate": 88.25,
+    "location": "Athn Street , Udhin"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sheikh Saqr Bin Muhammad Al Qasimi Street ",
+    "region": "Alqasidat  ",
+    "risk_rate": 7.5,
+    "location": "Sheikh Saqr Bin Muhammad Al Qasimi Street , Alqasidat  "
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Souq Alnakhil Street",
+    "region": "Alnakeel",
+    "risk_rate": 47.25,
+    "location": "Souq Alnakhil Street, Alnakeel"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sheikh Saqr Bin Muhammad Al Qasimi Street ",
+    "region": "Al jeer",
+    "risk_rate": 93.0,
+    "location": "Sheikh Saqr Bin Muhammad Al Qasimi Street , Al jeer"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": null,
+    "region": null,
+    "risk_rate": null,
+    "location": null
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Almataf Street ",
+    "region": "Julphar",
+    "risk_rate": 23.5,
+    "location": "Almataf Street , Julphar"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": null,
+    "region": "Ras al-Khaimah",
+    "risk_rate": 50.5,
+    "location": null
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Khuzam Street ",
+    "region": "Khuzam",
+    "risk_rate": 92.25,
+    "location": "Khuzam Street , Khuzam"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": null,
+    "region": "Al Dhait ",
+    "risk_rate": 77.5,
+    "location": null
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Almataf Street ",
+    "region": "Julphar",
+    "risk_rate": 23.5,
+    "location": "Almataf Street , Julphar"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sheikh Muhammad Bin Salem Street ",
+    "region": "DEHAN AL SHARQYA",
+    "risk_rate": 97.75,
+    "location": "Sheikh Muhammad Bin Salem Street , DEHAN AL SHARQYA"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sidroh Street ",
+    "region": "Ras al-Khaimah",
+    "risk_rate": 50.5,
+    "location": "Sidroh Street , Ras al-Khaimah"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sheikh Saqr Bin Muhammad Al Qasimi Street ",
+    "region": "Al-Ghib",
+    "risk_rate": 95.75,
+    "location": "Sheikh Saqr Bin Muhammad Al Qasimi Street , Al-Ghib"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Shaam Hospital Street",
+    "region": "Sha&#39;am",
+    "risk_rate": 88.5,
+    "location": "Shaam Hospital Street, Sha&#39;am"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "AL Jazeera Street ",
+    "region": "Alnakeel",
+    "risk_rate": 47.25,
+    "location": "AL Jazeera Street , Alnakeel"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Al-Huwailat Street ",
+    "region": "Al-Huwailat",
+    "risk_rate": 97.0,
+    "location": "Al-Huwailat Street , Al-Huwailat"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Airport Street - Internal",
+    "region": "Aldaqdaqa",
+    "risk_rate": 70.0,
+    "location": "Airport Street - Internal, Aldaqdaqa"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "GENERAL STREET",
+    "region": "Alqasidat  ",
+    "risk_rate": 7.5,
+    "location": "GENERAL STREET, Alqasidat  "
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Athn Street ",
+    "region": "Udhin",
+    "risk_rate": 88.25,
+    "location": "Athn Street , Udhin"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "behaind kuzam street",
+    "region": "Alqasidat  ",
+    "risk_rate": 7.5,
+    "location": "behaind kuzam street, Alqasidat  "
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Julphar Street",
+    "region": "Julphar",
+    "risk_rate": 23.5,
+    "location": "Julphar Street, Julphar"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Julphar Street",
+    "region": "Julphar",
+    "risk_rate": 23.5,
+    "location": "Julphar Street, Julphar"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sultan Alkabir Street West ",
+    "region": "Syh alearibi",
+    "risk_rate": 95.25,
+    "location": "Sultan Alkabir Street West , Syh alearibi"
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Ahmed Bin Majid Street Street ",
+    "region": "Al-Mairid ",
+    "risk_rate": 81.75,
+    "location": "Ahmed Bin Majid Street Street , Al-Mairid "
+  },
+  {
+    "name": "Building Maintenance",
+    "street": null,
+    "region": null,
+    "risk_rate": null,
+    "location": null
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Ahmed Bin Majid Street Street ",
+    "region": "Al-Mairid ",
+    "risk_rate": 81.75,
+    "location": "Ahmed Bin Majid Street Street , Al-Mairid "
+  },
+  {
+    "name": "Building Maintenance",
+    "street": "Sheikh Saqr Bin Muhammad Al Qasimi Street ",
+    "region": "Alqasidat  ",
+    "risk_rate": 7.5,
+    "location": "Sheikh Saqr Bin Muhammad Al Qasimi Street , Alqasidat  "
+  }
+]
