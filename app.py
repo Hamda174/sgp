@@ -28,39 +28,57 @@ def normalize(text):
     return str(text).lower().strip().replace("-", "").replace(" ", "")
 
 
+from flask import Flask, request, jsonify
+import json
+import difflib
+from geopy.geocoders import Nominatim
 
+app = Flask(__name__)
+geolocator = Nominatim(user_agent="risk-api")
 
+# Utility
+def normalize(text):
+    return str(text).lower().strip().replace("-", "").replace(" ", "")
 
 # Load JSON data
 with open("cafeterias.json") as f:
     cafeterias = json.load(f)
 
-# Initialize app
-app = Flask(__name__)
-geolocator = Nominatim(user_agent="cafeteria-risk")
+with open("buildingMaintenance.json") as f:
+    buildingMaintenance = json.load(f)
 
-@app.route('/get_risk_rate', methods=['POST'])
-def get_risk_rate():
+# Common matcher
+def find_best_match(region, locations):
+    all_locations = [normalize(loc['location']) for loc in locations if loc.get('location')]
+    matches = difflib.get_close_matches(normalize(region), all_locations, n=1, cutoff=0.6)
+    return matches[0] if matches else None
+
+# Route for Cafeteria
+@app.route('/cafeteria_risk_rate', methods=['POST'])
+def cafeteria_risk_rate():
+    return handle_risk_request(cafeterias)
+
+# Route for Building Maintenance
+@app.route('/building_risk_rate', methods=['POST'])
+def building_risk_rate():
+    return handle_risk_request(buildingMaintenance)
+
+# Shared Logic
+def handle_risk_request(dataset):
     try:
         data = request.get_json(force=True)
         lat = data.get('latitude')
         lng = data.get('longitude')
-
-        print(f"📍 Incoming lat/lng: {lat}, {lng}")
 
         if lat is None or lng is None:
             return jsonify({'error': 'Missing latitude or longitude'}), 400
 
         location = geolocator.reverse((lat, lng), language='en')
         if not location:
-            print("❗ Reverse geocoding failed")
             return jsonify({'risk_rate': 0})
 
         address = location.raw.get('address', {})
-        print(f"📫 Reverse geocoded address: {address}")
-
-        # ✅ Safely assign region with a fallback
-        region_value = (
+        region = (
             address.get('suburb') or
             address.get('neighbourhood') or
             address.get('city_district') or
@@ -68,60 +86,24 @@ def get_risk_rate():
             address.get('state')
         )
 
-        if not region_value:
-            print("❗ No region found in address")
+        if not region:
             return jsonify({'risk_rate': 0})
 
-        region = region_value.strip().lower()
-        print(f"🔍 Matching with region: {region}")
-
-
-        def find_best_match_region(region):
-            all_locations = [c['location'].strip().lower() for c in cafeterias if c.get('location')]
-            matches = difflib.get_close_matches(region, all_locations, n=1, cutoff=0.6)
-            return matches[0] if matches else None
-
-
-        match = find_best_match_region(region)
-        if match:
-            for c in cafeterias:
-                if c['location'].strip().lower() == match:
+        best_match = find_best_match(region, dataset)
+        if best_match:
+            for item in dataset:
+                if normalize(item['location']) == best_match:
                     return jsonify({
-                        'name': c['name'],
-                        'location': c['location'],
-                        'risk_rate': c['risk_rate']
+                        'name': item['name'],
+                        'location': item['location'],
+                        'risk_rate': item['risk_rate']
                     })
-    
+
+        return jsonify({'risk_rate': 0})
+
     except Exception as e:
         print(f"❌ Error: {e}")
         return jsonify({'error': 'Internal server error'}), 500
-
-                    
-    with open("buildingMaintenance.json") as f:
-    buildingMaintenance = json.load(f)
-
- 
-        def find_best_match_region(region):
-            all_locations = [b['location'].strip().lower() for b in buildingMaintenance if b.get('location')]
-            matches = difflib.get_close_matches(region, all_locations, n=1, cutoff=0.6)
-            return matches[0] if matches else None
-
-
-        match = find_best_match_region(region)
-        if match:
-            for b in buildingMaintenance:
-                if b['location'].strip().lower() == match:
-                    return jsonify({
-                        'name': b['name'],
-                        'location': b['location'],
-                        'risk_rate': b['risk_rate']
-                    })
-
-except Exception as e:
-        print(f"❌ Error: {e}")
-        return jsonify({'error': 'Internal server error'}), 500
-
-
 
 
 
