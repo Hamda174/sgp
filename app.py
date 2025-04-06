@@ -66,7 +66,7 @@ def get_risk_rate():
             return jsonify({'error': 'Invalid type. Must be cafeteria or building'}), 400
 
         dataset = cafeterias if data_type == 'cafeteria' else 
-        dataset = buildingMaintenance if data_type == 'building maintenance' 
+        dataset = buildingMaintenance
 
         location = geolocator.reverse((lat, lng), language='en')
         if not location:
