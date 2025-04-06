@@ -100,12 +100,12 @@ def get_risk_rate():
 
 
 # Load JSON data
-with open("building_maintenance_activities.json") as f:
-    building_maintenance = json.load(f)
+with open("buildingMaintenance.json") as f:
+    buildingMaintenance = json.load(f)
 
 # Initialize app
 app = Flask(__name__)
-geolocator = Nominatim(user_agent="building_maintenance-risk")
+geolocator = Nominatim(user_agent="buildingMaintenance-risk")
 
 @app.route('/get_risk_rate', methods=['POST'])
 def get_risk_rate():
@@ -145,14 +145,14 @@ def get_risk_rate():
 
 
         def find_best_match_region(region):
-            all_locations = [c['location'].strip().lower() for b in building_maintenance if b.get('location')]
+            all_locations = [b['location'].strip().lower() for b in buildingMaintenance if b.get('location')]
             matches = difflib.get_close_matches(region, all_locations, n=1, cutoff=0.6)
             return matches[0] if matches else None
 
 
         match = find_best_match_region(region)
         if match:
-            for b in building_maintenance:
+            for b in buildingMaintenance:
                 if b['location'].strip().lower() == match:
                     return jsonify({
                         'name': b['name'],
@@ -185,12 +185,12 @@ def get_risk_rate():
                     #})
 
 
-        print("❌ No match found for region")
-        return jsonify({'risk_rate': 0})
+        #print("❌ No match found for region")
+        #return jsonify({'risk_rate': 0})
 
-    except Exception as e:
-        print(f"🔥 ERROR: {str(e)}")
-        return jsonify({'error': str(e)}), 500
+    #except Exception as e:
+        #print(f"🔥 ERROR: {str(e)}")
+        #return jsonify({'error': str(e)}), 500
 
 
 
