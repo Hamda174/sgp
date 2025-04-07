@@ -95,12 +95,13 @@ def get_risk_rate():
         # Match both region and name
         for item in combined_data:
             if (normalize(item['location']) == best_region_match and
-                normalize(item['name']) == activity_name):
-                return jsonify({
-                    'name': item['name'],
-                    'location': item['location'],
-                    'risk_rate': item['risk_rate']
-                })
+                normalize(item['name']) == normalize(activity_name)):
+                    return jsonify({
+                        'name': item['name'],
+                        'location': item['location'],
+                        'risk_rate': item['risk_rate']
+                    })
+
 
         return jsonify({'risk_rate': 0})
 
