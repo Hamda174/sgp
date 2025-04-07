@@ -44,9 +44,9 @@ with open("cafeterias.json") as f:
 with open("buildingMaintenance.json") as f:
     buildingMaintenance = json.load(f)
 
-# Common matcher
-def find_best_match(region, locations):
-    all_locations = [normalize(loc['location']) for loc in locations if loc.get('location')]
+# Fuzzy matcher
+def find_best_match(region, dataset):
+    all_locations = [normalize(item['location']) for item in dataset if item.get('location')]
     matches = difflib.get_close_matches(normalize(region), all_locations, n=1, cutoff=0.6)
     return matches[0] if matches else None
 
@@ -56,17 +56,24 @@ def get_risk_rate():
         data = request.get_json(force=True)
         lat = data.get('latitude')
         lng = data.get('longitude')
-        selected_name = data.get('type', '').strip().lower()
+        activity_name = data.get('type', '').strip().lower()  # 👈 same as "name" in JSON
 
         if lat is None or lng is None:
             return jsonify({'error': 'Missing latitude or longitude'}), 400
 
+        if not activity_name:
+            return jsonify({'error': 'Missing type'}), 400
+
+        # Combine both datasets
+        combined_data = cafeterias + buildingMaintenance
+
+        # Reverse geocode
         location = geolocator.reverse((lat, lng), language='en')
         if not location:
             return jsonify({'risk_rate': 0})
 
         address = location.raw.get('address', {})
-        region = (
+        region_raw = (
             address.get('suburb') or
             address.get('neighbourhood') or
             address.get('city_district') or
@@ -74,20 +81,21 @@ def get_risk_rate():
             address.get('state')
         )
 
-        if not region:
+        if not region_raw:
             return jsonify({'risk_rate': 0})
 
-        region = normalize(region)
+        region = normalize(region_raw)
+        print(f"📍 Region: {region}, Activity: {activity_name}")
 
-        # Combine both datasets
-        all_data = cafeterias + buildingMaintenance
-
-        best_region_match = find_best_match(region, all_data)
+        # Fuzzy match region
+        best_region_match = find_best_match(region, combined_data)
         if not best_region_match:
             return jsonify({'risk_rate': 0})
 
-        for item in all_data:
-            if normalize(item['location']) == best_region_match and normalize(item['name']) == selected_name:
+        # Match both region and name
+        for item in combined_data:
+            if (normalize(item['location']) == best_region_match and
+                normalize(item['name']) == activity_name):
                 return jsonify({
                     'name': item['name'],
                     'location': item['location'],
