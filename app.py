@@ -50,22 +50,16 @@ def find_best_match(region, locations):
     matches = difflib.get_close_matches(normalize(region), all_locations, n=1, cutoff=0.6)
     return matches[0] if matches else None
 
-# Unified route
 @app.route('/get_risk_rate', methods=['POST'])
 def get_risk_rate():
     try:
         data = request.get_json(force=True)
         lat = data.get('latitude')
         lng = data.get('longitude')
-        data_type = data.get('type', '').lower()
+        selected_name = data.get('type', '').strip().lower()
 
         if lat is None or lng is None:
             return jsonify({'error': 'Missing latitude or longitude'}), 400
-
-        if data_type not in ['cafeteria', 'building']:
-            return jsonify({'error': 'Invalid type. Must be cafeteria or building'}), 400
-
-        dataset = cafeterias if data_type == 'cafeteria' else buildingMaintenance
 
         location = geolocator.reverse((lat, lng), language='en')
         if not location:
@@ -83,21 +77,30 @@ def get_risk_rate():
         if not region:
             return jsonify({'risk_rate': 0})
 
-        best_match = find_best_match(region, dataset)
-        if best_match:
-            for item in dataset:
-                if normalize(item['location']) == best_match:
-                    return jsonify({
-                        'name': item['name'],
-                        'location': item['location'],
-                        'risk_rate': item['risk_rate']
-                    })
+        region = normalize(region)
+
+        # Combine both datasets
+        all_data = cafeterias + buildingMaintenance
+
+        best_region_match = find_best_match(region, all_data)
+        if not best_region_match:
+            return jsonify({'risk_rate': 0})
+
+        for item in all_data:
+            if normalize(item['location']) == best_region_match and normalize(item['name']) == selected_name:
+                return jsonify({
+                    'name': item['name'],
+                    'location': item['location'],
+                    'risk_rate': item['risk_rate']
+                })
 
         return jsonify({'risk_rate': 0})
 
     except Exception as e:
         print(f"❌ Error: {e}")
         return jsonify({'error': 'Internal server error'}), 500
+
+
 
 
 
