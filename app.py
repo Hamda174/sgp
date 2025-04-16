@@ -56,7 +56,7 @@ def get_risk_rate():
         data = request.get_json(force=True)
         lat = data.get('latitude')
         lng = data.get('longitude')
-        activity_name = data.get('type', '').strip().lower()  # 👈 same as "name" in JSON
+        activity_name = data.get('type', '').strip().lower() 
 
         if lat is None or lng is None:
             return jsonify({'error': 'Missing latitude or longitude'}), 400
@@ -85,7 +85,7 @@ def get_risk_rate():
             return jsonify({'risk_rate': 0})
 
         region = normalize(region_raw)
-        print(f"📍 Region: {region}, Activity: {activity_name}")
+        print(f" Region: {region}, Activity: {activity_name}")
 
         # Fuzzy match region
         best_region_match = find_best_match(region, combined_data)
@@ -106,7 +106,7 @@ def get_risk_rate():
         return jsonify({'risk_rate': 0})
 
     except Exception as e:
-        print(f"❌ Error: {e}")
+        print(f" Error: {e}")
         return jsonify({'error': 'Internal server error'}), 500
 
 
